@@ -1,3 +1,4 @@
+import 'reflect-metadata';
 import { NestFactory } from '@nestjs/core';
 import { ValidationPipe } from '@nestjs/common';
 import { ExpressAdapter } from '@nestjs/platform-express';
@@ -5,24 +6,18 @@ import express from 'express';
 import { AppModule } from '../src/app.module';
 
 const server = express();
-
-let app: any;
+let cachedApp: any;
 
 async function bootstrap() {
-  if (!app) {
-    const nestApp = await NestFactory.create(
-      AppModule,
-      new ExpressAdapter(server),
-    );
+  if (!cachedApp) {
+    const app = await NestFactory.create(AppModule, new ExpressAdapter(server));
 
-    nestApp.setGlobalPrefix('api');
-
-    nestApp.enableCors({
+    app.setGlobalPrefix('api');
+    app.enableCors({
       origin: process.env.FRONTEND_URL || '*',
       credentials: true,
     });
-
-    nestApp.useGlobalPipes(
+    app.useGlobalPipes(
       new ValidationPipe({
         whitelist: true,
         forbidNonWhitelisted: true,
@@ -30,10 +25,9 @@ async function bootstrap() {
       }),
     );
 
-    await nestApp.init();
-    app = nestApp;
+    await app.init();
+    cachedApp = app;
   }
-
   return server;
 }
 
