@@ -22,6 +22,11 @@ import { AdminModule } from './admin/admin.module';
         ssl: { rejectUnauthorized: false },
         autoLoadEntities: true,
         synchronize: false,
+        connectTimeoutMS: 10000,
+        extra: {
+          connectionTimeoutMillis: 10000,
+          idle_in_transaction_session_timeout: 10000,
+        },
       }),
     }),
     AuthModule,
