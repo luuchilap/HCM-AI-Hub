@@ -8,6 +8,11 @@ import { AppModule } from '../src/app.module';
 const server = express();
 let cachedApp: any;
 
+// Health check (responds before NestJS boots)
+server.get('/api/health', (_req, res) => {
+  res.json({ status: 'ok', timestamp: new Date().toISOString() });
+});
+
 async function bootstrap() {
   if (!cachedApp) {
     try {
