@@ -19,13 +19,11 @@ import { AdminModule } from './admin/admin.module';
       useFactory: (config: ConfigService) => ({
         type: 'postgres',
         url: config.get('DATABASE_URL'),
-        ssl: { rejectUnauthorized: false },
+        ssl: true,
         autoLoadEntities: true,
         synchronize: false,
-        connectTimeoutMS: 10000,
         extra: {
           connectionTimeoutMillis: 10000,
-          idle_in_transaction_session_timeout: 10000,
         },
       }),
     }),
