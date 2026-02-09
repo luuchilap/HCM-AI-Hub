@@ -1,0 +1,955 @@
+{
+  "nav": {
+    "home": "Trang chủ",
+    "about": "Giới thiệu",
+    "team": "Cơ cấu tổ chức",
+    "events": "Sự kiện",
+    "research": "Nghiên cứu",
+    "collaborate": "Hợp tác",
+    "blog": "Tin tức",
+    "contact": "Liên hệ",
+    "submitUseCase": "Gửi Use Case"
+  },
+  "hero": {
+    "badge": "Mạng lưới trung tâm đào tạo xuất sắc và tài năng về Công nghệ 4.0\ntrong Lĩnh vực Trí tuệ nhân tạo (AI) khu vực phía Nam",
+    "titlePart1": "Thúc đẩy",
+    "titleHighlight": "Đổi mới AI",
+    "titlePart2": "tại Việt Nam",
+    "description": "Liên minh các trường đại học hàng đầu và doanh nghiệp tiên phong cùng hợp tác để thúc đẩy nghiên cứu AI, đổi mới sáng tạo và ứng dụng thực tế tại khu vực phía Nam.",
+    "submitUseCase": "Gửi Use Case",
+    "learnMore": "Tìm hiểu thêm",
+    "foundingMembers": "Thành viên sáng lập",
+    "researchReports": "Báo cáo nghiên cứu"
+  },
+  "members": {
+    "badge": "Mạng lưới",
+    "title": "Thành viên sáng lập",
+    "description": "",
+    "academicPartner": "Cơ sở giáo dục",
+    "industryPartner": "Doanh nghiệp",
+    "vnuScience": {
+      "name": "Trường ĐH Khoa học Tự nhiên - ĐHQG-HCM",
+      "description": "Trường Đại học Khoa học Tự nhiên TP.HCM (HCMUS), thuộc Đại học Quốc gia TP.HCM, là trung tâm hàng đầu đào tạo và nghiên cứu khoa học cơ bản tại Việt Nam, chính thức thành lập ngày 30/3/1996 theo Quyết định 1236/GD-ĐT."
+    },
+    "vnuTech": {
+      "name": "Trường ĐH Bách khoa - ĐHQG-HCM",
+      "description": "Trường Đại học Bách khoa TP.HCM (Ho Chi Minh City University of Technology - HCMUT), thuộc hệ thống Đại học Quốc gia TP.HCM, là trường đại học kỹ thuật hàng đầu miền Nam Việt Nam, thành lập năm 1957 và chính thức mang tên hiện tại từ 1976. Với hơn 30.000 sinh viên trên hai cơ sở tại Quận 10 và Bình Dương, trường đào tạo đa ngành kỹ thuật, công nghệ, và quản lý công nghiệp, nổi bật với 66 chương trình đạt chuẩn quốc tế như ABET và HCERES."
+    },
+    "vnuIT": {
+      "name": "Trường ĐH Công nghệ Thông tin - ĐHQG-HCM",
+      "description": "Trường Đại học Công nghệ Thông tin TP.HCM (University of Information Technology - UIT), thuộc hệ thống Đại học Quốc gia TP.HCM, là trường đại học công lập chuyên ngành CNTT đầu tiên tại Việt Nam, thành lập ngày 8/6/2006 theo Quyết định số 134/2006/QĐ-TTg của Thủ tướng Chính phủ trên cơ sở Trung tâm Phát triển Công nghệ Thông tin."
+    },
+    "tma": {
+      "name": "TMA Tech Group",
+      "description": "TMA Tech Group có trụ sở chính tại TP. Hồ Chí Minh, Việt Nam, với các văn phòng tại Mỹ, Canada, Đức, Nhật Bản, Úc và Singapore. Công ty chú trọng dịch vụ gia công phần mềm chất lượng cao với các quy trình được chứng nhận CMMI Level 5, ISO 27001 và các tiêu chuẩn khác, tập trung vào phương pháp Agile/SCRUM."
+    },
+    "sbd": {
+      "name": "Công ty CP Công nghệ Sao Bắc Đẩu",
+      "description": "Công ty Cổ phần Công nghệ Sao Bắc Đẩu (SaoBacDau Technologies Group), thành lập ngày 25/11/1996, là đơn vị tích hợp hệ thống CNTT hàng đầu Việt Nam, khởi đầu là nhà cung cấp sản phẩm, giải pháp và dịch vụ CNTT. Công ty có trụ sở chính tại TP. Hồ Chí Minh với chi nhánh tại Hà Nội, tập trung vào giải pháp điện toán đám mây, dịch vụ quản lý, hạ tầng CNTT, tích hợp mạng, chuyển đổi số và ứng dụng IoT."
+    },
+    "greennode": {
+      "name": "VNG",
+      "description": "Công ty Cổ phần Tập đoàn VNG (VNG Group) là doanh nghiệp công nghệ hàng đầu Việt Nam, cung cấp các sản phẩm và dịch vụ số phục vụ hàng trăm triệu người dùng và doanh nghiệp tại hơn 100 quốc gia."
+    }
+  },
+  "events": {
+    "badge": "Sự kiện",
+    "title": "Sự kiện sắp tới",
+    "viewAll": "Xem tất cả sự kiện",
+    "learnMore": "Tìm hiểu thêm",
+    "featured": "Nổi bật",
+    "conference": "Hội nghị",
+    "workshop": "Hội thảo",
+    "forum": "Diễn đàn",
+    "symposium": "Hội thảo chuyên đề",
+    "seminar": "Tọa đàm",
+    "upcoming": "Sắp tới",
+    "past": "Đã qua",
+    "all": "Tất cả",
+    "registerNow": "Đăng ký ngay",
+    "viewDetails": "Xem chi tiết",
+    "pageTitle": "Sự kiện & Hội thảo",
+    "pageDescription": "Tham gia các hội nghị, hội thảo và sự kiện kết nối để gặp gỡ các chuyên gia AI và nâng cao kiến thức.",
+    "calendarBadge": "Lịch",
+    "noEvents": "Không tìm thấy sự kiện",
+    "detail": {
+      "backToEvents": "Quay lại danh sách",
+      "registrationClosed": "Hết hạn đăng ký",
+      "soldOut": "Hết chỗ",
+      "spotsLeft": "Còn {{count}} chỗ",
+      "registrationDeadline": "Hạn đăng ký",
+      "eventPassed": "Sự kiện này đã kết thúc"
+    },
+    "info": {
+      "dateTime": "Ngày & Giờ",
+      "venue": "Địa điểm",
+      "viewOnMap": "Xem bản đồ",
+      "getDirections": "Chỉ đường"
+    },
+    "agenda": {
+      "title": "Chương trình",
+      "emptyAgenda": "Chương trình sẽ được công bố sớm"
+    },
+    "targetAudience": {
+      "title": "Đối tượng tham dự",
+      "description": "Sự kiện này dành cho"
+    },
+    "registration": {
+      "title": "Đăng ký tham dự",
+      "fullName": "Họ và tên",
+      "email": "Địa chỉ email",
+      "phone": "Số điện thoại",
+      "organization": "Tổ chức / Công ty",
+      "role": "Chức vụ",
+      "organizationType": "Loại tổ chức",
+      "selectOrganizationType": "Chọn loại tổ chức",
+      "organizationTypes": {
+        "university": "Trường Đại học / Viện Nghiên cứu",
+        "techCompany": "Doanh nghiệp Công nghệ / Phần mềm",
+        "governmentOther": "Cơ quan Nhà nước / Tổ chức khác"
+      },
+      "suggestions": "Anh/Chị có gợi ý/đề xuất/câu hỏi nào cho buổi toạ đàm này?",
+      "suggestionsPlaceholder": "Nhập gợi ý, đề xuất hoặc câu hỏi của bạn...",
+      "submit": "Hoàn tất đăng ký",
+      "submitting": "Đang đăng ký...",
+      "success": "Đăng ký thành công",
+      "successMessage": "Bạn sẽ nhận được email xác nhận trong giây lát.",
+      "error": "Đăng ký thất bại",
+      "errorMessage": "Vui lòng thử lại hoặc liên hệ chúng tôi để được hỗ trợ.",
+      "alreadyRegistered": "Bạn đã đăng ký sự kiện này. Email xác nhận đã được gửi đến địa chỉ email của bạn.",
+      "eventNotFound": "Không tìm thấy sự kiện này. Vui lòng thử lại.",
+      "registrationClosed": "Đăng ký cho sự kiện này đã đóng.",
+      "fullyBooked": "Sự kiện này đã hết chỗ. Không còn chỗ trống.",
+      "required": "Trường này là bắt buộc",
+      "invalidEmail": "Vui lòng nhập địa chỉ email hợp lệ"
+    },
+    "share": {
+      "title": "Chia sẻ sự kiện",
+      "copyLink": "Sao chép liên kết",
+      "linkCopied": "Đã sao chép liên kết"
+    },
+    "qrCode": {
+      "title": "Quét để đăng ký",
+      "description": "Sử dụng camera điện thoại để quét mã QR"
+    },
+    "status": {
+      "draft": "Bản nháp",
+      "published": "Đã đăng",
+      "upcoming": "Sắp tới",
+      "past": "Đã qua",
+      "cancelled": "Đã hủy"
+    },
+    "event1": {
+      "title": "Hợp tác nghiên cứu về AI cho Y tế",
+      "description": "Đại diện các trường đại học, bệnh viện và các doanh nghiệp để thảo luận các nội dung: Ngành y tế đang có các bài toán gì về giải pháp số, dữ liệu và trí tuệ nhân tạo; Ngành y tế đang có các dữ liệu gì; Doanh nghiệp đang có các giải pháp gì; Chọn bài toán cần giải quyết; Mô hình hợp tác; Kế hoạch nghiên cứu và thử nghiệm."
+    },
+    "event2": {
+      "title": "Chuỗi hội thảo Machine Learning",
+      "description": "Hội thảo thực hành về các kỹ thuật ML nâng cao và triển khai thực tế."
+    },
+    "event3": {
+      "title": "Diễn đàn Hợp tác AI Doanh nghiệp - Học thuật",
+      "description": "Diễn đàn thường niên kết nối các nhà nghiên cứu và lãnh đạo doanh nghiệp thảo luận cơ hội hợp tác."
+    },
+    "event4": {
+      "title": "Hội thảo Đạo đức AI",
+      "description": "Thảo luận về các cân nhắc đạo đức trong phát triển và triển khai AI."
+    },
+    "event5": {
+      "title": "Bootcamp Deep Learning",
+      "description": "Bootcamp 3 ngày chuyên sâu về nền tảng và ứng dụng deep learning."
+    },
+    "event6": {
+      "title": "Đào tạo nhân lực AI cho Doanh nghiệp",
+      "description": "Đại diện các trường đại học và các doanh nghiệp để thảo luận các nội dung: Nhu cầu nhân lực AI cho doanh nghiệp (DN công nghệ và doanh nghiệp không phải công nghệ); Các khó khăn của doanh nghiệp khi tuyển dụng và đào tạo nhân lực AI; Các hình thức đào tạo AI hiện nay từ các trường đại học; Chia sẻ kinh nghiệm, giải pháp và mô hình hợp tác; Kế hoạch triển khai."
+    }
+  },
+  "research": {
+    "badge": "Nghiên cứu",
+    "title": "Báo cáo ngành",
+    "viewAll": "Xem tất cả báo cáo",
+    "download": "Tải xuống",
+    "downloads": "lượt tải",
+    "pageTitle": "Báo cáo nghiên cứu",
+    "pageDescription": "Truy cập bộ sưu tập báo cáo ngành, bài nghiên cứu và hướng dẫn kỹ thuật về phát triển AI tại Việt Nam.",
+    "publicationsBadge": "Ấn phẩm",
+    "by": "Bởi",
+    "categories": {
+      "all": "Tất cả",
+      "industryReport": "Báo cáo ngành",
+      "policyBrief": "Tóm tắt chính sách",
+      "technicalGuide": "Hướng dẫn kỹ thuật",
+      "whitePaper": "Sách trắng",
+      "caseStudy": "Nghiên cứu điển hình",
+      "researchPaper": "Bài nghiên cứu"
+    },
+    "report1": {
+      "title": "Thực trạng AI tại Việt Nam 2024",
+      "description": "Phân tích toàn diện xu hướng ứng dụng AI trong các ngành công nghiệp Việt Nam, bao gồm thông tin chuyên sâu theo ngành và dự báo tương lai."
+    },
+    "report2": {
+      "title": "Lộ trình Phát triển Nhân tài AI",
+      "description": "Chiến lược xây dựng năng lực nhân sự AI tại TP.HCM, với các khuyến nghị cho chương trình giáo dục và đào tạo."
+    },
+    "report3": {
+      "title": "Hướng dẫn Triển khai AI Doanh nghiệp",
+      "description": "Thực hành tốt nhất để triển khai giải pháp AI trong doanh nghiệp Việt Nam, bao gồm hạ tầng, quản trị và quản lý thay đổi."
+    },
+    "report4": {
+      "title": "Khung Đạo đức AI cho Việt Nam",
+      "description": "Hướng dẫn đạo đức cho phát triển và triển khai AI có trách nhiệm, giải quyết thiên kiến, minh bạch và trách nhiệm giải trình."
+    },
+    "report5": {
+      "title": "Thị giác Máy tính trong Sản xuất",
+      "description": "Triển khai thực tế thị giác máy tính cho kiểm soát chất lượng tại các cơ sở sản xuất Việt Nam."
+    },
+    "report6": {
+      "title": "Ứng dụng NLP cho Tiếng Việt",
+      "description": "Tiến bộ trong xử lý ngôn ngữ tự nhiên cho tiếng Việt, bao gồm phân tích cảm xúc và dịch máy."
+    }
+  },
+  "collaborate": {
+    "badge": "Tham gia",
+    "title": "Hợp tác với chúng tôi",
+    "description": "",
+    "startCollaborating": "Bắt đầu hợp tác",
+    "submitUseCase": {
+      "title": "Gửi Use Case",
+      "description": "Chia sẻ thách thức AI của bạn và khám phá giải pháp sáng tạo với mạng lưới chuyên gia của chúng tôi."
+    },
+    "problemStatement": {
+      "title": "Đặt vấn đề",
+      "description": "Xác định các vấn đề cụ thể có thể hưởng lợi từ nghiên cứu và phát triển AI."
+    },
+    "partnership": {
+      "title": "Kêu gọi hợp tác",
+      "description": "Hợp tác với các tổ chức học thuật và doanh nghiệp hàng đầu trong các sáng kiến AI chung."
+    },
+    "pageDescription": "Gửi use case AI, đặt vấn đề hoặc yêu cầu hợp tác. Tham gia liên minh AI hàng đầu TP.HCM.",
+    "formTitle": "Gửi yêu cầu của bạn",
+    "requestType": "Loại yêu cầu",
+    "selectType": "Chọn loại",
+    "fullName": "Họ và tên",
+    "yourName": "Tên của bạn",
+    "organization": "Tổ chức",
+    "companyOrInstitution": "Công ty hoặc tổ chức",
+    "email": "Email",
+    "phone": "Điện thoại",
+    "requestTitle": "Tiêu đề",
+    "briefTitle": "Tiêu đề ngắn gọn cho yêu cầu của bạn",
+    "descriptionLabel": "Mô tả",
+    "descriptionPlaceholder": "Vui lòng mô tả chi tiết use case, đặt vấn đề hoặc đề xuất hợp tác của bạn...",
+    "submitRequest": "Gửi yêu cầu",
+    "submittedSuccessfully": "Đã gửi thành công",
+    "submissionReceived": "Đã nhận yêu cầu!",
+    "submissionReceivedDesc": "Đội ngũ của chúng tôi sẽ xem xét và phản hồi sớm."
+  },
+  "newsletter": {
+    "badge": "Cập nhật",
+    "title": "Đăng ký nhận bản tin",
+    "description": "Nhận thông tin mới nhất về nghiên cứu AI, sự kiện và cơ hội hợp tác qua email.",
+    "placeholder": "Nhập email của bạn",
+    "subscribe": "Đăng ký",
+    "subscribed": "Đã đăng ký",
+    "successTitle": "Đăng ký thành công!",
+    "successDescription": "Bạn sẽ nhận được cập nhật từ AI Network.",
+    "disclaimer": "Bằng việc đăng ký, bạn đồng ý nhận email từ AI Network. Hủy đăng ký bất cứ lúc nào."
+  },
+  "about": {
+    "badge": "Giới thiệu",
+    "missionTitle": "Sứ mệnh của chúng tôi",
+    "missionDescription": "Thiết lập TP. Hồ Chí Minh thành trung tâm đổi mới AI hàng đầu bằng cách thúc đẩy hợp tác giữa các tổ chức học thuật và doanh nghiệp, thúc đẩy nghiên cứu xuất sắc và phát triển thế hệ nhân tài AI tiếp theo."
+  },
+  "aboutIntro": {
+    "foundation": {
+      "title": "CƠ SỞ HÌNH THÀNH VÀ NHIỆM VỤ ĐƯỢC GIAO",
+      "legalBasis": {
+        "title": "Cơ sở pháp lý:",
+        "content": "Theo Quyết định số 374/QĐ-TTg ngày 19/02/2025 của Thủ tướng Chính phủ",
+        "subtitle": "Phê duyệt Đề án phát triển hệ thống Trung tâm Đào tạo Xuất sắc và Tài năng về Công nghệ 4.0 đến năm 2030."
+      },
+      "mission": {
+        "title": "Nhiệm vụ:",
+        "content": "Bộ GD&ĐT giao Trường Đại học Bách khoa – ĐHQG TP.HCM",
+        "subtitle": "Chủ trì hình thành và phát triển \"Mạng lưới trung tâm đào tạo xuất sắc và tài năng về Công nghệ 4.0 Lĩnh vực Trí tuệ nhân tạo (AI) khu vực phía Nam\"."
+      }
+    },
+    "vision": {
+      "title": "TẦM NHÌN VÀ NGUYÊN TẮC HOẠT ĐỘNG",
+      "visionSection": {
+        "title": "Tầm nhìn:",
+        "items": [
+          "Xây dựng hệ sinh thái cộng hưởng về AI, kết nối trường đại học – viện nghiên cứu – doanh nghiệp.",
+          "Trở thành đầu mối quốc gia khu vực phía Nam về đào tạo, nghiên cứu và chuyển giao công nghệ AI."
+        ]
+      },
+      "principles": {
+        "title": "Nguyên tắc hoạt động:",
+        "items": [
+          "Chia sẻ nguồn lực – Đồng phát triển – Cùng có lợi.",
+          "Kết hợp đào tạo – nghiên cứu – ứng dụng thực tiễn, gắn với nhu cầu phát triển quốc gia."
+        ]
+      }
+    }
+  },
+  "regulations": {
+      "badge": "Quy chế",
+      "title": "Quy định chung",
+      "mainTitle": "BỘ QUY CHẾ HOẠT ĐỘNG",
+      "mainSubtitle": "MẠNG LƯỚI TRUNG TÂM ĐÀO TẠO XUẤT SẮC & TÀI NĂNG CÔNG NGHỆ 4.0 LĨNH VỰC TRÍ TUỆ NHÂN TẠO (AI)",
+      "lastUpdated": "Cập nhật lần cuối",
+      "chapter1": {
+        "title": "CHƯƠNG I. QUY ĐỊNH CHUNG",
+        "article1": {
+          "title": "Điều 1. Phạm vi điều chỉnh",
+          "content": "Quy chế này quy định về cơ cấu tổ chức, chức năng, nhiệm vụ, quyền hạn, cơ chế phối hợp, nguyên tắc vận hành, chế độ báo cáo, công tác giám sát – đánh giá và các quy định liên quan đến việc triển khai mọi hoạt động của Mạng lưới Trung tâm Đào tạo Xuất sắc và Tài năng Công nghệ 4.0 – lĩnh vực Trí tuệ nhân tạo (AI) (sau đây gọi tắt là \"Mạng lưới AI\")."
+        },
+        "article2": {
+          "title": "Điều 2. Đối tượng áp dụng",
+          "intro": "Quy chế áp dụng đối với:",
+          "items": [
+            "Đơn vị chủ trì và các đơn vị thành viên Mạng lưới AI;",
+            "Ban Điều hành và các tiểu ban chuyên môn;",
+            "Cá nhân, tổ chức tham gia hoặc phối hợp triển khai hoạt động thuộc Mạng lưới."
+          ]
+        },
+        "article3": {
+          "title": "Điều 3. Căn cứ pháp lý",
+          "intro": "Mạng lưới hoạt động trên cơ sở:",
+          "items": [
+            "Quyết định 374/QĐ-TTg phê duyệt Đề án Trung tâm Đào tạo Xuất sắc và Tài năng Công nghệ 4.0;",
+            "Quyết định 1982/QĐ-TTg ban hành Khung trình độ quốc gia Việt Nam;",
+            "Thông tư 17/2021/TT-BGDĐT về chuẩn chương trình đào tạo giáo dục đại học;",
+            "Nhiệm vụ Bộ GD&ĐT giao Trường Đại học Bách khoa – ĐHQG-HCM chủ trì phát triển Mạng lưới;",
+            "Các nghị quyết, quyết định và hướng dẫn của Trường ĐHBK và ĐHQG-HCM."
+          ]
+        },
+        "article4": {
+          "title": "Điều 4. Nguyên tắc hoạt động",
+          "items": [
+            "Tuân thủ pháp luật và quy định hiện hành.",
+            "Hợp tác – chia sẻ – đồng phát triển – cùng hưởng lợi, bảo đảm cân bằng lợi ích giữa các thành viên.",
+            "Liên kết chặt chẽ đào tạo – nghiên cứu – chuyển giao, gắn lý thuyết với thực tiễn.",
+            "Tôn trọng tính tự chủ của từng đơn vị, nhưng bảo đảm thống nhất theo định hướng chung.",
+            "Công khai – minh bạch – trách nhiệm giải trình trong mọi hoạt động.",
+            "Đổi mới sáng tạo – hội nhập quốc tế – phát triển bền vững là định hướng xuyên suốt."
+          ]
+        }
+      },
+      "chapter2": {
+        "title": "CHƯƠNG II. TỔ CHỨC MẠNG LƯỚI",
+        "article5": {
+          "title": "Điều 5. Cơ cấu tổ chức chung",
+          "intro": "Mạng lưới AI gồm:",
+          "items": [
+            "Đơn vị chủ trì: Trường Đại học Bách khoa – ĐHQG-HCM;",
+            "Ban Điều hành Mạng lưới (Chủ tịch, các ủy viên, thư ký);",
+            "Các tiểu ban chuyên môn gồm: Tiểu ban Đào tạo & Chuẩn hóa chương trình; Tiểu ban Nghiên cứu – Ứng dụng & Co-Development Teams; Tiểu ban Hợp tác doanh nghiệp và chuyển giao công nghệ; Tiểu ban Hợp tác quốc tế & mạng lưới chuyên gia;",
+            "Các đơn vị thành viên: các trường đại học, viện nghiên cứu, doanh nghiệp, tổ chức theo danh sách được cập nhật 2 năm/lần."
+          ]
+        },
+        "article6": {
+          "title": "Điều 6. Ban Điều hành Mạng lưới",
+          "items": [
+            "Ban Điều hành là cơ quan quản lý, điều phối và quyết định các hoạt động hỗ trợ trong Mạng lưới.",
+            "Ban Điều hành gồm Chủ tịch và các Ủy viên đại diện cho các đơn vị thành viên chủ chốt.",
+            "Chủ tịch Ban Điều hành do đơn vị chủ trì đề cử.",
+            "Ban Điều hành có con dấu (nếu được cho phép) và sử dụng con dấu của đơn vị chủ trì trong ban hành văn bản."
+          ]
+        },
+        "article7": {
+          "title": "Điều 7. Các tiểu ban chuyên môn",
+          "items": [
+            "Mỗi tiểu ban có Trưởng tiểu ban, Phó Trưởng tiểu ban và các thành viên được đề cử từ các đơn vị thành viên.",
+            "Các tiểu ban được phép thành lập các nhóm công tác chuyên môn, nhóm nghiên cứu chuyên sâu hoặc hội đồng thẩm định tùy nhu cầu công việc."
+          ]
+        },
+        "article8": {
+          "title": "Điều 8. Thành viên Mạng lưới",
+          "items": [
+            "Thành viên Mạng lưới là các đơn vị đáp ứng tiêu chí về năng lực đào tạo, nghiên cứu, nhân lực, cơ sở vật chất và cam kết tham gia hoạt động chung.",
+            "Việc gia nhập hoặc rút khỏi Mạng lưới thực hiện theo Quy trình tại Điều 20 của Quy chế này."
+          ]
+        }
+      },
+      "chapter3": {
+        "title": "CHƯƠNG III. NHIỆM VỤ – QUYỀN HẠN",
+        "article9": {
+          "title": "Điều 9. Trách nhiệm của đơn vị chủ trì",
+          "items": [
+            "Điều phối chung và chịu trách nhiệm toàn diện trước Bộ GD&ĐT và ĐHQG-HCM về hoạt động của Mạng lưới.",
+            "Chủ trì ban hành kế hoạch, quy chế, hướng dẫn và các văn bản điều phối.",
+            "Bố trí nhân sự hỗ trợ quản lý hành chính – kỹ thuật cho Mạng lưới.",
+            "Giải quyết các vấn đề liên quan đến cơ chế, thủ tục, tài chính và điều phối chung."
+          ]
+        },
+        "article10": {
+          "title": "Điều 10. Nhiệm vụ của Ban Điều hành",
+          "items": [
+            "Xây dựng chiến lược và kế hoạch hằng năm, giai đoạn.",
+            "Phân công nhiệm vụ cho các tiểu ban.",
+            "Phê duyệt đề xuất dự án R&D, chương trình đào tạo, hội thảo, hợp tác doanh nghiệp.",
+            "Giám sát, kiểm tra, đánh giá hoạt động của các thành viên.",
+            "Tổ chức họp định kỳ (tối thiểu 02 lần/năm) hoặc đột xuất."
+          ]
+        },
+        "article11": {
+          "title": "Điều 11. Nhiệm vụ của các tiểu ban chuyên môn",
+          "items": [
+            "Tiểu ban Đào tạo: xây dựng khung chương trình; chuẩn hóa, kiểm định, đồng xây dựng môn học; tổ chức bồi dưỡng giáo viên AI.",
+            "Tiểu ban Nghiên cứu – Ứng dụng: xây dựng hướng nghiên cứu trọng điểm; tổ chức đề tài; điều phối nhóm Co-Development; hỗ trợ công bố quốc tế.",
+            "Tiểu ban Hợp tác doanh nghiệp: tìm kiếm đối tác; đề xuất mô hình đồng phát triển sản phẩm; xây dựng AI Testbed.",
+            "Tiểu ban Hợp tác quốc tế: kết nối chuyên gia, trường đại học quốc tế; tổ chức hội thảo quốc tế; xúc tiến hợp tác nghiên cứu – đào tạo."
+          ]
+        },
+        "article12": {
+          "title": "Điều 12. Quyền của đơn vị thành viên",
+          "items": [
+            "Tham gia đề xuất nhiệm vụ đào tạo, nghiên cứu, hội thảo, hợp tác doanh nghiệp.",
+            "Được hỗ trợ chia sẻ tài nguyên, dữ liệu, phòng thí nghiệm và chuyên gia.",
+            "Tham gia xây dựng – sử dụng hạ tầng dùng chung theo quy định.",
+            "Được tham gia hoạt động học thuật, giao lưu, hội thảo của Mạng lưới."
+          ]
+        },
+        "article13": {
+          "title": "Điều 13. Nghĩa vụ của đơn vị thành viên",
+          "items": [
+            "Tuân thủ Quy chế và các văn bản điều hành của Mạng lưới.",
+            "Cung cấp dữ liệu, nhân sự, tài nguyên theo cam kết.",
+            "Báo cáo định kỳ và đột xuất theo yêu cầu.",
+            "Phối hợp đầy đủ và kịp thời trong triển khai nhiệm vụ chung."
+          ]
+        }
+      },
+      "chapter4": {
+        "title": "CHƯƠNG IV. QUY TRÌNH HOẠT ĐỘNG",
+        "article14": {
+          "title": "Điều 14. Quy trình đề xuất nhiệm vụ",
+          "intro": "Quy trình đề xuất, thẩm định và phê duyệt nhiệm vụ trong Mạng lưới AI được thực hiện theo các bước sau đây, bảo đảm tính minh bạch, khoa học, khả thi và phù hợp với định hướng chiến lược của Mạng lưới.",
+          "items": [
+            "Tất cả các nhiệm vụ thuộc các nhóm: đào tạo, nghiên cứu – phát triển (R&D), chuyển giao công nghệ, hợp tác doanh nghiệp, hợp tác quốc tế, hội thảo – truyền thông, và phát triển hạ tầng đều phải được đề xuất bằng văn bản.",
+            "Mọi nhiệm vụ phải được đánh giá về: mục tiêu, tính mới, tính cấp thiết, tính khả thi, nguồn lực, dự kiến kết quả đầu ra và tác động đối với Mạng lưới.",
+            "Không xem xét các đề xuất thiếu hồ sơ, đề xuất ngoài phạm vi chức năng, hoặc không có đơn vị chịu trách nhiệm chính.",
+            "Đơn vị đề xuất gửi hồ sơ qua hệ thống quản lý nhiệm vụ hoặc email chính thức của Ban Điều hành.",
+            "Ban Điều hành họp định kỳ/quý hoặc họp chuyên đề để xét duyệt các nhiệm vụ được thẩm định hợp lệ."
+          ]
+        },
+        "article15": {
+          "title": "Điều 15. Quy trình xây dựng chương trình đào tạo AI",
+          "intro": "Quy trình xây dựng, thẩm định, phê duyệt và triển khai các chương trình đào tạo thuộc lĩnh vực Trí tuệ nhân tạo (AI) trong Mạng lưới AI được thực hiện thống nhất theo các bước sau đây.",
+          "items": [
+            "Các chương trình đào tạo AI xây dựng trong Mạng lưới phải đảm bảo: tính hiện đại, cập nhật xu hướng quốc tế; phù hợp với chuẩn đầu ra và Khung trình độ quốc gia; có tính liên ngành và gắn kết mạnh mẽ với nhu cầu thị trường lao động; có khả năng triển khai tại nhiều cơ sở thành viên.",
+            "Mỗi chương trình phải có đơn vị chủ trì, nhóm biên soạn và đơn vị phối hợp.",
+            "Các chương trình mới phải được thẩm định và phê duyệt trước khi triển khai.",
+            "Hồ sơ xây dựng chương trình đào tạo gồm: đề xuất xây dựng chương trình, khung chương trình chi tiết, đề cương chi tiết tối thiểu 30% học phần cốt lõi, dự kiến chuẩn kiểm định và khả năng đáp ứng theo AUN-QA hoặc ABET (nếu có), kế hoạch triển khai thí điểm, minh chứng năng lực nhóm xây dựng.",
+            "Quy trình thực hiện gồm: đề xuất xây dựng chương trình, thành lập nhóm biên soạn, xây dựng chuẩn đầu ra và cấu trúc chương trình, biên soạn nội dung và học phần, lấy ý kiến các bên liên quan, thẩm định chương trình, phê duyệt chương trình, triển khai thí điểm, đánh giá – hoàn thiện – ban hành chính thức."
+          ]
+        },
+        "article16": {
+          "title": "Điều 16. Quy trình triển khai dự án R&D",
+          "intro": "Quy trình triển khai các dự án nghiên cứu – phát triển (R&D) trong Mạng lưới AI được thực hiện theo 06 giai đoạn chính, bảo đảm tính khoa học, minh bạch, hiệu quả và phù hợp với định hướng chiến lược của Mạng lưới.",
+          "items": [
+            "Dự án R&D phải hướng đến giải quyết bài toán thực tiễn, đóng góp khoa học hoặc tạo ra sản phẩm/giải pháp AI có khả năng ứng dụng.",
+            "Mỗi dự án R&D phải có: đơn vị chủ trì, đơn vị phối hợp, chủ nhiệm dự án, nhóm nghiên cứu, dự toán kinh phí và nguồn lực rõ ràng.",
+            "Tất cả dự án phải được phê duyệt bằng văn bản của Ban Điều hành.",
+            "Dự án R&D được ưu tiên nếu: có hợp tác doanh nghiệp; có khả năng công bố quốc tế; có mô hình AI hoặc sản phẩm thử nghiệm; huy động được đồng tài trợ.",
+            "Hồ sơ đề xuất dự án R&D gồm: thuyết minh dự án R&D, lý lịch khoa học của chủ nhiệm và nhóm nghiên cứu, văn bản đồng ý của đơn vị phối hợp/doanh nghiệp (nếu có), các tài liệu nền liên quan."
+          ]
+        },
+        "article17": {
+          "title": "Điều 17. Quy trình hợp tác doanh nghiệp",
+          "intro": "Quy trình hợp tác doanh nghiệp trong Mạng lưới AI được thiết kế nhằm bảo đảm tính minh bạch, hiệu quả, hai bên cùng có lợi và thúc đẩy phát triển hệ sinh thái đào tạo – nghiên cứu – ứng dụng AI.",
+          "items": [
+            "Bảo đảm tự nguyện – bình đẳng – minh bạch – cùng có lợi giữa Mạng lưới AI và doanh nghiệp.",
+            "Hợp tác phải có mục tiêu rõ ràng, sản phẩm cụ thể, đầu ra đo lường được.",
+            "Ưu tiên các mô hình đồng phát triển (co-development), có chia sẻ dữ liệu, công nghệ và nhân lực theo thỏa thuận.",
+            "Hoạt động hợp tác doanh nghiệp phải phù hợp với định hướng chiến lược 2025–2030 của Mạng lưới AI.",
+            "Mọi hợp tác phải có biên bản ghi nhớ (MOU) hoặc hợp đồng/Thỏa thuận hợp tác (MOA), đúng quy định pháp luật."
+          ]
+        },
+        "article18": {
+          "title": "Điều 18. Quy trình mời và hợp tác chuyên gia quốc tế",
+          "intro": "Quy trình hợp tác chuyên gia quốc tế nhằm đảm bảo hoạt động hợp tác học thuật – nghiên cứu – đào tạo trong Mạng lưới AI được thực hiện đúng quy định, minh bạch, chuyên nghiệp, hiệu quả và thu hút được các chuyên gia, nhà khoa học uy tín toàn cầu.",
+          "items": [
+            "Hợp tác chuyên gia quốc tế phải phù hợp với: định hướng chiến lược của Mạng lưới AI; kế hoạch hoạt động đào tạo – nghiên cứu – hợp tác quốc tế; các quy định của pháp luật Việt Nam, Bộ GD&ĐT, ĐHQG-HCM và Trường ĐHBK.",
+            "Ưu tiên mời các chuyên gia có: công bố quốc tế uy tín (SCIE/SCI, Q1, Q2); kinh nghiệm dự án công nghệ AI/ML/DL; đóng góp vào hệ sinh thái AI; khả năng giảng dạy/hướng dẫn nghiên cứu.",
+            "Mọi hoạt động mời chuyên gia phải có văn bản chính thức, hồ sơ đầy đủ và cơ chế tài chính phù hợp.",
+            "Bảo đảm tính hợp pháp, bảo mật, tôn trọng quyền sở hữu trí tuệ.",
+            "Hợp tác chuyên gia quốc tế trong Mạng lưới bao gồm: giảng dạy, đào tạo; nghiên cứu – phát triển; chuyên gia tư vấn; hợp tác dài hạn."
+          ]
+        }
+      },
+      "chapter5": {
+        "title": "CHƯƠNG V. CƠ CHẾ NGUỒN LỰC – TÀI CHÍNH – CƠ SỞ VẬT CHẤT",
+        "article19": {
+          "title": "Điều 19. Cơ chế chia sẻ tài nguyên",
+          "items": [
+            "Hạ tầng tính toán (server, GPU), phòng thí nghiệm AI và dữ liệu được chia sẻ theo mức độ đóng góp.",
+            "Các đơn vị có quyền ưu tiên sử dụng dựa trên cam kết và năng lực triển khai."
+          ]
+        },
+        "article20": {
+          "title": "Điều 20. Cơ chế tài chính",
+          "intro": "Nguồn kinh phí bao gồm:",
+          "items": [
+            "Nguồn thuộc đề án được Nhà nước phê duyệt (nếu có);",
+            "Kinh phí sự nghiệp khoa học;",
+            "Nguồn xã hội hóa và tài trợ doanh nghiệp;",
+            "Kinh phí đào tạo, hội thảo, dịch vụ;",
+            "Quản lý và sử dụng kinh phí theo quy định của Trường và pháp luật."
+          ]
+        }
+      },
+      "chapter6": {
+        "title": "CHƯƠNG VI. BÁO CÁO – GIÁM SÁT – ĐÁNH GIÁ",
+        "article21": {
+          "title": "Điều 21. Chế độ báo cáo",
+          "items": [
+            "Báo cáo tháng/quý: theo mẫu; gửi về Ban Điều hành.",
+            "Báo cáo năm: tổng hợp kết quả, dự kiến nhiệm vụ năm sau.",
+            "Báo cáo đột xuất: theo yêu cầu."
+          ]
+        },
+        "article22": {
+          "title": "Điều 22. Kiểm tra – giám sát",
+          "items": [
+            "Ban Điều hành có quyền kiểm tra định kỳ hoặc đột xuất.",
+            "Tiêu chí đánh giá gồm: tiến độ, hiệu quả, tính bền vững, đóng góp hệ sinh thái.",
+            "Kết quả giám sát là căn cứ điều chỉnh nhiệm vụ hoặc xem xét tư cách thành viên."
+          ]
+        }
+      },
+      "chapter7": {
+        "title": "CHƯƠNG VII. ĐIỀU KHOẢN THI HÀNH",
+        "article23": {
+          "title": "Điều 23. Hiệu lực",
+          "content": "Quy chế này có hiệu lực sau khi được Ban Điều hành thông qua và Trường Đại học Bách khoa – ĐHQG-HCM ban hành."
+        },
+        "article24": {
+          "title": "Điều 24. Sửa đổi, bổ sung",
+          "content": "Việc sửa đổi Quy chế phải được ít nhất 2/3 thành viên Ban Điều hành bỏ phiếu tán thành."
+        }
+      }
+  },
+  "blog": {
+    "badge": "Tin tức",
+    "title": "Blog & Bài viết",
+    "description": "Thông tin chuyên sâu, cập nhật nghiên cứu và bài viết từ các thành viên và đối tác của liên minh.",
+    "readMore": "Đọc thêm",
+    "minRead": "phút đọc",
+    "post1": {
+      "title": "Tương lai AI trong Sản xuất Việt Nam",
+      "excerpt": "Khám phá cách AI đang biến đổi quy trình sản xuất và thúc đẩy áp dụng Công nghiệp 4.0 tại Việt Nam."
+    },
+    "post2": {
+      "title": "Xây dựng Nhân tài AI: Hợp tác Đại học - Doanh nghiệp",
+      "excerpt": "Cách các đối tác giữa trường đại học và công ty công nghệ đang định hình thế hệ chuyên gia AI tiếp theo."
+    },
+    "post3": {
+      "title": "Đạo đức AI: Góc nhìn Việt Nam",
+      "excerpt": "Xem xét các cân nhắc văn hóa và quy định độc đáo cho phát triển AI có đạo đức tại Việt Nam."
+    },
+    "post4": {
+      "title": "Xử lý Ngôn ngữ Tự nhiên cho Tiếng Việt",
+      "excerpt": "Tiến bộ gần đây trong các mô hình NLP được thiết kế đặc biệt cho tiếng Việt."
+    },
+    "post5": {
+      "title": "AI Y tế: Cơ hội và Thách thức",
+      "excerpt": "Tổng quan về ứng dụng AI trong y tế Việt Nam và con đường phía trước."
+    },
+    "post6": {
+      "title": "Hệ sinh thái Startup: Đổi mới AI tại TP.HCM",
+      "excerpt": "Bản đồ cảnh quan startup AI đang phát triển tại TP.HCM và các câu chuyện thành công."
+    },
+    "categories": {
+      "industryInsights": "Thông tin ngành",
+      "education": "Giáo dục",
+      "ethics": "Đạo đức",
+      "research": "Nghiên cứu",
+      "healthcare": "Y tế",
+      "startups": "Startup"
+    }
+  },
+  "contact": {
+    "badge": "Liên hệ",
+    "title": "Liên hệ với chúng tôi",
+    "description": "Có câu hỏi hoặc muốn tìm hiểu thêm về liên minh AI Network? Chúng tôi rất muốn được nghe từ bạn.",
+    "connectTitle": "Kết nối với chúng tôi",
+    "connectDescription": "Dù bạn quan tâm đến việc gia nhập liên minh, có đề xuất hợp tác, hay chỉ đơn giản muốn tìm hiểu thêm về các sáng kiến của chúng tôi, chúng tôi sẵn sàng hỗ trợ.",
+    "emailLabel": "Email",
+    "phoneLabel": "Điện thoại",
+    "locationLabel": "Địa điểm",
+    "locationValue": "Khoa Khoa học và Kỹ thuật Máy tính (CSE), Đại học Bách khoa TP.HCM",
+    "locationSubvalue": "Tòa nhà A3, 268 Lý Thường Kiệt, Phường Diên Hồng, TP. HCM",
+    "formTitle": "Gửi tin nhắn",
+    "fullName": "Họ và tên",
+    "yourName": "Tên của bạn",
+    "email": "Email",
+    "subject": "Chủ đề",
+    "subjectPlaceholder": "Đây là về vấn đề gì?",
+    "message": "Tin nhắn",
+    "messagePlaceholder": "Tin nhắn của bạn...",
+    "sendMessage": "Gửi tin nhắn",
+    "messageSent": "Đã gửi",
+    "messageSentTitle": "Đã gửi tin nhắn!",
+    "messageSentDescription": "Đội ngũ của chúng tôi sẽ phản hồi trong vòng 24-48 giờ."
+  },
+  "footer": {
+    "tagline": "Mạng lưới trung tâm đào tạo xuất sắc và tài năng về Công nghệ 4.0 Lĩnh vực Trí tuệ nhân tạo (AI) khu vực phía Nam.",
+    "consortium": "Liên minh",
+    "aboutUs": "Giới thiệu",
+    "ourMission": "Sứ mệnh",
+    "foundingMembers": "Thành viên sáng lập",
+    "contact": "Liên hệ",
+    "resources": "Tài nguyên",
+    "eventsLink": "Sự kiện",
+    "researchReports": "Báo cáo nghiên cứu",
+    "blogLink": "Tin tức",
+    "collaborateLink": "Hợp tác",
+    "contactTitle": "Liên hệ"
+  },
+  "common": {
+    "required": "*"
+  },
+  "auth": {
+    "signIn": "Đăng nhập",
+    "signUp": "Đăng ký",
+    "signOut": "Đăng xuất",
+    "email": "Email",
+    "password": "Mật khẩu",
+    "name": "Họ và tên",
+    "continueWithGoogle": "Tiếp tục với Google",
+    "orContinueWithEmail": "Hoặc tiếp tục với email",
+    "signInDescription": "Truy cập tài khoản thành viên AI Network.",
+    "signUpDescription": "Tạo tài khoản để quản lý các đăng ký của bạn.",
+    "signedIn": "Đăng nhập thành công",
+    "welcomeBack": "Chào mừng bạn quay lại AI Network.",
+    "invalidCredentials": "Email hoặc mật khẩu không đúng.",
+    "signingIn": "Đang đăng nhập",
+    "createAccount": "Tạo tài khoản",
+    "checkYourEmail": "Kiểm tra email của bạn",
+    "verificationEmailSent": "Chúng tôi đã gửi mã xác minh tới email của bạn.",
+    "signupError": "Không thể hoàn tất đăng ký. Vui lòng thử lại.",
+    "noAccount": "Chưa có tài khoản?",
+    "alreadyHaveAccount": "Đã có tài khoản?",
+    "adminLogin": "Đăng nhập quản trị",
+    "adminLoginDescription": "Chỉ người dùng quản trị được phê duyệt mới có thể truy cập trang quản lý.",
+    "accessDeniedNonAdmin": "Bạn đã đăng nhập nhưng không có quyền quản trị.",
+    "useGeneralLogin": "Không phải quản trị viên?",
+    "signedOut": "Đã đăng xuất",
+    "youHaveSignedOut": "Bạn đã đăng xuất thành công."
+  },
+  "profile": {
+    "title": "Hồ sơ của tôi",
+    "subtitle": "Quản lý thông tin cá nhân và tùy chọn của bạn",
+    "myRegistrations": "Các đăng ký sự kiện của tôi",
+    "noRegistrations": "Bạn chưa đăng ký sự kiện nào.",
+    "cancelRegistration": "Hủy",
+    "cancelConfirmTitle": "Hủy đăng ký?",
+    "cancelConfirmDescription": "Bạn có chắc chắn muốn hủy đăng ký sự kiện \"{{eventName}}\"? Bạn có thể đăng ký lại sau nếu đổi ý.",
+    "keepRegistration": "Giữ đăng ký",
+    "confirmCancel": "Xác nhận hủy",
+    "cancelling": "Đang hủy...",
+    "cancelSuccess": "Đã hủy đăng ký",
+    "cancelSuccessDescription": "Đăng ký của bạn đã được hủy thành công.",
+    "cancelError": "Hủy đăng ký thất bại",
+    "edit": "Chỉnh sửa hồ sơ",
+    "save": "Lưu thay đổi",
+    "saving": "Đang lưu...",
+    "cancel": "Hủy",
+    "adminPanel": "Quản trị",
+    "saveSuccess": "Đã cập nhật hồ sơ",
+    "saveSuccessDescription": "Hồ sơ của bạn đã được cập nhật thành công.",
+    "saveError": "Cập nhật thất bại",
+    "unnamed": "Người dùng chưa đặt tên",
+    "name": "Họ và tên",
+    "namePlaceholder": "Nhập họ và tên của bạn",
+    "jobTitle": "Chức vụ",
+    "jobTitlePlaceholder": "Ví dụ: Kỹ sư phần mềm, Giáo sư",
+    "organization": "Tổ chức",
+    "organizationPlaceholder": "Ví dụ: Trường đại học, Tên công ty",
+    "expertise": "Chuyên môn & Tiểu sử",
+    "expertisePlaceholder": "Mô tả lĩnh vực chuyên môn và nền tảng nghề nghiệp của bạn...",
+    "contactEmail": "Email liên hệ",
+    "contactEmailPlaceholder": "Email cho các liên lạc về sự kiện",
+    "contactPhone": "Số điện thoại liên hệ",
+    "contactPhonePlaceholder": "+84...",
+    "invalidImageType": "Loại tệp không hợp lệ",
+    "invalidImageTypeDescription": "Vui lòng chọn tệp hình ảnh (JPEG, PNG, v.v.)",
+    "imageTooLarge": "Tệp quá lớn",
+    "imageTooLargeDescription": "Vui lòng chọn hình ảnh nhỏ hơn 5MB.",
+    "imageUploadSuccess": "Đã cập nhật ảnh",
+    "imageUploadSuccessDescription": "Ảnh hồ sơ của bạn đã được cập nhật thành công.",
+    "imageUploadError": "Tải lên thất bại",
+    "loggedOutDescription": "Bạn đã đăng xuất thành công.",
+    "status": {
+      "pending": "Chờ xác nhận",
+      "confirmed": "Đã xác nhận",
+      "cancelled": "Đã hủy"
+    }
+  },
+  "team": {
+    "badge": "Cơ cấu tổ chức",
+    "title": "Cơ cấu tổ chức Mạng lưới",
+    "description": "Gặp gỡ đội ngũ lãnh đạo thúc đẩy đổi mới và hợp tác AI trong hệ sinh thái học thuật và doanh nghiệp tại TP. Hồ Chí Minh.",
+    "viewProfile": "Xem hồ sơ",
+    "backToTeam": "Quay lại danh sách",
+    "about": "Giới thiệu",
+    "bioPlaceholder": "Tiểu sử đang được cập nhật...",
+    "structure": {
+      "leadTitle": "Chủ trì Mạng lưới:",
+      "leadOrg": "Trường Đại học Bách khoa – ĐHQG TP.HCM",
+      "leadDesc": "Giữ vai trò đầu mối điều phối, liên kết, và dẫn dắt chiến lược phát triển mạng lưới.",
+      "membersTitle": "Thành viên:",
+      "membersDesc1": "Gồm các trường đại học, doanh nghiệp uy tín trong lĩnh vực AI, có mong muốn đóng góp, chia sẻ tài nguyên và tham gia phát triển hệ sinh thái AI.",
+      "membersDesc2": "Danh sách chi tiết gồm 20 trường đại học và 7 doanh nghiệp, được cập nhật định kỳ khi có thành viên mới hoặc thay đổi.",
+      "educationalTitle": "CƠ SỞ GIÁO DỤC",
+      "educationalOrgs": [
+        "Trường Đại học Bách khoa - ĐHQG TP.HCM",
+        "Trường Đại học Khoa học Tự nhiên – ĐHQG-HCM",
+        "Trường Đại học Công nghệ Thông tin – ĐHQG-HCM",
+        "Trường Đại học Quốc tế – ĐHQG-HCM",
+        "Đại học Cần Thơ",
+        "Trường Đại học Sư phạm Kỹ thuật Thành phố Hồ Chí Minh",
+        "Trường Đại học Công nghiệp Thành phố Hồ Chí Minh",
+        "Trường Đại học Tôn Đức Thắng",
+        "Trường Đại học Công nghệ Thành phố Hồ Chí Minh",
+        "Đại học Kinh tế Thành phố Hồ Chí Minh",
+        "Trường Đại học Nha Trang",
+        "Trường Đại học Đà Lạt",
+        "Trường Đại học An Giang – ĐHQG-HCM",
+        "Trường Đại học Văn Lang",
+        "Đại học Bách khoa Hà Nội",
+        "Học viện Bưu chính viễn thông - Phân hiệu Thành phố Hồ Chí Minh",
+        "Trường Đại học Giao Thông Vận Tải - Phân hiệu Thành phố Hồ Chí Minh",
+        "Trường Đại học Xây dựng Hà Nội",
+        "Trường Đại học Nguyễn Tất Thành",
+        "Trường Đại học Việt Đức"
+      ],
+      "enterpriseTitle": "DOANH NGHIỆP",
+      "enterpriseOrgs": [
+        "Công ty Cổ phần Tập đoàn VNG",
+        "Công ty TNHH Phần mềm FPT Hồ Chí Minh, Tập Đoàn FPT",
+        "Công ty TNHH BOSCH Global Software Technologies",
+        "Công ty Cổ phần Công nghệ Sao Bắc Đẩu",
+        "Công ty Cổ phần IVS",
+        "Tập đoàn công nghệ TMA",
+        "Công ty TNHH YOUTHDEV"
+      ]
+    },
+    "execBoardTitle": "BAN ĐIỀU HÀNH VÀ CƠ CHẾ HOẠT ĐỘNG",
+    "execBoard": {
+      "boardTitle": "Ban Điều hành:",
+      "boardDesc": "Gồm chủ tịch và 14 thành viên, do các đơn vị trong mạng lưới hiệp thương thống nhất.",
+      "dutiesTitle": "Nhiệm vụ:",
+      "duties": [
+        "Điều hành, giám sát và định hướng hoạt động của mạng lưới.",
+        "Cập nhật tư cách thành viên mỗi 2 năm/lần.",
+        "Quyết định việc kết nạp hoặc hủy tư cách thành viên."
+      ],
+      "coreMembers": "Thành viên Ban điều hành",
+      "extendedMembers": "Thành viên mở rộng"
+    },
+    "members": {
+      "maiThanhPhong": {
+        "name": "GS. TS. Mai Thanh Phong",
+        "organization": "Trường Đại học Bách khoa – ĐHQG TP.HCM",
+        "role": "Hiệu trưởng",
+        "bio": "",
+        "execRole": "Chủ tịch"
+      },
+      "voDinhBay": {
+        "name": "Võ Đình Bảy",
+        "organization": "Trường Đại học Công nghệ TP.HCM (HUTECH)",
+        "role": "Phó Hiệu trưởng",
+        "bio": "Ông Võ Đình Bảy là Phó hiệu trưởng và từng là Trưởng Khoa Công nghệ Thông tin tại Trường Đại học Công nghệ TP.HCM (HUTECH), có hơn 20 năm kinh nghiệm trong ngành giáo dục, là chuyên gia trong lĩnh vực Khoa học Máy tính (Khai thác dữ liệu, Học máy, Tính toán mềm), xuất bản nhiều bài báo khoa học, hướng dẫn nghiên cứu sinh và nhận nhiều bằng khen."
+      },
+      "leXuanBach": {
+        "name": "Lê Xuân Bách",
+        "organization": "Trường ĐH Bách khoa - ĐHQG TP.HCM",
+        "role": "Giảng viên, Khoa Khoa học & Kỹ thuật Máy tính",
+        "bio": "TS. Lê Xuân Bách là giảng viên và nhà nghiên cứu trong lĩnh vực Kiểm chứng phần mềm và Trí tuệ Nhân tạo, với trọng tâm là Reinforcement Learning, Program Verification và AI an toàn (Safe AI). Anh tốt nghiệp Tiến sĩ tại Đại học Quốc gia Singapore (NUS) và từng tham gia nghiên cứu sau tiến sĩ tại các đại học hàng đầu như Oxford, NUS, NTU và SMU. Công trình nghiên cứu của anh được công bố tại các hội nghị quốc tế uy tín hàng đầu trong lĩnh vực Khoa học Máy tính như NeurIPS, POPL, ESOP và ICALP."
+      },
+      "huynhHuuBang": {
+        "name": "Huỳnh Hữu Bằng",
+        "organization": "Medical AI",
+        "role": "Giám đốc điều hành",
+        "bio": "Giám đốc điều hành Medical AI với kinh nghiệm chuyên sâu hơn 20 năm trong các tập đoàn công nghệ, từng làm giám đốc kinh doanh của Tập đoàn Công nghệ Huawei"
+      },
+      "leAnhCuong": {
+        "name": "PGS. TS. Lê Anh Cường",
+        "organization": "Trường ĐH Tôn Đức Thắng",
+        "role": "Quyền Trưởng Khoa CNTT",
+        "bio": "Quyền Trưởng khoa. Trưởng nhóm nghiên cứu mạnh. Trưởng phòng Lab NLP-KD.",
+        "execRole": "Ủy viên"
+      },
+      "leNhatDuy": {
+        "name": "Lê Nhật Duy",
+        "organization": "Trường ĐH Công nghiệp TP.HCM",
+        "role": "Trưởng khoa Khoa Công nghệ thông tin"
+      },
+      "tranTuyenDuc": {
+        "name": "Ông Trần Tuyên Đức",
+        "organization": "Công ty Cổ phần Công nghệ Sao Bắc Đẩu",
+        "role": "Phó Tổng giám đốc",
+        "bio": "Ông Trần Tuyên Đức là một lãnh đạo cấp cao tại Công ty Cổ phần Công nghệ Sao Bắc Đẩu (SBD), hiện giữ chức Phó Tổng Giám đốc Công ty SBD và Chủ tịch Hội đồng Sáng lập & Cố vấn, từng đảm nhiệm nhiều vị trí quan trọng khác như Phó TGĐ, Chủ tịch HĐQT, và Tổng Giám đốc SBD South. Ông có kinh nghiệm lâu năm trong ngành công nghệ thông tin, gắn bó với Sao Bắc Đẩu từ những năm 1999",
+        "execRole": "Ủy viên"
+      },
+      "tranPhucHong": {
+        "name": "Ông Trần Phúc Hồng",
+        "organization": "Tập đoàn Công nghệ TMA (TMA Tech Group)",
+        "role": "Phó Tổng Giám đốc",
+        "bio": "Ông là giám đốc điều hành TMA Innovation và Trung tâm Trí tuệ Nhân tạo TMA chuyên phát triển và triển khai các sản phẩm và giải pháp mới với mục tiêu đưa công nghệ 4.0 trở thành phổ dụng. Ông là thành viên sáng lập và là Phó chủ tịch Liên minh Công nghệ số Việt Nam (VNITO) từ năm 2015.",
+        "execRole": "Ủy viên"
+      },
+      "phongNguyen": {
+        "name": "Phong Nguyễn",
+        "organization": "Tasco",
+        "role": "Giám đốc Phát triển (CDO)",
+        "bio": "Giám đốc Phát triển (CDO) tại Tasco JSC"
+      },
+      "leThanhSon": {
+        "name": "Lê Thanh Sơn",
+        "organization": "MaivenPoint",
+        "role": "Trưởng bộ phận đào tạo",
+        "bio": "Ông Lê Thanh Sơn có hơn 20 năm kinh nghiệm trong ngành công nghệ thông tin tại Singapore. Trước kia, ông từng giữ chức vụ Solutions Architect tại bộ phận IBM Watson. Hiện tại, ông đang phụ trách bộ phận đào tạo và tuyển dụng sinh viên mới tốt nghiệp để tăng tốc họ vào các cơ hội nghề nghiệp toàn cầu tại MaivenPoint Academy."
+      },
+      "ngoDucThanh": {
+        "name": "TS. Ngô Đức Thành",
+        "organization": "Trường ĐH Công nghệ Thông tin - ĐHQG TP.HCM",
+        "role": "Trưởng Khoa Khoa Khoa học Máy tính",
+        "bio": "Tiến sĩ Ngô Đức Thành hiện đang giữ chức vụ Trưởng khoa Khoa học Máy tính tại Trường Đại học Công nghệ Thông tin (UIT) - Đại học Quốc gia TP.HCM, một đơn vị đào tạo hàng đầu về CNTT, nơi ông có vai trò quan trọng trong đào tạo, định hướng và tham gia các hoạt động chuyên môn như làm giám khảo các cuộc thi công nghệ. Thông tin chi tiết: Chức vụ: Trưởng khoa Khoa học Máy tính. Nơi công tác: Trường Đại học Công nghệ Thông tin (UIT) - Đại học Quốc gia TP.HCM. Hoạt động nổi bật: Ông là một nhân vật có uy tín, thường xuyên chia sẻ kinh nghiệm về học tập và định hướng nghề nghiệp cho sinh viên, đồng thời tham gia ban giám khảo các cuộc thi công nghệ lớn như My Smart City.",
+        "execRole": "Ủy viên"
+      },
+      "quanThanhTho": {
+        "name": "PGS. TS. Quản Thành Thơ",
+        "organization": "Trường ĐH Bách khoa – ĐHQG TP.HCM",
+        "role": "Trưởng khoa KH&KT Máy tính",
+        "bio": "Phó Giáo sư (PGS) Quản Thành Thơ là một giảng viên, nhà nghiên cứu nổi bật tại Khoa Khoa học & Kỹ thuật Máy tính (CSE) thuộc Trường Đại học Bách Khoa - Đại học Quốc gia TP.HCM (HCMUT). Ông hiện giữ vị trí Trưởng bộ môn Kỹ thuật Phần mềm (Software Engineering) tại khoa, đồng thời là Cố vấn khoa học, chuyên gia về Trí tuệ Nhân tạo (AI), Xử lý Ngôn ngữ Tự nhiên (NLP) và Học máy, và là Chủ nhiệm chương trình Cử nhân Khoa học máy tính (BAC). Chức vụ: Trưởng bộ môn Kỹ thuật Phần mềm, Khoa Khoa học và Kỹ thuật Máy tính, HCMUT. Chuyên môn: Phương pháp hình thức, phân tích/kiểm định chương trình, Semantic Web, máy học, khai phá dữ liệu, hệ thống thông minh, Xử lý Ngôn ngữ Tự nhiên (NLP), Trí tuệ Nhân tạo (AI). Hoạt động: Giảng dạy, nghiên cứu, cố vấn khoa học cho doanh nghiệp (YouNet Group), tham gia các hoạt động phát triển nhân lực AI. Học vấn: Tốt nghiệp Cử nhân tại HCMUT (1998) và Tiến sĩ tại Đại học Công nghệ Nanyang (NTU), Singapore (2002)",
+        "execRole": "Thư ký"
+      },
+      "thuVo": {
+        "name": "Ông Võ Trọng Thư",
+        "organization": "VNG",
+        "role": "Trưởng Phòng AI Lab, GreenNode",
+        "bio": "",
+        "execRole": "Ủy viên"
+      },
+      "huaPhuocTruong": {
+        "name": "Hứa Phước Trường",
+        "organization": "CEO & Co-founder công ty YouthDev",
+        "role": "CEO & Co-founder",
+        "bio": "Ông Hứa Phước Trường là CEO & Co-founder của YouthDev, một công ty cung cấp giải pháp chuyển đổi số ngành truyền hình và DooPage (quản lý chăm sóc khách hàng), đồng thời cũng là một thủ khoa xuất sắc tại ĐH CNTT (ĐHQG-HCM) với thành tích học tập ấn tượng và có kinh nghiệm phát triển AI, được đánh giá cao trong lĩnh vực công nghệ"
+      },
+      "nguyenVanVu": {
+        "name": "PGS.TS. Nguyễn Văn Vũ",
+        "organization": "Trường ĐH Khoa học Tự nhiên - ĐHQG TP.HCM",
+        "role": "Phó Trưởng Khoa Khoa CNTT",
+        "bio": "Tiến sĩ Nguyễn Văn Vũ hiện là Phó Giáo sư, Tiến sĩ (PGS.TS) công tác tại Khoa Công nghệ Thông tin (CNTT) thuộc Trường Đại học Khoa học Tự nhiên, Đại học Quốc gia TP.HCM (ĐHKHTN, ĐHQG-HCM), ông là một trong những giảng viên có kinh nghiệm, chuyên sâu về lĩnh vực Công nghệ Thông tin và tham gia nhiều hoạt động hợp tác quốc tế và nghiên cứu",
+        "execRole": "Ủy viên"
+      }
+    }
+  },
+  "admin": {
+    "events": {
+      "title": "Quản lý sự kiện",
+      "createNew": "Tạo sự kiện",
+      "edit": "Chỉnh sửa",
+      "delete": "Xóa",
+      "duplicate": "Nhân bản",
+      "viewRegistrations": "Xem đăng ký",
+      "count": "{{count}} sự kiện",
+      "noEvents": "Chưa có sự kiện. Tạo sự kiện đầu tiên!",
+      "type": "Loại",
+      "status": "Trạng thái",
+      "actions": "Thao tác",
+      "backToList": "Quay lại danh sách",
+      "saving": "Đang lưu...",
+      "create": "Tạo sự kiện",
+      "update": "Cập nhật",
+      "cancel": "Hủy",
+      "created": "Đã tạo sự kiện",
+      "createdDescription": "Sự kiện của bạn đã được tạo thành công.",
+      "updated": "Đã cập nhật",
+      "updatedDescription": "Sự kiện của bạn đã được cập nhật thành công.",
+      "deleted": "Đã xóa sự kiện",
+      "deletedDescription": "Sự kiện đã được xóa.",
+      "deleteError": "Xóa thất bại",
+      "deleteErrorDescription": "Không thể xóa sự kiện. Vui lòng thử lại.",
+      "error": "Lỗi",
+      "deleteConfirmTitle": "Xóa sự kiện?",
+      "deleteConfirmDescription": "Thao tác này sẽ xóa vĩnh viễn sự kiện và tất cả đăng ký. Không thể hoàn tác.",
+      "form": {
+        "basicInfo": "Thông tin cơ bản",
+        "agenda": "Chương trình",
+        "venue": "Địa điểm & Thời gian",
+        "settings": "Cài đặt",
+        "titleVi": "Tiêu đề (Tiếng Việt)",
+        "titleEn": "Tiêu đề (Tiếng Anh)",
+        "subtitleVi": "Mô tả ngắn (Tiếng Việt)",
+        "subtitleEn": "Mô tả ngắn (Tiếng Anh)",
+        "descriptionVi": "Mô tả chi tiết (Tiếng Việt)",
+        "descriptionEn": "Mô tả chi tiết (Tiếng Anh)",
+        "targetAudienceVi": "Đối tượng tham dự (Tiếng Việt)",
+        "targetAudienceEn": "Đối tượng tham dự (Tiếng Anh)",
+        "addAgendaItem": "Thêm nội dung",
+        "removeAgendaItem": "Xóa",
+        "noAgendaItems": "Chưa có nội dung. Thêm nội dung đầu tiên!",
+        "time": "Thời gian",
+        "date": "Ngày",
+        "startTime": "Giờ bắt đầu",
+        "endTime": "Giờ kết thúc",
+        "venueNameVi": "Tên địa điểm (Tiếng Việt)",
+        "venueNameEn": "Tên địa điểm (Tiếng Anh)",
+        "address": "Địa chỉ",
+        "city": "Thành phố",
+        "googleMapsUrl": "Đường dẫn Google Maps",
+        "registrationDeadline": "Hạn đăng ký",
+        "maxAttendees": "Số lượng tối đa",
+        "maxAttendeesDescription": "Để trống nếu không giới hạn",
+        "featured": "Sự kiện nổi bật",
+        "featuredDescription": "Hiển thị sự kiện này nổi bật trên trang chủ",
+        "registrationUrl": "Đường dẫn đăng ký ngoài",
+        "registrationUrlDescription": "Đường dẫn tùy chọn đến trang đăng ký bên ngoài",
+        "qrCodeUrl": "Đường dẫn ảnh mã QR",
+        "qrCodeUrlDescription": "Đường dẫn đến ảnh mã QR để đăng ký",
+        "bannerImage": "Đường dẫn ảnh bìa",
+        "bannerImageDescription": "Đường dẫn đến ảnh bìa sự kiện"
+      }
+    },
+    "registrations": {
+      "title": "Danh sách đăng ký",
+      "backToEvents": "Quay lại sự kiện",
+      "totalRegistrations": "Tổng số đăng ký",
+      "pending": "Chờ xác nhận",
+      "confirmed": "Đã xác nhận",
+      "cancelled": "Đã hủy",
+      "filterAll": "Tất cả",
+      "filterPending": "Chờ xác nhận",
+      "filterConfirmed": "Đã xác nhận",
+      "filterCancelled": "Đã hủy",
+      "name": "Họ tên",
+      "contact": "Liên hệ",
+      "organization": "Tổ chức",
+      "status": "Trạng thái",
+      "registeredOn": "Ngày đăng ký",
+      "actions": "Thao tác",
+      "statusPending": "Chờ xác nhận",
+      "statusConfirmed": "Đã xác nhận",
+      "statusCancelled": "Đã hủy",
+      "confirm": "Xác nhận đăng ký",
+      "cancel": "Hủy đăng ký",
+      "reactivate": "Kích hoạt lại",
+      "delete": "Xóa",
+      "cancelAction": "Hủy",
+      "noRegistrations": "Không có đăng ký nào.",
+      "statusUpdated": "Đã cập nhật trạng thái",
+      "statusUpdatedDescription": "Trạng thái đăng ký đã được cập nhật.",
+      "deleted": "Đã xóa đăng ký",
+      "deletedDescription": "Đăng ký đã bị xóa vĩnh viễn.",
+      "error": "Lỗi",
+      "deleteConfirmTitle": "Xóa đăng ký?",
+      "deleteConfirmDescription": "Thao tác này sẽ xóa vĩnh viễn đăng ký này và không thể hoàn tác."
+    }
+  }
+}

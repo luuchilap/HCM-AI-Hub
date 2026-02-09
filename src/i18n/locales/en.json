@@ -1,0 +1,955 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "team": "Organization",
+    "events": "Events",
+    "research": "Research",
+    "collaborate": "Collaborate",
+    "blog": "Blog",
+    "contact": "Contact",
+    "submitUseCase": "Submit Use Case"
+  },
+  "hero": {
+    "badge": "Network of Excellence Centers and Talent Training for Industry 4.0\nin Artificial Intelligence (AI) - Southern Vietnam",
+    "titlePart1": "Advancing",
+    "titleHighlight": "AI Innovation",
+    "titlePart2": "in Vietnam",
+    "description": "A consortium of leading universities and industry pioneers collaborating to drive AI research, innovation, and real-world applications across Southern Vietnam.",
+    "submitUseCase": "Submit Use Case",
+    "learnMore": "Learn More",
+    "foundingMembers": "Founding Members",
+    "researchReports": "Research Reports"
+  },
+  "members": {
+    "badge": "Our Network",
+    "title": "Founding Members",
+    "description": "",
+    "academicPartner": "Educational Institution",
+    "industryPartner": "Enterprise",
+    "vnuScience": {
+      "name": "VNU-HCM University of Science",
+      "description": "Ho Chi Minh City University of Science (HCMUS), part of Vietnam National University - Ho Chi Minh City, is a leading center for fundamental science education and research in Vietnam, officially established on March 30, 1996 under Decision 1236/GD-ĐT."
+    },
+    "vnuTech": {
+      "name": "VNU-HCM University of Technology",
+      "description": "Ho Chi Minh City University of Technology (HCMUT), part of Vietnam National University - Ho Chi Minh City, is the leading engineering university in Southern Vietnam, established in 1957 and officially named in 1976. With over 30,000 students across two campuses in District 10 and Binh Duong, the university offers multidisciplinary programs in engineering, technology, and industrial management, distinguished by 66 internationally accredited programs including ABET and HCERES."
+    },
+    "vnuIT": {
+      "name": "VNU-HCM University of Information Technology",
+      "description": "Ho Chi Minh City University of Information Technology (UIT), part of Vietnam National University - Ho Chi Minh City, is the first public university specializing in Information Technology in Vietnam, established on June 8, 2006 under Prime Minister's Decision No. 134/2006/QĐ-TTg, developed from the Information Technology Development Center."
+    },
+    "tma": {
+      "name": "TMA Tech Group",
+      "description": "TMA Tech Group operates from its headquarters in Ho Chi Minh City, Vietnam, with additional offices in the USA, Canada, Germany, Japan, Australia, and Singapore. It emphasizes high-quality outsourcing with processes certified under CMMI Level 5, ISO 27001, and others, focusing on Agile/SCRUM methodologies."
+    },
+    "sbd": {
+      "name": "Sao Bac Dau Technologies",
+      "description": "Sao Bac Dau Technologies Group, founded on November 25, 1996, is a leading IT system integrator in Vietnam, initially starting as a provider of IT products, solutions, and services. The company, headquartered in Ho Chi Minh City with branches including Hanoi, focuses on cloud computing solutions, managed services, IT infrastructure, network integration, digital transformation, and IoT applications."
+    },
+    "greennode": {
+      "name": "VNG",
+      "description": "VNG Corporation (VNG Group) is Vietnam's leading technology company, providing digital products and services to hundreds of millions of users and businesses in over 100 countries."
+    }
+  },
+  "events": {
+    "badge": "Events",
+    "title": "Upcoming Events",
+    "viewAll": "View All Events",
+    "learnMore": "Learn More",
+    "featured": "Featured",
+    "conference": "Conference",
+    "workshop": "Workshop",
+    "forum": "Forum",
+    "symposium": "Symposium",
+    "seminar": "Seminar",
+    "upcoming": "Upcoming",
+    "past": "Past",
+    "all": "All",
+    "registerNow": "Register Now",
+    "viewDetails": "View Details",
+    "pageTitle": "Events & Workshops",
+    "pageDescription": "Join our conferences, workshops, and networking events to connect with AI professionals and advance your knowledge.",
+    "calendarBadge": "Calendar",
+    "noEvents": "No events found",
+    "detail": {
+      "backToEvents": "Back to Events",
+      "registrationClosed": "Registration Closed",
+      "soldOut": "Sold Out",
+      "spotsLeft": "{{count}} spots left",
+      "registrationDeadline": "Registration Deadline",
+      "eventPassed": "This event has passed"
+    },
+    "info": {
+      "dateTime": "Date & Time",
+      "venue": "Venue",
+      "viewOnMap": "View on Map",
+      "getDirections": "Get Directions"
+    },
+    "agenda": {
+      "title": "Event Agenda",
+      "emptyAgenda": "Agenda will be announced soon"
+    },
+    "targetAudience": {
+      "title": "Who Should Attend",
+      "description": "This event is designed for"
+    },
+    "registration": {
+      "title": "Register for This Event",
+      "fullName": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "organization": "Organization",
+      "role": "Job Title / Role",
+      "organizationType": "Organization Type",
+      "selectOrganizationType": "Select organization type",
+      "organizationTypes": {
+        "university": "University / Research Institute",
+        "techCompany": "Technology / Software Company",
+        "governmentOther": "Government Agency / Other Organization"
+      },
+      "suggestions": "Do you have any suggestions, ideas, or questions for this forum?",
+      "suggestionsPlaceholder": "Enter your suggestions, ideas, or questions...",
+      "submit": "Complete Registration",
+      "submitting": "Registering...",
+      "success": "Registration Successful",
+      "successMessage": "You will receive a confirmation email shortly.",
+      "error": "Registration Failed",
+      "errorMessage": "Please try again or contact us for assistance.",
+      "alreadyRegistered": "You are already registered for this event. A confirmation email was sent to your email address.",
+      "eventNotFound": "This event could not be found. Please try again.",
+      "registrationClosed": "Registration for this event is closed.",
+      "fullyBooked": "This event is fully booked. No more spots available.",
+      "required": "This field is required",
+      "invalidEmail": "Please enter a valid email address"
+    },
+    "share": {
+      "title": "Share This Event",
+      "copyLink": "Copy Link",
+      "linkCopied": "Link copied to clipboard"
+    },
+    "qrCode": {
+      "title": "Scan to Register",
+      "description": "Use your phone camera to scan this QR code"
+    },
+    "status": {
+      "draft": "Draft",
+      "published": "Published",
+      "upcoming": "Upcoming",
+      "past": "Past",
+      "cancelled": "Cancelled"
+    },
+    "event1": {
+      "title": "Research Collaboration on AI for Healthcare",
+      "description": "Representatives from universities, hospitals, and enterprises discuss: What digital solutions, data, and AI challenges does the healthcare sector face; What data does the healthcare sector have; What solutions do enterprises offer; Selecting problems to solve; Collaboration models; Research and pilot plans."
+    },
+    "event2": {
+      "title": "Machine Learning Workshop Series",
+      "description": "Hands-on workshop covering advanced ML techniques and practical implementations."
+    },
+    "event3": {
+      "title": "Industry-Academia AI Collaboration Forum",
+      "description": "Annual forum bringing together researchers and industry leaders to discuss collaboration opportunities."
+    },
+    "event4": {
+      "title": "AI Ethics Symposium",
+      "description": "Discussion on ethical considerations in AI development and deployment."
+    },
+    "event5": {
+      "title": "Deep Learning Bootcamp",
+      "description": "Intensive 3-day bootcamp on deep learning fundamentals and applications."
+    },
+    "event6": {
+      "title": "AI Workforce Training for Enterprises",
+      "description": "Representatives from universities and enterprises discuss: AI workforce needs for enterprises (tech and non-tech companies); Challenges in recruiting and training AI workforce; Current AI training formats from universities; Sharing experiences, solutions, and collaboration models; Implementation plan."
+    }
+  },
+  "research": {
+    "badge": "Research",
+    "title": "Industry Reports",
+    "viewAll": "View All Reports",
+    "download": "Download",
+    "downloads": "downloads",
+    "pageTitle": "Research Reports",
+    "pageDescription": "Access our collection of industry reports, research papers, and technical guides on AI developments in Vietnam.",
+    "publicationsBadge": "Publications",
+    "by": "By",
+    "categories": {
+      "all": "All",
+      "industryReport": "Industry Report",
+      "policyBrief": "Policy Brief",
+      "technicalGuide": "Technical Guide",
+      "whitePaper": "White Paper",
+      "caseStudy": "Case Study",
+      "researchPaper": "Research Paper"
+    },
+    "report1": {
+      "title": "State of AI in Vietnam 2024",
+      "description": "Comprehensive analysis of AI adoption trends across Vietnamese industries, including sector-specific insights and future projections."
+    },
+    "report2": {
+      "title": "AI Talent Development Roadmap",
+      "description": "Strategies for building AI workforce capabilities in HCMC, with recommendations for education and training programs."
+    },
+    "report3": {
+      "title": "Enterprise AI Implementation Guide",
+      "description": "Best practices for deploying AI solutions in Vietnamese enterprises, covering infrastructure, governance, and change management."
+    },
+    "report4": {
+      "title": "AI Ethics Framework for Vietnam",
+      "description": "Ethical guidelines for responsible AI development and deployment, addressing bias, transparency, and accountability."
+    },
+    "report5": {
+      "title": "Computer Vision in Manufacturing",
+      "description": "Real-world implementation of computer vision for quality control in Vietnamese manufacturing facilities."
+    },
+    "report6": {
+      "title": "NLP Applications for Vietnamese Language",
+      "description": "Advances in natural language processing for Vietnamese, including sentiment analysis and machine translation."
+    }
+  },
+  "collaborate": {
+    "badge": "Get Involved",
+    "title": "Collaborate With Us",
+    "description": "",
+    "startCollaborating": "Start Collaborating",
+    "submitUseCase": {
+      "title": "Submit Use Cases",
+      "description": "Share your AI challenges and explore innovative solutions with our network of experts."
+    },
+    "problemStatement": {
+      "title": "Problem Statements",
+      "description": "Define specific problems that could benefit from AI research and development."
+    },
+    "partnership": {
+      "title": "Call for Collaboration",
+      "description": "Partner with academic institutions and industry leaders on joint AI initiatives."
+    },
+    "pageDescription": "Submit your AI use cases, problem statements, or partnership requests. Join HCMC's leading AI consortium.",
+    "formTitle": "Submit Your Request",
+    "requestType": "Request Type",
+    "selectType": "Select type",
+    "fullName": "Full Name",
+    "yourName": "Your name",
+    "organization": "Organization",
+    "companyOrInstitution": "Company or institution",
+    "email": "Email",
+    "phone": "Phone",
+    "requestTitle": "Title",
+    "briefTitle": "Brief title for your request",
+    "descriptionLabel": "Description",
+    "descriptionPlaceholder": "Please describe your use case, problem statement, or partnership proposal in detail...",
+    "submitRequest": "Submit Request",
+    "submittedSuccessfully": "Submitted Successfully",
+    "submissionReceived": "Submission received!",
+    "submissionReceivedDesc": "Our team will review your request and get back to you soon."
+  },
+  "newsletter": {
+    "badge": "Stay Updated",
+    "title": "Subscribe to Our Newsletter",
+    "description": "Get the latest updates on AI research, events, and collaboration opportunities delivered to your inbox.",
+    "placeholder": "Enter your email",
+    "subscribe": "Subscribe",
+    "subscribed": "Subscribed",
+    "successTitle": "Successfully subscribed!",
+    "successDescription": "You'll receive updates from AI Network.",
+    "disclaimer": "By subscribing, you agree to receive emails from AI Network. Unsubscribe anytime."
+  },
+  "about": {
+    "badge": "About Us",
+    "missionTitle": "Our Mission",
+    "missionDescription": "To establish Ho Chi Minh City as a leading hub for AI innovation by fostering collaboration between academic institutions and industry leaders, driving research excellence, and developing the next generation of AI talent."
+  },
+  "aboutIntro": {
+    "foundation": {
+      "title": "FOUNDATION AND ASSIGNED MISSION",
+      "legalBasis": {
+        "title": "Legal Basis:",
+        "content": "According to Decision No. 374/QĐ-TTg dated February 19, 2025 of the Prime Minister",
+        "subtitle": "Approving the Project for Development of the System of Centers of Excellence and Talent Training in Technology 4.0 until 2030."
+      },
+      "mission": {
+        "title": "Mission:",
+        "content": "The Ministry of Education and Training assigned Ho Chi Minh City University of Technology – VNU-HCM",
+        "subtitle": "To lead the establishment and development of the \"Network of Excellence Centers and Talent Training for Industry 4.0 in Artificial Intelligence (AI) - Southern Vietnam\"."
+      }
+    },
+    "vision": {
+      "title": "VISION AND OPERATING PRINCIPLES",
+      "visionSection": {
+        "title": "Vision:",
+        "items": [
+          "Build a synergistic AI ecosystem connecting universities – research institutes – enterprises.",
+          "Become the national hub in Southern Vietnam for AI training, research, and technology transfer."
+        ]
+      },
+      "principles": {
+        "title": "Operating Principles:",
+        "items": [
+          "Resource Sharing – Joint Development – Mutual Benefit.",
+          "Combining training – research – practical applications, aligned with national development needs."
+        ]
+      }
+    }
+  },
+  "regulations": {
+      "badge": "Regulations",
+      "title": "General Provisions",
+      "mainTitle": "OPERATING REGULATIONS",
+      "mainSubtitle": "NETWORK OF CENTERS OF EXCELLENCE & TECHNOLOGY 4.0 TALENT TRAINING IN ARTIFICIAL INTELLIGENCE (AI)",
+      "lastUpdated": "Last updated",
+      "chapter1": {
+        "title": "CHAPTER I. GENERAL PROVISIONS",
+        "article1": {
+          "title": "Article 1. Scope of Regulation",
+          "content": "This Regulation stipulates the organizational structure, functions, duties, powers, coordination mechanisms, operating principles, reporting regime, supervision and evaluation, and other provisions related to the implementation of all activities of the Network of Centers of Excellence and Technology 4.0 Talent Training – Artificial Intelligence (AI) sector (hereinafter referred to as the \"AI Network\")."
+        },
+        "article2": {
+          "title": "Article 2. Subjects of Application",
+          "intro": "This Regulation applies to:",
+          "items": [
+            "The lead institution and member institutions of the AI Network;",
+            "The Executive Board and specialized subcommittees;",
+            "Individuals and organizations participating in or coordinating the implementation of activities under the Network."
+          ]
+        },
+        "article3": {
+          "title": "Article 3. Legal Basis",
+          "intro": "The Network operates on the basis of:",
+          "items": [
+            "Decision No. 374/QĐ-TTg approving the Scheme for Centers of Excellence and Technology 4.0 Talent Training;",
+            "Decision No. 1982/QĐ-TTg promulgating the Vietnam National Qualifications Framework;",
+            "Circular No. 17/2021/TT-BGDĐT on standards for higher education curricula;",
+            "Assignments by the Ministry of Education and Training (MOET) to Ho Chi Minh City University of Technology – VNU-HCM as the lead institution for developing the Network;",
+            "Resolutions, decisions, and guidelines of HCMUT and VNU-HCM."
+          ]
+        },
+        "article4": {
+          "title": "Article 4. Operating Principles",
+          "items": [
+            "Compliance with applicable laws and regulations.",
+            "Cooperation – sharing – co-development – shared benefits, ensuring a balance of interests among members.",
+            "Close linkage among training, research, and technology transfer, connecting theory with practice.",
+            "Respect for the autonomy of each institution while ensuring alignment with common orientations.",
+            "Transparency, openness, and accountability in all activities.",
+            "Innovation, international integration, and sustainable development as overarching orientations."
+          ]
+        }
+      },
+      "chapter2": {
+        "title": "CHAPTER II. NETWORK ORGANIZATION",
+        "article5": {
+          "title": "Article 5. Overall Organizational Structure",
+          "intro": "The AI Network includes:",
+          "items": [
+            "Lead institution: Ho Chi Minh City University of Technology – VNU-HCM;",
+            "Network Executive Board (Chairperson, members, secretary);",
+            "Specialized subcommittees, including: Training & Curriculum Standardization Subcommittee; Research – Application & Co-Development Teams Subcommittee; Industry Partnership & Technology Transfer Subcommittee; International Cooperation & Expert Network Subcommittee;",
+            "Member institutions: universities, research institutes, enterprises, and organizations, updated biennially."
+          ]
+        },
+        "article6": {
+          "title": "Article 6. Network Executive Board",
+          "items": [
+            "The Executive Board is the body that manages, coordinates, and decides on support activities within the Network.",
+            "It consists of a Chairperson and members representing key member institutions.",
+            "The Chairperson is nominated by the lead institution.",
+            "The Executive Board may have its own seal (if permitted) and uses the seal of the lead institution for official documents."
+          ]
+        },
+        "article7": {
+          "title": "Article 7. Specialized Subcommittees",
+          "items": [
+            "Each subcommittee has a Head, Deputy Head(s), and members nominated by member institutions.",
+            "Subcommittees may establish working groups, specialized research groups, or appraisal councils as required."
+          ]
+        },
+        "article8": {
+          "title": "Article 8. Network Members",
+          "items": [
+            "Network members are institutions that meet criteria on training capacity, research capability, human resources, facilities, and commitment to joint activities.",
+            "Admission to or withdrawal from the Network shall follow the procedure specified in Article 20 of this Regulation."
+          ]
+        }
+      },
+      "chapter3": {
+        "title": "CHAPTER III. DUTIES AND POWERS",
+        "article9": {
+          "title": "Article 9. Responsibilities of the Lead Institution",
+          "items": [
+            "Overall coordination and full accountability to MOET and VNU-HCM for Network operations.",
+            "Issuance of plans, regulations, guidelines, and coordination documents.",
+            "Allocation of personnel to support administrative and technical management.",
+            "Resolution of issues related to mechanisms, procedures, finance, and overall coordination."
+          ]
+        },
+        "article10": {
+          "title": "Article 10. Duties of the Executive Board",
+          "items": [
+            "Develop strategies and annual/periodic plans.",
+            "Assign tasks to subcommittees.",
+            "Approve R&D projects, training programs, workshops, and industry collaborations.",
+            "Supervise, inspect, and evaluate member activities.",
+            "Organize regular meetings (at least twice a year) or ad-hoc meetings."
+          ]
+        },
+        "article11": {
+          "title": "Article 11. Duties of Specialized Subcommittees",
+          "items": [
+            "Training Subcommittee: develop curriculum frameworks; standardize, accredit, and co-develop courses; organize AI faculty development.",
+            "Research – Application Subcommittee: define key research directions; organize research projects; coordinate co-development teams; support international publications.",
+            "Industry Partnership Subcommittee: seek partners; propose co-development models; build AI testbeds.",
+            "International Cooperation Subcommittee: connect experts and international universities; organize international conferences; promote research and training cooperation."
+          ]
+        },
+        "article12": {
+          "title": "Article 12. Rights of Member Institutions",
+          "items": [
+            "Propose training, research, workshops, and industry collaboration tasks.",
+            "Receive support for sharing resources, data, laboratories, and experts.",
+            "Participate in building and using shared infrastructure in accordance with regulations.",
+            "Participate in academic, networking, and conference activities of the Network."
+          ]
+        },
+        "article13": {
+          "title": "Article 13. Obligations of Member Institutions",
+          "items": [
+            "Comply with this Regulation and Network management documents.",
+            "Provide data, personnel, and resources as committed.",
+            "Submit periodic and ad-hoc reports as required.",
+            "Fully and promptly coordinate in implementing common tasks."
+          ]
+        }
+      },
+      "chapter4": {
+        "title": "CHAPTER IV. OPERATING PROCEDURES",
+        "article14": {
+          "title": "Article 14. Task Proposal Procedure",
+          "intro": "The procedure for proposing, appraising, and approving tasks in the AI Network is carried out according to the following steps, ensuring transparency, scientific rigor, feasibility, and alignment with the Network's strategic direction.",
+          "items": [
+            "All tasks in the following groups must be proposed in writing: training, research and development (R&D), technology transfer, industry collaboration, international cooperation, workshops and communication, and infrastructure development.",
+            "All tasks must be evaluated for: objectives, novelty, urgency, feasibility, resources, expected outputs, and impact on the Network.",
+            "Proposals lacking documentation, outside the scope of functions, or without a responsible unit will not be considered.",
+            "Proposing units submit documents through the task management system or the Executive Board's official email.",
+            "The Executive Board holds regular/quarterly or ad-hoc meetings to review tasks that have been validated."
+          ]
+        },
+        "article15": {
+          "title": "Article 15. AI Training Program Development Procedure",
+          "intro": "The procedure for developing, appraising, approving, and implementing training programs in the field of Artificial Intelligence (AI) in the AI Network is carried out uniformly according to the following steps.",
+          "items": [
+            "AI training programs developed in the Network must ensure: modernity, alignment with international trends; compliance with output standards and the National Qualifications Framework; interdisciplinary nature and strong connection with labor market needs; ability to be implemented at multiple member institutions.",
+            "Each program must have a lead unit, a compilation team, and cooperating units.",
+            "New programs must be appraised and approved before implementation.",
+            "Training program development documentation includes: program development proposal, detailed program framework, detailed syllabus for at least 30% of core courses, expected accreditation standards and ability to meet AUN-QA or ABET (if applicable), pilot implementation plan, evidence of the development team's capacity.",
+            "The implementation procedure includes: program development proposal, establishment of compilation team, development of output standards and program structure, content and course compilation, stakeholder consultation, program appraisal, program approval, pilot implementation, evaluation – completion – official promulgation."
+          ]
+        },
+        "article16": {
+          "title": "Article 16. R&D Project Implementation Procedure",
+          "intro": "The procedure for implementing research and development (R&D) projects in the AI Network is carried out in 06 main phases, ensuring scientific rigor, transparency, effectiveness, and alignment with the Network's strategic direction.",
+          "items": [
+            "R&D projects must aim to solve practical problems, contribute scientifically, or create applicable AI products/solutions.",
+            "Each R&D project must have: a lead unit, cooperating units, a project director, a research team, clear budget and resource estimates.",
+            "All projects must be approved in writing by the Executive Board.",
+            "R&D projects are prioritized if: they have industry collaboration; they have potential for international publication; they have AI models or prototype products; they mobilize co-funding.",
+            "R&D project proposal documentation includes: R&D project proposal, scientific profiles of the director and research team, consent documents from cooperating units/enterprises (if applicable), related background documents."
+          ]
+        },
+        "article17": {
+          "title": "Article 17. Industry Collaboration Procedure",
+          "intro": "The industry collaboration procedure in the AI Network is designed to ensure transparency, effectiveness, mutual benefit, and promote the development of the training – research – application AI ecosystem.",
+          "items": [
+            "Ensure voluntary – equal – transparent – mutually beneficial collaboration between the AI Network and enterprises.",
+            "Collaboration must have clear objectives, specific products, and measurable outputs.",
+            "Prioritize co-development models with data, technology, and human resource sharing as agreed.",
+            "Industry collaboration activities must align with the AI Network's 2025–2030 strategic direction.",
+            "All collaborations must have a Memorandum of Understanding (MOU) or Contract/Cooperation Agreement (MOA), in accordance with legal regulations."
+          ]
+        },
+        "article18": {
+          "title": "Article 18. International Expert Invitation and Collaboration Procedure",
+          "intro": "The international expert collaboration procedure aims to ensure that academic – research – training collaboration activities in the AI Network are conducted in accordance with regulations, transparently, professionally, effectively, and attract reputable global experts and scientists.",
+          "items": [
+            "International expert collaboration must align with: the AI Network's strategic direction; training – research – international cooperation activity plans; regulations of Vietnamese law, MOET, VNU-HCM, and HCMUT.",
+            "Priority is given to experts with: reputable international publications (SCIE/SCI, Q1, Q2); experience in AI/ML/DL technology projects; contributions to the AI ecosystem; teaching/research supervision capabilities.",
+            "All expert invitation activities must have official documents, complete documentation, and appropriate financial mechanisms.",
+            "Ensure legality, confidentiality, and respect for intellectual property rights.",
+            "International expert collaboration in the Network includes: teaching and training; research and development; expert consultation; long-term collaboration."
+          ]
+        }
+      },
+      "chapter5": {
+        "title": "CHAPTER V. RESOURCE MECHANISM – FINANCE – INFRASTRUCTURE",
+        "article19": {
+          "title": "Article 19. Resource Sharing Mechanism",
+          "items": [
+            "Computing infrastructure (servers, GPUs), AI laboratories, and data are shared according to contribution levels.",
+            "Units have priority usage rights based on commitments and implementation capacity."
+          ]
+        },
+        "article20": {
+          "title": "Article 20. Financial Mechanism",
+          "intro": "Funding sources include:",
+          "items": [
+            "State-approved project funding (if applicable);",
+            "Scientific research funding;",
+            "Socialized sources and enterprise sponsorship;",
+            "Training, workshop, and service fees;",
+            "Funds are managed and used according to University and legal regulations."
+          ]
+        }
+      },
+      "chapter6": {
+        "title": "CHAPTER VI. REPORTING – MONITORING – EVALUATION",
+        "article21": {
+          "title": "Article 21. Reporting Regime",
+          "items": [
+            "Monthly/quarterly reports: according to templates; submitted to the Executive Board.",
+            "Annual reports: summarizing results, planning tasks for the following year.",
+            "Ad-hoc reports: as required."
+          ]
+        },
+        "article22": {
+          "title": "Article 22. Inspection – Monitoring",
+          "items": [
+            "The Executive Board has the right to conduct periodic or ad-hoc inspections.",
+            "Evaluation criteria include: progress, effectiveness, sustainability, ecosystem contribution.",
+            "Monitoring results serve as the basis for task adjustment or membership review."
+          ]
+        }
+      },
+      "chapter7": {
+        "title": "CHAPTER VII. IMPLEMENTATION PROVISIONS",
+        "article23": {
+          "title": "Article 23. Effectiveness",
+          "content": "This Regulation takes effect after being approved by the Executive Board and promulgated by Ho Chi Minh City University of Technology – VNU-HCM."
+        },
+        "article24": {
+          "title": "Article 24. Amendments and Supplements",
+          "content": "Amendments to this Regulation must be approved by at least 2/3 of the Executive Board members voting in favor."
+        }
+      }
+  },
+  "blog": {
+    "badge": "Insights",
+    "title": "Blog & Articles",
+    "description": "Insights, research updates, and thought leadership from our consortium members and partners.",
+    "readMore": "Read More",
+    "minRead": "min read",
+    "post1": {
+      "title": "The Future of AI in Vietnamese Manufacturing",
+      "excerpt": "Exploring how AI is transforming manufacturing processes and driving Industry 4.0 adoption in Vietnam."
+    },
+    "post2": {
+      "title": "Building AI Talent: University-Industry Collaboration",
+      "excerpt": "How partnerships between universities and tech companies are shaping the next generation of AI professionals."
+    },
+    "post3": {
+      "title": "AI Ethics: A Vietnamese Perspective",
+      "excerpt": "Examining the unique cultural and regulatory considerations for ethical AI development in Vietnam."
+    },
+    "post4": {
+      "title": "Natural Language Processing for Vietnamese",
+      "excerpt": "Recent advances in NLP models specifically designed for the Vietnamese language."
+    },
+    "post5": {
+      "title": "Healthcare AI: Opportunities and Challenges",
+      "excerpt": "An overview of AI applications in Vietnamese healthcare and the road ahead."
+    },
+    "post6": {
+      "title": "Startup Ecosystem: AI Innovation in HCMC",
+      "excerpt": "Mapping the growing AI startup scene in Ho Chi Minh City and success stories."
+    },
+    "categories": {
+      "industryInsights": "Industry Insights",
+      "education": "Education",
+      "ethics": "Ethics",
+      "research": "Research",
+      "healthcare": "Healthcare",
+      "startups": "Startups"
+    }
+  },
+  "contact": {
+    "badge": "Get in Touch",
+    "title": "Contact Us",
+    "description": "Have questions or want to learn more about the AI Network consortium? We'd love to hear from you.",
+    "connectTitle": "Let's Connect",
+    "connectDescription": "Whether you're interested in joining our consortium, have a collaboration proposal, or simply want to learn more about our initiatives, we're here to help.",
+    "emailLabel": "Email",
+    "phoneLabel": "Phone",
+    "locationLabel": "Location",
+    "locationValue": "Department of Computer Science and Engineering (CSE), Ho Chi Minh City University of Technology",
+    "locationSubvalue": "Building A3, 268 Ly Thuong Kiet Street, Dien Hong Ward, Ho Chi Minh City",
+    "formTitle": "Send a Message",
+    "fullName": "Full Name",
+    "yourName": "Your name",
+    "email": "Email",
+    "subject": "Subject",
+    "subjectPlaceholder": "What is this about?",
+    "message": "Message",
+    "messagePlaceholder": "Your message...",
+    "sendMessage": "Send Message",
+    "messageSent": "Message Sent",
+    "messageSentTitle": "Message sent!",
+    "messageSentDescription": "Our team will get back to you within 24-48 hours."
+  },
+  "footer": {
+    "tagline": "Network of Excellence Centers and Talent Training for Industry 4.0 in Artificial Intelligence (AI) - Southern Vietnam.",
+    "consortium": "Consortium",
+    "aboutUs": "About Us",
+    "ourMission": "Our Mission",
+    "foundingMembers": "Founding Members",
+    "contact": "Contact",
+    "resources": "Resources",
+    "eventsLink": "Events",
+    "researchReports": "Research Reports",
+    "blogLink": "Blog",
+    "collaborateLink": "Collaborate",
+    "contactTitle": "Contact"
+  },
+  "common": {
+    "required": "*"
+  },
+  "auth": {
+    "signIn": "Sign in",
+    "signUp": "Sign up",
+    "signOut": "Sign out",
+    "email": "Email",
+    "password": "Password",
+    "name": "Full name",
+    "continueWithGoogle": "Continue with Google",
+    "orContinueWithEmail": "Or continue with email",
+    "signInDescription": "Access your AI Network member account.",
+    "signUpDescription": "Create an account to manage your registrations.",
+    "signedIn": "Signed in",
+    "welcomeBack": "Welcome back to AI Network.",
+    "invalidCredentials": "Invalid email or password.",
+    "signingIn": "Signing in",
+    "createAccount": "Create account",
+    "checkYourEmail": "Check your email",
+    "verificationEmailSent": "We have sent you a verification code.",
+    "signupError": "Unable to complete sign up. Please try again.",
+    "noAccount": "Don't have an account?",
+    "alreadyHaveAccount": "Already have an account?",
+    "adminLogin": "Admin login",
+    "adminLoginDescription": "Only approved admin users can access the management panel.",
+    "accessDeniedNonAdmin": "You are signed in but do not have admin access.",
+    "useGeneralLogin": "Not an admin?",
+    "signedOut": "Signed out",
+    "youHaveSignedOut": "You have been signed out successfully."
+  },
+  "profile": {
+    "title": "My Profile",
+    "subtitle": "Manage your personal information and preferences",
+    "myRegistrations": "My Event Registrations",
+    "noRegistrations": "You have not registered for any events yet.",
+    "cancelRegistration": "Cancel",
+    "cancelConfirmTitle": "Cancel Registration?",
+    "cancelConfirmDescription": "Are you sure you want to cancel your registration for \"{{eventName}}\"? You can register again later if you change your mind.",
+    "keepRegistration": "Keep Registration",
+    "confirmCancel": "Yes, Cancel Registration",
+    "cancelling": "Cancelling...",
+    "cancelSuccess": "Registration Cancelled",
+    "cancelSuccessDescription": "Your registration has been cancelled successfully.",
+    "cancelError": "Cancellation Failed",
+    "edit": "Edit Profile",
+    "save": "Save Changes",
+    "saving": "Saving...",
+    "cancel": "Cancel",
+    "adminPanel": "Admin Panel",
+    "saveSuccess": "Profile Updated",
+    "saveSuccessDescription": "Your profile has been updated successfully.",
+    "saveError": "Update Failed",
+    "unnamed": "Unnamed User",
+    "name": "Full Name",
+    "namePlaceholder": "Enter your full name",
+    "jobTitle": "Job Title",
+    "jobTitlePlaceholder": "e.g., Software Engineer, Professor",
+    "organization": "Organization",
+    "organizationPlaceholder": "e.g., University, Company name",
+    "expertise": "Expertise & Bio",
+    "expertisePlaceholder": "Describe your areas of expertise and professional background...",
+    "contactEmail": "Contact Email",
+    "contactEmailPlaceholder": "Email for event-related communication",
+    "contactPhone": "Contact Phone",
+    "contactPhonePlaceholder": "+84...",
+    "invalidImageType": "Invalid File Type",
+    "invalidImageTypeDescription": "Please select an image file (JPEG, PNG, etc.)",
+    "imageTooLarge": "File Too Large",
+    "imageTooLargeDescription": "Please select an image smaller than 5MB.",
+    "imageUploadSuccess": "Photo Updated",
+    "imageUploadSuccessDescription": "Your profile photo has been updated successfully.",
+    "imageUploadError": "Upload Failed",
+    "loggedOutDescription": "You have been logged out successfully.",
+    "status": {
+      "pending": "Pending",
+      "confirmed": "Confirmed",
+      "cancelled": "Cancelled"
+    }
+  },
+  "team": {
+    "badge": "Organization Structure",
+    "title": "Network Organization Structure",
+    "description": "Meet the leadership team driving AI innovation and collaboration across Ho Chi Minh City's academic and industry ecosystem.",
+    "viewProfile": "View Profile",
+    "backToTeam": "Back to Team",
+    "about": "About",
+    "bioPlaceholder": "Biography coming soon...",
+    "structure": {
+      "leadTitle": "Network Lead:",
+      "leadOrg": "Ho Chi Minh City University of Technology – VNU-HCM",
+      "leadDesc": "Serves as the coordinating hub, connecting and leading the strategic development of the network.",
+      "membersTitle": "Members:",
+      "membersDesc1": "Comprises reputable universities and enterprises in the AI field, committed to contributing, sharing resources, and participating in AI ecosystem development.",
+      "membersDesc2": "The detailed list includes 20 universities and 7 enterprises, updated periodically when new members join or changes occur.",
+      "educationalTitle": "EDUCATIONAL INSTITUTIONS",
+      "educationalOrgs": [
+        "University of Technology – VNU-HCM",
+        "University of Science – VNU-HCM",
+        "University of Information Technology – VNU-HCM",
+        "International University – VNU-HCM",
+        "Can Tho University",
+        "Ho Chi Minh City University of Technology and Education",
+        "Industrial University of Ho Chi Minh City",
+        "Ton Duc Thang University",
+        "Ho Chi Minh City University of Technology (HUTECH)",
+        "University of Economics Ho Chi Minh City",
+        "Nha Trang University",
+        "Da Lat University",
+        "An Giang University – VNU-HCM",
+        "Van Lang University",
+        "Hanoi University of Science and Technology",
+        "Posts and Telecommunications Institute of Technology - Ho Chi Minh City Campus",
+        "University of Transport and Communications - Ho Chi Minh City Campus",
+        "Hanoi University of Civil Engineering",
+        "Nguyen Tat Thanh University",
+        "Vietnamese–German University"
+      ],
+      "enterpriseTitle": "ENTERPRISES",
+      "enterpriseOrgs": [
+        "VNG Corporation",
+        "FPT Software Ho Chi Minh Company Limited, FPT Corporation",
+        "BOSCH Global Software Technologies Company Limited",
+        "Sao Bac Dau Technologies Corporation",
+        "IVS Joint Stock Company",
+        "TMA Tech Group",
+        "YOUTHDEV Company Limited"
+      ]
+    },
+    "execBoardTitle": "EXECUTIVE BOARD AND OPERATING MECHANISM",
+    "execBoard": {
+      "boardTitle": "Executive Board:",
+      "boardDesc": "Consists of a chairperson and 14 members, unanimously agreed upon by the network member organizations.",
+      "dutiesTitle": "Duties:",
+      "duties": [
+        "Manage, supervise, and provide strategic direction for network activities.",
+        "Update membership status every 2 years.",
+        "Decide on admission or revocation of membership."
+      ],
+      "coreMembers": "Executive Board Members",
+      "extendedMembers": "Extended Members"
+    },
+    "members": {
+      "maiThanhPhong": {
+        "name": "Prof. Dr. Mai Thanh Phong",
+        "organization": "Ho Chi Minh City University of Technology – VNU-HCM",
+        "role": "Principal",
+        "bio": "",
+        "execRole": "Chairman"
+      },
+      "voDinhBay": {
+        "name": "Vo Dinh Bay",
+        "organization": "Ho Chi Minh City University of Technology (HUTECH)",
+        "role": "Vice Dean",
+        "bio": "Mr. Vo Dinh Bay is the Vice Dean and former Dean of the Faculty of Information Technology at Ho Chi Minh City University of Technology (HUTECH). He has over 20 years of experience in education and is an expert in Computer Science (Data Mining, Machine Learning, Soft Computing). He has published many scientific papers, supervised PhD students, and received numerous awards."
+      },
+      "leXuanBach": {
+        "name": "Le Xuan Bach",
+        "organization": "Ho Chi Minh City University of Technology - VNU-HCM",
+        "role": "Lecturer, Faculty of Computer Science & Engineering",
+        "bio": "Dr. Le Xuan Bach is a lecturer and researcher in the fields of Software Verification and Artificial Intelligence, with a focus on Reinforcement Learning, Program Verification, and Safe AI. He received his Ph.D. from the National University of Singapore (NUS) and conducted postdoctoral research at leading universities such as Oxford, NUS, NTU, and SMU. His research has been published at top-tier international conferences in Computer Science, including NeurIPS, POPL, ESOP, and ICALP."
+      },
+      "huynhHuuBang": {
+        "name": "Huynh Huu Bang",
+        "organization": "Medical AI",
+        "role": "CEO",
+        "bio": "CEO of Medical AI with over 20 years of in-depth experience in technology corporations, formerly Sales Director at Huawei Technology Group."
+      },
+      "leAnhCuong": {
+        "name": "Assoc. Prof. Dr. Le Anh Cuong",
+        "organization": "Ton Duc Thang University",
+        "role": "Vice Dean, Faculty of Information Technology",
+        "bio": "Acting Dean. Head of Strong Research Group. Head of NLP-KD Lab.",
+        "execRole": "Member"
+      },
+      "leNhatDuy": {
+        "name": "Le Nhat Duy",
+        "organization": "Ho Chi Minh City University of Industry",
+        "role": "Dean of Faculty of Information Technology"
+      },
+      "tranTuyenDuc": {
+        "name": "Mr. Tran Tuyen Duc",
+        "organization": "Sao Bac Dau Technologies",
+        "role": "Deputy General Director",
+        "bio": "Mr. Tran Tuyen Duc is a senior leader at Sao Bac Dau Technologies Corporation (SBD), currently serving as Deputy General Director of SBD and Chairman of the Founding Council & Advisory Board. He has held many other important positions such as Deputy CEO, Chairman of the Board of Directors, and General Director of SBD South. He has extensive experience in the information technology industry, having been with Sao Bac Dau since 1999.",
+        "execRole": "Member"
+      },
+      "tranPhucHong": {
+        "name": "Mr. Tran Phuc Hong",
+        "organization": "TMA Tech Group",
+        "role": "CEO, TMA Innovation",
+        "bio": "He is the CEO of TMA Innovation and TMA AI Center, specializing in developing and deploying new products and solutions with the goal of making Industry 4.0 technologies popular. He is a founding member and Vice President of the Vietnam Digital Technology Alliance (VNITO) since 2015.",
+        "execRole": "Member"
+      },
+      "phongNguyen": {
+        "name": "Phong Nguyen",
+        "organization": "Tasco",
+        "role": "Chief Development Officer (CDO)",
+        "bio": "Chief Development Officer (CDO) at Tasco JSC"
+      },
+      "leThanhSon": {
+        "name": "Le Thanh Son",
+        "organization": "MaivenPoint",
+        "role": "Head of Training",
+        "bio": "Mr. Le Thanh Son has over 20 years of experience in the IT industry in Singapore. Previously, he served as a Solutions Architect at IBM Watson. Currently, he heads the training department and recruits fresh graduates to accelerate their global career opportunities at MaivenPoint Academy."
+      },
+      "ngoDucThanh": {
+        "name": "Dr. Ngo Duc Thanh",
+        "organization": "University of Information Technology – VNU-HCM",
+        "role": "Dean of Faculty of Computer Science",
+        "bio": "Dr. Ngo Duc Thanh currently holds the position of Dean of the Faculty of Computer Science at the University of Information Technology (UIT) - Vietnam National University Ho Chi Minh City (VNU-HCM), a leading IT training institution. He plays an important role in training, career orientation, and participating in professional activities such as judging technology competitions. Details: Position: Dean of Faculty of Computer Science. Workplace: University of Information Technology (UIT) - VNU-HCM. Highlights: He is a reputable figure, frequently sharing experiences on learning and career orientation for students, and serving on the jury of major technology competitions such as My Smart City.",
+        "execRole": "Member"
+      },
+      "quanThanhTho": {
+        "name": "Assoc. Prof. Dr. Quan Thanh Tho",
+        "organization": "Ho Chi Minh City University of Technology – VNU-HCM",
+        "role": "Dean of Faculty of Computer Science & Engineering",
+        "bio": "Associate Professor (Assoc. Prof.) Quan Thanh Tho is a prominent lecturer and researcher at the Faculty of Computer Science & Engineering (CSE) of Ho Chi Minh City University of Technology - Vietnam National University Ho Chi Minh City (HCMUT). He currently holds the position of Head of Software Engineering Department at the faculty, and is also a Scientific Advisor, expert in Artificial Intelligence (AI), Natural Language Processing (NLP) and Machine Learning, and is the Director of the Bachelor of Computer Science (BAC) program. Position: Head of Software Engineering Department, Faculty of Computer Science and Engineering, HCMUT. Expertise: Formal methods, program analysis/verification, Semantic Web, machine learning, data mining, intelligent systems, Natural Language Processing (NLP), Artificial Intelligence (AI). Activities: Teaching, research, scientific advising for businesses (YouNet Group), participating in AI workforce development activities. Education: Graduated with a Bachelor's degree from HCMUT (1998) and a PhD from Nanyang Technological University (NTU), Singapore (2002).",
+        "execRole": "Secretary"
+      },
+      "thuVo": {
+        "name": "Mr. Vo Trong Thu",
+        "organization": "VNG",
+        "role": "Head of AI Lab, GreenNode",
+        "bio": "",
+        "execRole": "Member"
+      },
+      "huaPhuocTruong": {
+        "name": "Hua Phuoc Truong",
+        "organization": "CEO & Co-founder at YouthDev",
+        "role": "CEO & Co-founder",
+        "bio": "Mr. Hua Phuoc Truong is the CEO & Co-founder of YouthDev, a company providing digital transformation solutions for the broadcasting industry and DooPage (customer care management). He was also an outstanding valedictorian at the University of Information Technology (VNU-HCM) with impressive academic achievements and experience in AI development, highly regarded in the technology field."
+      },
+      "nguyenVanVu": {
+        "name": "Assoc. Prof. Dr. Nguyen Van Vu",
+        "organization": "University of Science – VNU-HCM",
+        "role": "Vice Dean, Faculty of Information Technology",
+        "bio": "Dr. Nguyen Van Vu is currently an Associate Professor and PhD at the Faculty of Information Technology (IT), University of Science, Vietnam National University, Ho Chi Minh City (VNU-HCM). He is one of the experienced lecturers specializing in Information Technology and participates in many international cooperation and research activities.",
+        "execRole": "Member"
+      }
+    }
+  },
+  "admin": {
+    "events": {
+      "title": "Manage Events",
+      "createNew": "Create Event",
+      "edit": "Edit Event",
+      "delete": "Delete",
+      "duplicate": "Duplicate",
+      "viewRegistrations": "View Registrations",
+      "count": "{{count}} events",
+      "noEvents": "No events found. Create your first event!",
+      "type": "Type",
+      "status": "Status",
+      "actions": "Actions",
+      "backToList": "Back to Events",
+      "saving": "Saving...",
+      "create": "Create Event",
+      "update": "Update Event",
+      "cancel": "Cancel",
+      "created": "Event Created",
+      "createdDescription": "Your event has been created successfully.",
+      "updated": "Event Updated",
+      "updatedDescription": "Your event has been updated successfully.",
+      "deleted": "Event Deleted",
+      "deletedDescription": "The event has been deleted.",
+      "deleteError": "Delete Failed",
+      "deleteErrorDescription": "Failed to delete the event. Please try again.",
+      "error": "Error",
+      "deleteConfirmTitle": "Delete Event?",
+      "deleteConfirmDescription": "This will permanently delete the event and all registrations. This action cannot be undone.",
+      "form": {
+        "basicInfo": "Basic Information",
+        "agenda": "Agenda",
+        "venue": "Venue & Schedule",
+        "settings": "Settings",
+        "titleVi": "Title (Vietnamese)",
+        "titleEn": "Title (English)",
+        "subtitleVi": "Subtitle (Vietnamese)",
+        "subtitleEn": "Subtitle (English)",
+        "descriptionVi": "Description (Vietnamese)",
+        "descriptionEn": "Description (English)",
+        "targetAudienceVi": "Target Audience (Vietnamese)",
+        "targetAudienceEn": "Target Audience (English)",
+        "addAgendaItem": "Add Agenda Item",
+        "removeAgendaItem": "Remove",
+        "noAgendaItems": "No agenda items yet. Add your first one!",
+        "time": "Time",
+        "date": "Date",
+        "startTime": "Start Time",
+        "endTime": "End Time",
+        "venueNameVi": "Venue Name (Vietnamese)",
+        "venueNameEn": "Venue Name (English)",
+        "address": "Address",
+        "city": "City",
+        "googleMapsUrl": "Google Maps URL",
+        "registrationDeadline": "Registration Deadline",
+        "maxAttendees": "Maximum Attendees",
+        "maxAttendeesDescription": "Leave empty for unlimited",
+        "featured": "Featured Event",
+        "featuredDescription": "Show this event prominently on the homepage",
+        "registrationUrl": "External Registration URL",
+        "registrationUrlDescription": "Optional external link for registration",
+        "qrCodeUrl": "QR Code Image URL",
+        "qrCodeUrlDescription": "URL to a QR code image for registration",
+        "bannerImage": "Banner Image URL",
+        "bannerImageDescription": "URL to the event banner image"
+      }
+    },
+    "registrations": {
+      "title": "Event Registrations",
+      "backToEvents": "Back to Events",
+      "totalRegistrations": "Total Registrations",
+      "pending": "Pending",
+      "confirmed": "Confirmed",
+      "cancelled": "Cancelled",
+      "filterAll": "All",
+      "filterPending": "Pending",
+      "filterConfirmed": "Confirmed",
+      "filterCancelled": "Cancelled",
+      "name": "Name",
+      "contact": "Contact",
+      "organization": "Organization",
+      "status": "Status",
+      "registeredOn": "Registered On",
+      "actions": "Actions",
+      "statusPending": "Pending",
+      "statusConfirmed": "Confirmed",
+      "statusCancelled": "Cancelled",
+      "confirm": "Confirm Registration",
+      "cancel": "Cancel Registration",
+      "reactivate": "Reactivate",
+      "delete": "Delete",
+      "cancelAction": "Cancel",
+      "noRegistrations": "No registrations found.",
+      "statusUpdated": "Status Updated",
+      "statusUpdatedDescription": "Registration status has been updated.",
+      "deleted": "Registration Deleted",
+      "deletedDescription": "The registration has been permanently deleted.",
+      "error": "Error",
+      "deleteConfirmTitle": "Delete Registration?",
+      "deleteConfirmDescription": "This will permanently delete this registration. This action cannot be undone."
+    }
+  }
+}
