@@ -9,8 +9,9 @@ async function bootstrap() {
   app.setGlobalPrefix('api');
 
   // CORS
+  const frontendUrl = process.env.FRONTEND_URL;
   app.enableCors({
-    origin: process.env.FRONTEND_URL || 'http://localhost:8080',
+    origin: frontendUrl && frontendUrl !== '*' ? frontendUrl : true,
     credentials: true,
   });
 
