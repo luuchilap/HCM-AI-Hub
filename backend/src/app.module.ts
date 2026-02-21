@@ -22,9 +22,11 @@ import { join } from 'path';
       useFactory: (config: ConfigService) => ({
         type: 'postgres',
         url: config.get('DATABASE_URL'),
-        ssl: true,
+        ssl: config.get('DATABASE_URL')?.includes('sslmode') || config.get('DATABASE_URL')?.includes('ssl=true')
+          ? { rejectUnauthorized: false }
+          : false,
         autoLoadEntities: true,
-        synchronize: false,
+        synchronize: true,
         extra: {
           connectionTimeoutMillis: 10000,
         },

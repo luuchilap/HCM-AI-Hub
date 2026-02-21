@@ -528,7 +528,7 @@ export class AdminService implements OnModuleInit {
       },
     ];
 
-    const results = [];
+    const results: string[] = [];
     for (const eventData of events) {
       const { agendaItems, ...eventFields } = eventData;
       const event = this.eventRepo.create(eventFields as DeepPartial<Event>);
