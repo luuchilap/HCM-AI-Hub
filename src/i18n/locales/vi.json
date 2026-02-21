@@ -65,6 +65,8 @@
     "seminar": "Tọa đàm",
     "upcoming": "Sắp tới",
     "past": "Đã qua",
+    "overview": "Tổng quan",
+    "searchPlaceholder": "Tìm kiếm sự kiện...",
     "all": "Tất cả",
     "registerNow": "Đăng ký ngay",
     "viewDetails": "Xem chi tiết",
@@ -72,6 +74,8 @@
     "pageDescription": "Tham gia các hội nghị, hội thảo và sự kiện kết nối để gặp gỡ các chuyên gia AI và nâng cao kiến thức.",
     "calendarBadge": "Lịch",
     "noEvents": "Không tìm thấy sự kiện",
+    "noUpcomingEvents": "Không tìm thấy sự kiện sắp tới",
+    "noPastEvents": "Không tìm thấy sự kiện đã qua",
     "detail": {
       "backToEvents": "Quay lại danh sách",
       "registrationClosed": "Hết hạn đăng ký",
@@ -293,243 +297,243 @@
     }
   },
   "regulations": {
-      "badge": "Quy chế",
-      "title": "Quy định chung",
-      "mainTitle": "BỘ QUY CHẾ HOẠT ĐỘNG",
-      "mainSubtitle": "MẠNG LƯỚI TRUNG TÂM ĐÀO TẠO XUẤT SẮC & TÀI NĂNG CÔNG NGHỆ 4.0 LĨNH VỰC TRÍ TUỆ NHÂN TẠO (AI)",
-      "lastUpdated": "Cập nhật lần cuối",
-      "chapter1": {
-        "title": "CHƯƠNG I. QUY ĐỊNH CHUNG",
-        "article1": {
-          "title": "Điều 1. Phạm vi điều chỉnh",
-          "content": "Quy chế này quy định về cơ cấu tổ chức, chức năng, nhiệm vụ, quyền hạn, cơ chế phối hợp, nguyên tắc vận hành, chế độ báo cáo, công tác giám sát – đánh giá và các quy định liên quan đến việc triển khai mọi hoạt động của Mạng lưới Trung tâm Đào tạo Xuất sắc và Tài năng Công nghệ 4.0 – lĩnh vực Trí tuệ nhân tạo (AI) (sau đây gọi tắt là \"Mạng lưới AI\")."
-        },
-        "article2": {
-          "title": "Điều 2. Đối tượng áp dụng",
-          "intro": "Quy chế áp dụng đối với:",
-          "items": [
-            "Đơn vị chủ trì và các đơn vị thành viên Mạng lưới AI;",
-            "Ban Điều hành và các tiểu ban chuyên môn;",
-            "Cá nhân, tổ chức tham gia hoặc phối hợp triển khai hoạt động thuộc Mạng lưới."
-          ]
-        },
-        "article3": {
-          "title": "Điều 3. Căn cứ pháp lý",
-          "intro": "Mạng lưới hoạt động trên cơ sở:",
-          "items": [
-            "Quyết định 374/QĐ-TTg phê duyệt Đề án Trung tâm Đào tạo Xuất sắc và Tài năng Công nghệ 4.0;",
-            "Quyết định 1982/QĐ-TTg ban hành Khung trình độ quốc gia Việt Nam;",
-            "Thông tư 17/2021/TT-BGDĐT về chuẩn chương trình đào tạo giáo dục đại học;",
-            "Nhiệm vụ Bộ GD&ĐT giao Trường Đại học Bách khoa – ĐHQG-HCM chủ trì phát triển Mạng lưới;",
-            "Các nghị quyết, quyết định và hướng dẫn của Trường ĐHBK và ĐHQG-HCM."
-          ]
-        },
-        "article4": {
-          "title": "Điều 4. Nguyên tắc hoạt động",
-          "items": [
-            "Tuân thủ pháp luật và quy định hiện hành.",
-            "Hợp tác – chia sẻ – đồng phát triển – cùng hưởng lợi, bảo đảm cân bằng lợi ích giữa các thành viên.",
-            "Liên kết chặt chẽ đào tạo – nghiên cứu – chuyển giao, gắn lý thuyết với thực tiễn.",
-            "Tôn trọng tính tự chủ của từng đơn vị, nhưng bảo đảm thống nhất theo định hướng chung.",
-            "Công khai – minh bạch – trách nhiệm giải trình trong mọi hoạt động.",
-            "Đổi mới sáng tạo – hội nhập quốc tế – phát triển bền vững là định hướng xuyên suốt."
-          ]
-        }
+    "badge": "Quy chế",
+    "title": "Quy định chung",
+    "mainTitle": "BỘ QUY CHẾ HOẠT ĐỘNG",
+    "mainSubtitle": "MẠNG LƯỚI TRUNG TÂM ĐÀO TẠO XUẤT SẮC & TÀI NĂNG CÔNG NGHỆ 4.0 LĨNH VỰC TRÍ TUỆ NHÂN TẠO (AI)",
+    "lastUpdated": "Cập nhật lần cuối",
+    "chapter1": {
+      "title": "CHƯƠNG I. QUY ĐỊNH CHUNG",
+      "article1": {
+        "title": "Điều 1. Phạm vi điều chỉnh",
+        "content": "Quy chế này quy định về cơ cấu tổ chức, chức năng, nhiệm vụ, quyền hạn, cơ chế phối hợp, nguyên tắc vận hành, chế độ báo cáo, công tác giám sát – đánh giá và các quy định liên quan đến việc triển khai mọi hoạt động của Mạng lưới Trung tâm Đào tạo Xuất sắc và Tài năng Công nghệ 4.0 – lĩnh vực Trí tuệ nhân tạo (AI) (sau đây gọi tắt là \"Mạng lưới AI\")."
       },
-      "chapter2": {
-        "title": "CHƯƠNG II. TỔ CHỨC MẠNG LƯỚI",
-        "article5": {
-          "title": "Điều 5. Cơ cấu tổ chức chung",
-          "intro": "Mạng lưới AI gồm:",
-          "items": [
-            "Đơn vị chủ trì: Trường Đại học Bách khoa – ĐHQG-HCM;",
-            "Ban Điều hành Mạng lưới (Chủ tịch, các ủy viên, thư ký);",
-            "Các tiểu ban chuyên môn gồm: Tiểu ban Đào tạo & Chuẩn hóa chương trình; Tiểu ban Nghiên cứu – Ứng dụng & Co-Development Teams; Tiểu ban Hợp tác doanh nghiệp và chuyển giao công nghệ; Tiểu ban Hợp tác quốc tế & mạng lưới chuyên gia;",
-            "Các đơn vị thành viên: các trường đại học, viện nghiên cứu, doanh nghiệp, tổ chức theo danh sách được cập nhật 2 năm/lần."
-          ]
-        },
-        "article6": {
-          "title": "Điều 6. Ban Điều hành Mạng lưới",
-          "items": [
-            "Ban Điều hành là cơ quan quản lý, điều phối và quyết định các hoạt động hỗ trợ trong Mạng lưới.",
-            "Ban Điều hành gồm Chủ tịch và các Ủy viên đại diện cho các đơn vị thành viên chủ chốt.",
-            "Chủ tịch Ban Điều hành do đơn vị chủ trì đề cử.",
-            "Ban Điều hành có con dấu (nếu được cho phép) và sử dụng con dấu của đơn vị chủ trì trong ban hành văn bản."
-          ]
-        },
-        "article7": {
-          "title": "Điều 7. Các tiểu ban chuyên môn",
-          "items": [
-            "Mỗi tiểu ban có Trưởng tiểu ban, Phó Trưởng tiểu ban và các thành viên được đề cử từ các đơn vị thành viên.",
-            "Các tiểu ban được phép thành lập các nhóm công tác chuyên môn, nhóm nghiên cứu chuyên sâu hoặc hội đồng thẩm định tùy nhu cầu công việc."
-          ]
-        },
-        "article8": {
-          "title": "Điều 8. Thành viên Mạng lưới",
-          "items": [
-            "Thành viên Mạng lưới là các đơn vị đáp ứng tiêu chí về năng lực đào tạo, nghiên cứu, nhân lực, cơ sở vật chất và cam kết tham gia hoạt động chung.",
-            "Việc gia nhập hoặc rút khỏi Mạng lưới thực hiện theo Quy trình tại Điều 20 của Quy chế này."
-          ]
-        }
+      "article2": {
+        "title": "Điều 2. Đối tượng áp dụng",
+        "intro": "Quy chế áp dụng đối với:",
+        "items": [
+          "Đơn vị chủ trì và các đơn vị thành viên Mạng lưới AI;",
+          "Ban Điều hành và các tiểu ban chuyên môn;",
+          "Cá nhân, tổ chức tham gia hoặc phối hợp triển khai hoạt động thuộc Mạng lưới."
+        ]
       },
-      "chapter3": {
-        "title": "CHƯƠNG III. NHIỆM VỤ – QUYỀN HẠN",
-        "article9": {
-          "title": "Điều 9. Trách nhiệm của đơn vị chủ trì",
-          "items": [
-            "Điều phối chung và chịu trách nhiệm toàn diện trước Bộ GD&ĐT và ĐHQG-HCM về hoạt động của Mạng lưới.",
-            "Chủ trì ban hành kế hoạch, quy chế, hướng dẫn và các văn bản điều phối.",
-            "Bố trí nhân sự hỗ trợ quản lý hành chính – kỹ thuật cho Mạng lưới.",
-            "Giải quyết các vấn đề liên quan đến cơ chế, thủ tục, tài chính và điều phối chung."
-          ]
-        },
-        "article10": {
-          "title": "Điều 10. Nhiệm vụ của Ban Điều hành",
-          "items": [
-            "Xây dựng chiến lược và kế hoạch hằng năm, giai đoạn.",
-            "Phân công nhiệm vụ cho các tiểu ban.",
-            "Phê duyệt đề xuất dự án R&D, chương trình đào tạo, hội thảo, hợp tác doanh nghiệp.",
-            "Giám sát, kiểm tra, đánh giá hoạt động của các thành viên.",
-            "Tổ chức họp định kỳ (tối thiểu 02 lần/năm) hoặc đột xuất."
-          ]
-        },
-        "article11": {
-          "title": "Điều 11. Nhiệm vụ của các tiểu ban chuyên môn",
-          "items": [
-            "Tiểu ban Đào tạo: xây dựng khung chương trình; chuẩn hóa, kiểm định, đồng xây dựng môn học; tổ chức bồi dưỡng giáo viên AI.",
-            "Tiểu ban Nghiên cứu – Ứng dụng: xây dựng hướng nghiên cứu trọng điểm; tổ chức đề tài; điều phối nhóm Co-Development; hỗ trợ công bố quốc tế.",
-            "Tiểu ban Hợp tác doanh nghiệp: tìm kiếm đối tác; đề xuất mô hình đồng phát triển sản phẩm; xây dựng AI Testbed.",
-            "Tiểu ban Hợp tác quốc tế: kết nối chuyên gia, trường đại học quốc tế; tổ chức hội thảo quốc tế; xúc tiến hợp tác nghiên cứu – đào tạo."
-          ]
-        },
-        "article12": {
-          "title": "Điều 12. Quyền của đơn vị thành viên",
-          "items": [
-            "Tham gia đề xuất nhiệm vụ đào tạo, nghiên cứu, hội thảo, hợp tác doanh nghiệp.",
-            "Được hỗ trợ chia sẻ tài nguyên, dữ liệu, phòng thí nghiệm và chuyên gia.",
-            "Tham gia xây dựng – sử dụng hạ tầng dùng chung theo quy định.",
-            "Được tham gia hoạt động học thuật, giao lưu, hội thảo của Mạng lưới."
-          ]
-        },
-        "article13": {
-          "title": "Điều 13. Nghĩa vụ của đơn vị thành viên",
-          "items": [
-            "Tuân thủ Quy chế và các văn bản điều hành của Mạng lưới.",
-            "Cung cấp dữ liệu, nhân sự, tài nguyên theo cam kết.",
-            "Báo cáo định kỳ và đột xuất theo yêu cầu.",
-            "Phối hợp đầy đủ và kịp thời trong triển khai nhiệm vụ chung."
-          ]
-        }
+      "article3": {
+        "title": "Điều 3. Căn cứ pháp lý",
+        "intro": "Mạng lưới hoạt động trên cơ sở:",
+        "items": [
+          "Quyết định 374/QĐ-TTg phê duyệt Đề án Trung tâm Đào tạo Xuất sắc và Tài năng Công nghệ 4.0;",
+          "Quyết định 1982/QĐ-TTg ban hành Khung trình độ quốc gia Việt Nam;",
+          "Thông tư 17/2021/TT-BGDĐT về chuẩn chương trình đào tạo giáo dục đại học;",
+          "Nhiệm vụ Bộ GD&ĐT giao Trường Đại học Bách khoa – ĐHQG-HCM chủ trì phát triển Mạng lưới;",
+          "Các nghị quyết, quyết định và hướng dẫn của Trường ĐHBK và ĐHQG-HCM."
+        ]
       },
-      "chapter4": {
-        "title": "CHƯƠNG IV. QUY TRÌNH HOẠT ĐỘNG",
-        "article14": {
-          "title": "Điều 14. Quy trình đề xuất nhiệm vụ",
-          "intro": "Quy trình đề xuất, thẩm định và phê duyệt nhiệm vụ trong Mạng lưới AI được thực hiện theo các bước sau đây, bảo đảm tính minh bạch, khoa học, khả thi và phù hợp với định hướng chiến lược của Mạng lưới.",
-          "items": [
-            "Tất cả các nhiệm vụ thuộc các nhóm: đào tạo, nghiên cứu – phát triển (R&D), chuyển giao công nghệ, hợp tác doanh nghiệp, hợp tác quốc tế, hội thảo – truyền thông, và phát triển hạ tầng đều phải được đề xuất bằng văn bản.",
-            "Mọi nhiệm vụ phải được đánh giá về: mục tiêu, tính mới, tính cấp thiết, tính khả thi, nguồn lực, dự kiến kết quả đầu ra và tác động đối với Mạng lưới.",
-            "Không xem xét các đề xuất thiếu hồ sơ, đề xuất ngoài phạm vi chức năng, hoặc không có đơn vị chịu trách nhiệm chính.",
-            "Đơn vị đề xuất gửi hồ sơ qua hệ thống quản lý nhiệm vụ hoặc email chính thức của Ban Điều hành.",
-            "Ban Điều hành họp định kỳ/quý hoặc họp chuyên đề để xét duyệt các nhiệm vụ được thẩm định hợp lệ."
-          ]
-        },
-        "article15": {
-          "title": "Điều 15. Quy trình xây dựng chương trình đào tạo AI",
-          "intro": "Quy trình xây dựng, thẩm định, phê duyệt và triển khai các chương trình đào tạo thuộc lĩnh vực Trí tuệ nhân tạo (AI) trong Mạng lưới AI được thực hiện thống nhất theo các bước sau đây.",
-          "items": [
-            "Các chương trình đào tạo AI xây dựng trong Mạng lưới phải đảm bảo: tính hiện đại, cập nhật xu hướng quốc tế; phù hợp với chuẩn đầu ra và Khung trình độ quốc gia; có tính liên ngành và gắn kết mạnh mẽ với nhu cầu thị trường lao động; có khả năng triển khai tại nhiều cơ sở thành viên.",
-            "Mỗi chương trình phải có đơn vị chủ trì, nhóm biên soạn và đơn vị phối hợp.",
-            "Các chương trình mới phải được thẩm định và phê duyệt trước khi triển khai.",
-            "Hồ sơ xây dựng chương trình đào tạo gồm: đề xuất xây dựng chương trình, khung chương trình chi tiết, đề cương chi tiết tối thiểu 30% học phần cốt lõi, dự kiến chuẩn kiểm định và khả năng đáp ứng theo AUN-QA hoặc ABET (nếu có), kế hoạch triển khai thí điểm, minh chứng năng lực nhóm xây dựng.",
-            "Quy trình thực hiện gồm: đề xuất xây dựng chương trình, thành lập nhóm biên soạn, xây dựng chuẩn đầu ra và cấu trúc chương trình, biên soạn nội dung và học phần, lấy ý kiến các bên liên quan, thẩm định chương trình, phê duyệt chương trình, triển khai thí điểm, đánh giá – hoàn thiện – ban hành chính thức."
-          ]
-        },
-        "article16": {
-          "title": "Điều 16. Quy trình triển khai dự án R&D",
-          "intro": "Quy trình triển khai các dự án nghiên cứu – phát triển (R&D) trong Mạng lưới AI được thực hiện theo 06 giai đoạn chính, bảo đảm tính khoa học, minh bạch, hiệu quả và phù hợp với định hướng chiến lược của Mạng lưới.",
-          "items": [
-            "Dự án R&D phải hướng đến giải quyết bài toán thực tiễn, đóng góp khoa học hoặc tạo ra sản phẩm/giải pháp AI có khả năng ứng dụng.",
-            "Mỗi dự án R&D phải có: đơn vị chủ trì, đơn vị phối hợp, chủ nhiệm dự án, nhóm nghiên cứu, dự toán kinh phí và nguồn lực rõ ràng.",
-            "Tất cả dự án phải được phê duyệt bằng văn bản của Ban Điều hành.",
-            "Dự án R&D được ưu tiên nếu: có hợp tác doanh nghiệp; có khả năng công bố quốc tế; có mô hình AI hoặc sản phẩm thử nghiệm; huy động được đồng tài trợ.",
-            "Hồ sơ đề xuất dự án R&D gồm: thuyết minh dự án R&D, lý lịch khoa học của chủ nhiệm và nhóm nghiên cứu, văn bản đồng ý của đơn vị phối hợp/doanh nghiệp (nếu có), các tài liệu nền liên quan."
-          ]
-        },
-        "article17": {
-          "title": "Điều 17. Quy trình hợp tác doanh nghiệp",
-          "intro": "Quy trình hợp tác doanh nghiệp trong Mạng lưới AI được thiết kế nhằm bảo đảm tính minh bạch, hiệu quả, hai bên cùng có lợi và thúc đẩy phát triển hệ sinh thái đào tạo – nghiên cứu – ứng dụng AI.",
-          "items": [
-            "Bảo đảm tự nguyện – bình đẳng – minh bạch – cùng có lợi giữa Mạng lưới AI và doanh nghiệp.",
-            "Hợp tác phải có mục tiêu rõ ràng, sản phẩm cụ thể, đầu ra đo lường được.",
-            "Ưu tiên các mô hình đồng phát triển (co-development), có chia sẻ dữ liệu, công nghệ và nhân lực theo thỏa thuận.",
-            "Hoạt động hợp tác doanh nghiệp phải phù hợp với định hướng chiến lược 2025–2030 của Mạng lưới AI.",
-            "Mọi hợp tác phải có biên bản ghi nhớ (MOU) hoặc hợp đồng/Thỏa thuận hợp tác (MOA), đúng quy định pháp luật."
-          ]
-        },
-        "article18": {
-          "title": "Điều 18. Quy trình mời và hợp tác chuyên gia quốc tế",
-          "intro": "Quy trình hợp tác chuyên gia quốc tế nhằm đảm bảo hoạt động hợp tác học thuật – nghiên cứu – đào tạo trong Mạng lưới AI được thực hiện đúng quy định, minh bạch, chuyên nghiệp, hiệu quả và thu hút được các chuyên gia, nhà khoa học uy tín toàn cầu.",
-          "items": [
-            "Hợp tác chuyên gia quốc tế phải phù hợp với: định hướng chiến lược của Mạng lưới AI; kế hoạch hoạt động đào tạo – nghiên cứu – hợp tác quốc tế; các quy định của pháp luật Việt Nam, Bộ GD&ĐT, ĐHQG-HCM và Trường ĐHBK.",
-            "Ưu tiên mời các chuyên gia có: công bố quốc tế uy tín (SCIE/SCI, Q1, Q2); kinh nghiệm dự án công nghệ AI/ML/DL; đóng góp vào hệ sinh thái AI; khả năng giảng dạy/hướng dẫn nghiên cứu.",
-            "Mọi hoạt động mời chuyên gia phải có văn bản chính thức, hồ sơ đầy đủ và cơ chế tài chính phù hợp.",
-            "Bảo đảm tính hợp pháp, bảo mật, tôn trọng quyền sở hữu trí tuệ.",
-            "Hợp tác chuyên gia quốc tế trong Mạng lưới bao gồm: giảng dạy, đào tạo; nghiên cứu – phát triển; chuyên gia tư vấn; hợp tác dài hạn."
-          ]
-        }
-      },
-      "chapter5": {
-        "title": "CHƯƠNG V. CƠ CHẾ NGUỒN LỰC – TÀI CHÍNH – CƠ SỞ VẬT CHẤT",
-        "article19": {
-          "title": "Điều 19. Cơ chế chia sẻ tài nguyên",
-          "items": [
-            "Hạ tầng tính toán (server, GPU), phòng thí nghiệm AI và dữ liệu được chia sẻ theo mức độ đóng góp.",
-            "Các đơn vị có quyền ưu tiên sử dụng dựa trên cam kết và năng lực triển khai."
-          ]
-        },
-        "article20": {
-          "title": "Điều 20. Cơ chế tài chính",
-          "intro": "Nguồn kinh phí bao gồm:",
-          "items": [
-            "Nguồn thuộc đề án được Nhà nước phê duyệt (nếu có);",
-            "Kinh phí sự nghiệp khoa học;",
-            "Nguồn xã hội hóa và tài trợ doanh nghiệp;",
-            "Kinh phí đào tạo, hội thảo, dịch vụ;",
-            "Quản lý và sử dụng kinh phí theo quy định của Trường và pháp luật."
-          ]
-        }
-      },
-      "chapter6": {
-        "title": "CHƯƠNG VI. BÁO CÁO – GIÁM SÁT – ĐÁNH GIÁ",
-        "article21": {
-          "title": "Điều 21. Chế độ báo cáo",
-          "items": [
-            "Báo cáo tháng/quý: theo mẫu; gửi về Ban Điều hành.",
-            "Báo cáo năm: tổng hợp kết quả, dự kiến nhiệm vụ năm sau.",
-            "Báo cáo đột xuất: theo yêu cầu."
-          ]
-        },
-        "article22": {
-          "title": "Điều 22. Kiểm tra – giám sát",
-          "items": [
-            "Ban Điều hành có quyền kiểm tra định kỳ hoặc đột xuất.",
-            "Tiêu chí đánh giá gồm: tiến độ, hiệu quả, tính bền vững, đóng góp hệ sinh thái.",
-            "Kết quả giám sát là căn cứ điều chỉnh nhiệm vụ hoặc xem xét tư cách thành viên."
-          ]
-        }
-      },
-      "chapter7": {
-        "title": "CHƯƠNG VII. ĐIỀU KHOẢN THI HÀNH",
-        "article23": {
-          "title": "Điều 23. Hiệu lực",
-          "content": "Quy chế này có hiệu lực sau khi được Ban Điều hành thông qua và Trường Đại học Bách khoa – ĐHQG-HCM ban hành."
-        },
-        "article24": {
-          "title": "Điều 24. Sửa đổi, bổ sung",
-          "content": "Việc sửa đổi Quy chế phải được ít nhất 2/3 thành viên Ban Điều hành bỏ phiếu tán thành."
-        }
+      "article4": {
+        "title": "Điều 4. Nguyên tắc hoạt động",
+        "items": [
+          "Tuân thủ pháp luật và quy định hiện hành.",
+          "Hợp tác – chia sẻ – đồng phát triển – cùng hưởng lợi, bảo đảm cân bằng lợi ích giữa các thành viên.",
+          "Liên kết chặt chẽ đào tạo – nghiên cứu – chuyển giao, gắn lý thuyết với thực tiễn.",
+          "Tôn trọng tính tự chủ của từng đơn vị, nhưng bảo đảm thống nhất theo định hướng chung.",
+          "Công khai – minh bạch – trách nhiệm giải trình trong mọi hoạt động.",
+          "Đổi mới sáng tạo – hội nhập quốc tế – phát triển bền vững là định hướng xuyên suốt."
+        ]
       }
+    },
+    "chapter2": {
+      "title": "CHƯƠNG II. TỔ CHỨC MẠNG LƯỚI",
+      "article5": {
+        "title": "Điều 5. Cơ cấu tổ chức chung",
+        "intro": "Mạng lưới AI gồm:",
+        "items": [
+          "Đơn vị chủ trì: Trường Đại học Bách khoa – ĐHQG-HCM;",
+          "Ban Điều hành Mạng lưới (Chủ tịch, các ủy viên, thư ký);",
+          "Các tiểu ban chuyên môn gồm: Tiểu ban Đào tạo & Chuẩn hóa chương trình; Tiểu ban Nghiên cứu – Ứng dụng & Co-Development Teams; Tiểu ban Hợp tác doanh nghiệp và chuyển giao công nghệ; Tiểu ban Hợp tác quốc tế & mạng lưới chuyên gia;",
+          "Các đơn vị thành viên: các trường đại học, viện nghiên cứu, doanh nghiệp, tổ chức theo danh sách được cập nhật 2 năm/lần."
+        ]
+      },
+      "article6": {
+        "title": "Điều 6. Ban Điều hành Mạng lưới",
+        "items": [
+          "Ban Điều hành là cơ quan quản lý, điều phối và quyết định các hoạt động hỗ trợ trong Mạng lưới.",
+          "Ban Điều hành gồm Chủ tịch và các Ủy viên đại diện cho các đơn vị thành viên chủ chốt.",
+          "Chủ tịch Ban Điều hành do đơn vị chủ trì đề cử.",
+          "Ban Điều hành có con dấu (nếu được cho phép) và sử dụng con dấu của đơn vị chủ trì trong ban hành văn bản."
+        ]
+      },
+      "article7": {
+        "title": "Điều 7. Các tiểu ban chuyên môn",
+        "items": [
+          "Mỗi tiểu ban có Trưởng tiểu ban, Phó Trưởng tiểu ban và các thành viên được đề cử từ các đơn vị thành viên.",
+          "Các tiểu ban được phép thành lập các nhóm công tác chuyên môn, nhóm nghiên cứu chuyên sâu hoặc hội đồng thẩm định tùy nhu cầu công việc."
+        ]
+      },
+      "article8": {
+        "title": "Điều 8. Thành viên Mạng lưới",
+        "items": [
+          "Thành viên Mạng lưới là các đơn vị đáp ứng tiêu chí về năng lực đào tạo, nghiên cứu, nhân lực, cơ sở vật chất và cam kết tham gia hoạt động chung.",
+          "Việc gia nhập hoặc rút khỏi Mạng lưới thực hiện theo Quy trình tại Điều 20 của Quy chế này."
+        ]
+      }
+    },
+    "chapter3": {
+      "title": "CHƯƠNG III. NHIỆM VỤ – QUYỀN HẠN",
+      "article9": {
+        "title": "Điều 9. Trách nhiệm của đơn vị chủ trì",
+        "items": [
+          "Điều phối chung và chịu trách nhiệm toàn diện trước Bộ GD&ĐT và ĐHQG-HCM về hoạt động của Mạng lưới.",
+          "Chủ trì ban hành kế hoạch, quy chế, hướng dẫn và các văn bản điều phối.",
+          "Bố trí nhân sự hỗ trợ quản lý hành chính – kỹ thuật cho Mạng lưới.",
+          "Giải quyết các vấn đề liên quan đến cơ chế, thủ tục, tài chính và điều phối chung."
+        ]
+      },
+      "article10": {
+        "title": "Điều 10. Nhiệm vụ của Ban Điều hành",
+        "items": [
+          "Xây dựng chiến lược và kế hoạch hằng năm, giai đoạn.",
+          "Phân công nhiệm vụ cho các tiểu ban.",
+          "Phê duyệt đề xuất dự án R&D, chương trình đào tạo, hội thảo, hợp tác doanh nghiệp.",
+          "Giám sát, kiểm tra, đánh giá hoạt động của các thành viên.",
+          "Tổ chức họp định kỳ (tối thiểu 02 lần/năm) hoặc đột xuất."
+        ]
+      },
+      "article11": {
+        "title": "Điều 11. Nhiệm vụ của các tiểu ban chuyên môn",
+        "items": [
+          "Tiểu ban Đào tạo: xây dựng khung chương trình; chuẩn hóa, kiểm định, đồng xây dựng môn học; tổ chức bồi dưỡng giáo viên AI.",
+          "Tiểu ban Nghiên cứu – Ứng dụng: xây dựng hướng nghiên cứu trọng điểm; tổ chức đề tài; điều phối nhóm Co-Development; hỗ trợ công bố quốc tế.",
+          "Tiểu ban Hợp tác doanh nghiệp: tìm kiếm đối tác; đề xuất mô hình đồng phát triển sản phẩm; xây dựng AI Testbed.",
+          "Tiểu ban Hợp tác quốc tế: kết nối chuyên gia, trường đại học quốc tế; tổ chức hội thảo quốc tế; xúc tiến hợp tác nghiên cứu – đào tạo."
+        ]
+      },
+      "article12": {
+        "title": "Điều 12. Quyền của đơn vị thành viên",
+        "items": [
+          "Tham gia đề xuất nhiệm vụ đào tạo, nghiên cứu, hội thảo, hợp tác doanh nghiệp.",
+          "Được hỗ trợ chia sẻ tài nguyên, dữ liệu, phòng thí nghiệm và chuyên gia.",
+          "Tham gia xây dựng – sử dụng hạ tầng dùng chung theo quy định.",
+          "Được tham gia hoạt động học thuật, giao lưu, hội thảo của Mạng lưới."
+        ]
+      },
+      "article13": {
+        "title": "Điều 13. Nghĩa vụ của đơn vị thành viên",
+        "items": [
+          "Tuân thủ Quy chế và các văn bản điều hành của Mạng lưới.",
+          "Cung cấp dữ liệu, nhân sự, tài nguyên theo cam kết.",
+          "Báo cáo định kỳ và đột xuất theo yêu cầu.",
+          "Phối hợp đầy đủ và kịp thời trong triển khai nhiệm vụ chung."
+        ]
+      }
+    },
+    "chapter4": {
+      "title": "CHƯƠNG IV. QUY TRÌNH HOẠT ĐỘNG",
+      "article14": {
+        "title": "Điều 14. Quy trình đề xuất nhiệm vụ",
+        "intro": "Quy trình đề xuất, thẩm định và phê duyệt nhiệm vụ trong Mạng lưới AI được thực hiện theo các bước sau đây, bảo đảm tính minh bạch, khoa học, khả thi và phù hợp với định hướng chiến lược của Mạng lưới.",
+        "items": [
+          "Tất cả các nhiệm vụ thuộc các nhóm: đào tạo, nghiên cứu – phát triển (R&D), chuyển giao công nghệ, hợp tác doanh nghiệp, hợp tác quốc tế, hội thảo – truyền thông, và phát triển hạ tầng đều phải được đề xuất bằng văn bản.",
+          "Mọi nhiệm vụ phải được đánh giá về: mục tiêu, tính mới, tính cấp thiết, tính khả thi, nguồn lực, dự kiến kết quả đầu ra và tác động đối với Mạng lưới.",
+          "Không xem xét các đề xuất thiếu hồ sơ, đề xuất ngoài phạm vi chức năng, hoặc không có đơn vị chịu trách nhiệm chính.",
+          "Đơn vị đề xuất gửi hồ sơ qua hệ thống quản lý nhiệm vụ hoặc email chính thức của Ban Điều hành.",
+          "Ban Điều hành họp định kỳ/quý hoặc họp chuyên đề để xét duyệt các nhiệm vụ được thẩm định hợp lệ."
+        ]
+      },
+      "article15": {
+        "title": "Điều 15. Quy trình xây dựng chương trình đào tạo AI",
+        "intro": "Quy trình xây dựng, thẩm định, phê duyệt và triển khai các chương trình đào tạo thuộc lĩnh vực Trí tuệ nhân tạo (AI) trong Mạng lưới AI được thực hiện thống nhất theo các bước sau đây.",
+        "items": [
+          "Các chương trình đào tạo AI xây dựng trong Mạng lưới phải đảm bảo: tính hiện đại, cập nhật xu hướng quốc tế; phù hợp với chuẩn đầu ra và Khung trình độ quốc gia; có tính liên ngành và gắn kết mạnh mẽ với nhu cầu thị trường lao động; có khả năng triển khai tại nhiều cơ sở thành viên.",
+          "Mỗi chương trình phải có đơn vị chủ trì, nhóm biên soạn và đơn vị phối hợp.",
+          "Các chương trình mới phải được thẩm định và phê duyệt trước khi triển khai.",
+          "Hồ sơ xây dựng chương trình đào tạo gồm: đề xuất xây dựng chương trình, khung chương trình chi tiết, đề cương chi tiết tối thiểu 30% học phần cốt lõi, dự kiến chuẩn kiểm định và khả năng đáp ứng theo AUN-QA hoặc ABET (nếu có), kế hoạch triển khai thí điểm, minh chứng năng lực nhóm xây dựng.",
+          "Quy trình thực hiện gồm: đề xuất xây dựng chương trình, thành lập nhóm biên soạn, xây dựng chuẩn đầu ra và cấu trúc chương trình, biên soạn nội dung và học phần, lấy ý kiến các bên liên quan, thẩm định chương trình, phê duyệt chương trình, triển khai thí điểm, đánh giá – hoàn thiện – ban hành chính thức."
+        ]
+      },
+      "article16": {
+        "title": "Điều 16. Quy trình triển khai dự án R&D",
+        "intro": "Quy trình triển khai các dự án nghiên cứu – phát triển (R&D) trong Mạng lưới AI được thực hiện theo 06 giai đoạn chính, bảo đảm tính khoa học, minh bạch, hiệu quả và phù hợp với định hướng chiến lược của Mạng lưới.",
+        "items": [
+          "Dự án R&D phải hướng đến giải quyết bài toán thực tiễn, đóng góp khoa học hoặc tạo ra sản phẩm/giải pháp AI có khả năng ứng dụng.",
+          "Mỗi dự án R&D phải có: đơn vị chủ trì, đơn vị phối hợp, chủ nhiệm dự án, nhóm nghiên cứu, dự toán kinh phí và nguồn lực rõ ràng.",
+          "Tất cả dự án phải được phê duyệt bằng văn bản của Ban Điều hành.",
+          "Dự án R&D được ưu tiên nếu: có hợp tác doanh nghiệp; có khả năng công bố quốc tế; có mô hình AI hoặc sản phẩm thử nghiệm; huy động được đồng tài trợ.",
+          "Hồ sơ đề xuất dự án R&D gồm: thuyết minh dự án R&D, lý lịch khoa học của chủ nhiệm và nhóm nghiên cứu, văn bản đồng ý của đơn vị phối hợp/doanh nghiệp (nếu có), các tài liệu nền liên quan."
+        ]
+      },
+      "article17": {
+        "title": "Điều 17. Quy trình hợp tác doanh nghiệp",
+        "intro": "Quy trình hợp tác doanh nghiệp trong Mạng lưới AI được thiết kế nhằm bảo đảm tính minh bạch, hiệu quả, hai bên cùng có lợi và thúc đẩy phát triển hệ sinh thái đào tạo – nghiên cứu – ứng dụng AI.",
+        "items": [
+          "Bảo đảm tự nguyện – bình đẳng – minh bạch – cùng có lợi giữa Mạng lưới AI và doanh nghiệp.",
+          "Hợp tác phải có mục tiêu rõ ràng, sản phẩm cụ thể, đầu ra đo lường được.",
+          "Ưu tiên các mô hình đồng phát triển (co-development), có chia sẻ dữ liệu, công nghệ và nhân lực theo thỏa thuận.",
+          "Hoạt động hợp tác doanh nghiệp phải phù hợp với định hướng chiến lược 2025–2030 của Mạng lưới AI.",
+          "Mọi hợp tác phải có biên bản ghi nhớ (MOU) hoặc hợp đồng/Thỏa thuận hợp tác (MOA), đúng quy định pháp luật."
+        ]
+      },
+      "article18": {
+        "title": "Điều 18. Quy trình mời và hợp tác chuyên gia quốc tế",
+        "intro": "Quy trình hợp tác chuyên gia quốc tế nhằm đảm bảo hoạt động hợp tác học thuật – nghiên cứu – đào tạo trong Mạng lưới AI được thực hiện đúng quy định, minh bạch, chuyên nghiệp, hiệu quả và thu hút được các chuyên gia, nhà khoa học uy tín toàn cầu.",
+        "items": [
+          "Hợp tác chuyên gia quốc tế phải phù hợp với: định hướng chiến lược của Mạng lưới AI; kế hoạch hoạt động đào tạo – nghiên cứu – hợp tác quốc tế; các quy định của pháp luật Việt Nam, Bộ GD&ĐT, ĐHQG-HCM và Trường ĐHBK.",
+          "Ưu tiên mời các chuyên gia có: công bố quốc tế uy tín (SCIE/SCI, Q1, Q2); kinh nghiệm dự án công nghệ AI/ML/DL; đóng góp vào hệ sinh thái AI; khả năng giảng dạy/hướng dẫn nghiên cứu.",
+          "Mọi hoạt động mời chuyên gia phải có văn bản chính thức, hồ sơ đầy đủ và cơ chế tài chính phù hợp.",
+          "Bảo đảm tính hợp pháp, bảo mật, tôn trọng quyền sở hữu trí tuệ.",
+          "Hợp tác chuyên gia quốc tế trong Mạng lưới bao gồm: giảng dạy, đào tạo; nghiên cứu – phát triển; chuyên gia tư vấn; hợp tác dài hạn."
+        ]
+      }
+    },
+    "chapter5": {
+      "title": "CHƯƠNG V. CƠ CHẾ NGUỒN LỰC – TÀI CHÍNH – CƠ SỞ VẬT CHẤT",
+      "article19": {
+        "title": "Điều 19. Cơ chế chia sẻ tài nguyên",
+        "items": [
+          "Hạ tầng tính toán (server, GPU), phòng thí nghiệm AI và dữ liệu được chia sẻ theo mức độ đóng góp.",
+          "Các đơn vị có quyền ưu tiên sử dụng dựa trên cam kết và năng lực triển khai."
+        ]
+      },
+      "article20": {
+        "title": "Điều 20. Cơ chế tài chính",
+        "intro": "Nguồn kinh phí bao gồm:",
+        "items": [
+          "Nguồn thuộc đề án được Nhà nước phê duyệt (nếu có);",
+          "Kinh phí sự nghiệp khoa học;",
+          "Nguồn xã hội hóa và tài trợ doanh nghiệp;",
+          "Kinh phí đào tạo, hội thảo, dịch vụ;",
+          "Quản lý và sử dụng kinh phí theo quy định của Trường và pháp luật."
+        ]
+      }
+    },
+    "chapter6": {
+      "title": "CHƯƠNG VI. BÁO CÁO – GIÁM SÁT – ĐÁNH GIÁ",
+      "article21": {
+        "title": "Điều 21. Chế độ báo cáo",
+        "items": [
+          "Báo cáo tháng/quý: theo mẫu; gửi về Ban Điều hành.",
+          "Báo cáo năm: tổng hợp kết quả, dự kiến nhiệm vụ năm sau.",
+          "Báo cáo đột xuất: theo yêu cầu."
+        ]
+      },
+      "article22": {
+        "title": "Điều 22. Kiểm tra – giám sát",
+        "items": [
+          "Ban Điều hành có quyền kiểm tra định kỳ hoặc đột xuất.",
+          "Tiêu chí đánh giá gồm: tiến độ, hiệu quả, tính bền vững, đóng góp hệ sinh thái.",
+          "Kết quả giám sát là căn cứ điều chỉnh nhiệm vụ hoặc xem xét tư cách thành viên."
+        ]
+      }
+    },
+    "chapter7": {
+      "title": "CHƯƠNG VII. ĐIỀU KHOẢN THI HÀNH",
+      "article23": {
+        "title": "Điều 23. Hiệu lực",
+        "content": "Quy chế này có hiệu lực sau khi được Ban Điều hành thông qua và Trường Đại học Bách khoa – ĐHQG-HCM ban hành."
+      },
+      "article24": {
+        "title": "Điều 24. Sửa đổi, bổ sung",
+        "content": "Việc sửa đổi Quy chế phải được ít nhất 2/3 thành viên Ban Điều hành bỏ phiếu tán thành."
+      }
+    }
   },
   "blog": {
     "badge": "Tin tức",
@@ -774,7 +778,7 @@
         "name": "Huỳnh Hữu Bằng",
         "organization": "Medical AI",
         "role": "Giám đốc điều hành",
-        "bio": "Giám đốc điều hành Medical AI với kinh nghiệm chuyên sâu hơn 20 năm trong các tập đoàn công nghệ, từng làm giám đốc kinh doanh của Tập đoàn Công nghệ Huawei"
+        "bio": "Giám đốc điều hành Medical AI với kinh nghiệm chuyên sâu hơn 20 năm trong các tập đoàn công nghệ, từng làm giám đốc kinh doanh của Tập đoàn Công nghệ Huawei."
       },
       "leAnhCuong": {
         "name": "PGS. TS. Lê Anh Cường",
@@ -792,7 +796,7 @@
         "name": "Ông Trần Tuyên Đức",
         "organization": "Công ty Cổ phần Công nghệ Sao Bắc Đẩu",
         "role": "Phó Tổng giám đốc",
-        "bio": "Ông Trần Tuyên Đức là một lãnh đạo cấp cao tại Công ty Cổ phần Công nghệ Sao Bắc Đẩu (SBD), hiện giữ chức Phó Tổng Giám đốc Công ty SBD và Chủ tịch Hội đồng Sáng lập & Cố vấn, từng đảm nhiệm nhiều vị trí quan trọng khác như Phó TGĐ, Chủ tịch HĐQT, và Tổng Giám đốc SBD South. Ông có kinh nghiệm lâu năm trong ngành công nghệ thông tin, gắn bó với Sao Bắc Đẩu từ những năm 1999",
+        "bio": "Ông Trần Tuyên Đức là một lãnh đạo cấp cao tại Công ty Cổ phần Công nghệ Sao Bắc Đẩu (SBD), hiện giữ chức Phó Tổng Giám đốc Công ty SBD và Chủ tịch Hội đồng Sáng lập & Cố vấn, từng đảm nhiệm nhiều vị trí quan trọng khác như Phó TGĐ, Chủ tịch HĐQT, và Tổng Giám đốc SBD South. Ông có kinh nghiệm lâu năm trong ngành công nghệ thông tin, gắn bó với Sao Bắc Đẩu từ những năm 1999.",
         "execRole": "Ủy viên"
       },
       "tranPhucHong": {
@@ -806,7 +810,7 @@
         "name": "Phong Nguyễn",
         "organization": "Tasco",
         "role": "Giám đốc Phát triển (CDO)",
-        "bio": "Giám đốc Phát triển (CDO) tại Tasco JSC"
+        "bio": "Giám đốc Phát triển (CDO) tại Tasco JSC."
       },
       "leThanhSon": {
         "name": "Lê Thanh Sơn",
@@ -825,7 +829,7 @@
         "name": "PGS. TS. Quản Thành Thơ",
         "organization": "Trường ĐH Bách khoa – ĐHQG TP.HCM",
         "role": "Trưởng khoa KH&KT Máy tính",
-        "bio": "Phó Giáo sư (PGS) Quản Thành Thơ là một giảng viên, nhà nghiên cứu nổi bật tại Khoa Khoa học & Kỹ thuật Máy tính (CSE) thuộc Trường Đại học Bách Khoa - Đại học Quốc gia TP.HCM (HCMUT). Ông hiện giữ vị trí Trưởng bộ môn Kỹ thuật Phần mềm (Software Engineering) tại khoa, đồng thời là Cố vấn khoa học, chuyên gia về Trí tuệ Nhân tạo (AI), Xử lý Ngôn ngữ Tự nhiên (NLP) và Học máy, và là Chủ nhiệm chương trình Cử nhân Khoa học máy tính (BAC). Chức vụ: Trưởng bộ môn Kỹ thuật Phần mềm, Khoa Khoa học và Kỹ thuật Máy tính, HCMUT. Chuyên môn: Phương pháp hình thức, phân tích/kiểm định chương trình, Semantic Web, máy học, khai phá dữ liệu, hệ thống thông minh, Xử lý Ngôn ngữ Tự nhiên (NLP), Trí tuệ Nhân tạo (AI). Hoạt động: Giảng dạy, nghiên cứu, cố vấn khoa học cho doanh nghiệp (YouNet Group), tham gia các hoạt động phát triển nhân lực AI. Học vấn: Tốt nghiệp Cử nhân tại HCMUT (1998) và Tiến sĩ tại Đại học Công nghệ Nanyang (NTU), Singapore (2002)",
+        "bio": "Phó Giáo sư (PGS) Quản Thành Thơ là một giảng viên, nhà nghiên cứu nổi bật tại Khoa Khoa học & Kỹ thuật Máy tính (CSE) thuộc Trường Đại học Bách Khoa - Đại học Quốc gia TP.HCM (HCMUT). Ông hiện giữ vị trí Trưởng bộ môn Kỹ thuật Phần mềm (Software Engineering) tại khoa, đồng thời là Cố vấn khoa học, chuyên gia về Trí tuệ Nhân tạo (AI), Xử lý Ngôn ngữ Tự nhiên (NLP) và Học máy, và là Chủ nhiệm chương trình Cử nhân Khoa học máy tính (BAC). Chức vụ: Trưởng bộ môn Kỹ thuật Phần mềm, Khoa Khoa học và Kỹ thuật Máy tính, HCMUT. Chuyên môn: Phương pháp hình thức, phân tích/kiểm định chương trình, Semantic Web, máy học, khai phá dữ liệu, hệ thống thông minh, Xử lý Ngôn ngữ Tự nhiên (NLP), Trí tuệ Nhân tạo (AI). Hoạt động: Giảng dạy, nghiên cứu, cố vấn khoa học cho doanh nghiệp (YouNet Group), tham gia các hoạt động phát triển nhân lực AI. Học vấn: Tốt nghiệp Cử nhân tại HCMUT (1998) và Tiến sĩ tại Đại học Công nghệ Nanyang (NTU), Singapore (2002).",
         "execRole": "Thư ký"
       },
       "thuVo": {
@@ -837,16 +841,22 @@
       },
       "huaPhuocTruong": {
         "name": "Hứa Phước Trường",
-        "organization": "CEO & Co-founder công ty YouthDev",
+        "organization": "công ty YouthDev",
         "role": "CEO & Co-founder",
-        "bio": "Ông Hứa Phước Trường là CEO & Co-founder của YouthDev, một công ty cung cấp giải pháp chuyển đổi số ngành truyền hình và DooPage (quản lý chăm sóc khách hàng), đồng thời cũng là một thủ khoa xuất sắc tại ĐH CNTT (ĐHQG-HCM) với thành tích học tập ấn tượng và có kinh nghiệm phát triển AI, được đánh giá cao trong lĩnh vực công nghệ"
+        "bio": "Ông Hứa Phước Trường là CEO & Co-founder của YouthDev, một công ty cung cấp giải pháp chuyển đổi số ngành truyền hình và DooPage (quản lý chăm sóc khách hàng), đồng thời cũng là một thủ khoa xuất sắc tại ĐH CNTT (ĐHQG-HCM) với thành tích học tập ấn tượng và có kinh nghiệm phát triển AI, được đánh giá cao trong lĩnh vực công nghệ."
       },
       "nguyenVanVu": {
         "name": "PGS.TS. Nguyễn Văn Vũ",
         "organization": "Trường ĐH Khoa học Tự nhiên - ĐHQG TP.HCM",
         "role": "Phó Trưởng Khoa Khoa CNTT",
-        "bio": "Tiến sĩ Nguyễn Văn Vũ hiện là Phó Giáo sư, Tiến sĩ (PGS.TS) công tác tại Khoa Công nghệ Thông tin (CNTT) thuộc Trường Đại học Khoa học Tự nhiên, Đại học Quốc gia TP.HCM (ĐHKHTN, ĐHQG-HCM), ông là một trong những giảng viên có kinh nghiệm, chuyên sâu về lĩnh vực Công nghệ Thông tin và tham gia nhiều hoạt động hợp tác quốc tế và nghiên cứu",
+        "bio": "Tiến sĩ Nguyễn Văn Vũ hiện là Phó Giáo sư, Tiến sĩ (PGS.TS) công tác tại Khoa Công nghệ Thông tin (CNTT) thuộc Trường Đại học Khoa học Tự nhiên, Đại học Quốc gia TP.HCM (ĐHKHTN, ĐHQG-HCM), ông là một trong những giảng viên có kinh nghiệm, chuyên sâu về lĩnh vực Công nghệ Thông tin và tham gia nhiều hoạt động hợp tác quốc tế và nghiên cứu.",
         "execRole": "Ủy viên"
+      },
+      "yenHo": {
+        "name": "Hồ Thị Hoàng Yến",
+        "organization": "TMA Innovation",
+        "role": "Giám đốc mảng AI & HealthTech",
+        "bio": "Chuyên gia chiến lược HealthTech và tư vấn Chuyển đổi số với hơn 10 năm kinh nghiệm. Chị sở hữu bằng Thạc sĩ kép ngành Công nghệ thông tin và Quản trị kinh doanh từ Đại học James Cook (Singapore). Chuyên môn của chị tập trung vào ứng dụng Trí tuệ nhân tạo (AI) trong các lĩnh vực: chăm sóc dự phòng (preventive care), chăm sóc người cao tuổi (aged care) và sức khỏe mãn kinh (menopause). Hiện tại, chị lãnh đạo khối HealthTech tại TMA Innovation với mục tiêu xây dựng các hệ sinh thái ứng dụng AI nhằm nâng cao chất lượng y tế toàn cầu."
       }
     }
   },

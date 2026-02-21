@@ -168,6 +168,15 @@ export const extendedTeamMembers: TeamMember[] = [
     image: "/huaphuoctruong.webp",
     email: "truong.hua@youthdev.net",
   },
+  {
+    id: "yen-ho",
+    nameKey: "team.members.yenHo.name",
+    organizationKey: "team.members.yenHo.organization",
+    roleKey: "team.members.yenHo.role",
+    bioKey: "team.members.yenHo.bio",
+    image: "/yenho.jpg",
+    email: "yenho91@gmail.com",
+  },
 ];
 
 // Combined list for backward compatibility

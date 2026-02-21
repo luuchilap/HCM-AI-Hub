@@ -65,6 +65,8 @@
     "seminar": "Seminar",
     "upcoming": "Upcoming",
     "past": "Past",
+    "overview": "Overview",
+    "searchPlaceholder": "Search events...",
     "all": "All",
     "registerNow": "Register Now",
     "viewDetails": "View Details",
@@ -72,6 +74,8 @@
     "pageDescription": "Join our conferences, workshops, and networking events to connect with AI professionals and advance your knowledge.",
     "calendarBadge": "Calendar",
     "noEvents": "No events found",
+    "noUpcomingEvents": "No upcoming events found",
+    "noPastEvents": "No past events found",
     "detail": {
       "backToEvents": "Back to Events",
       "registrationClosed": "Registration Closed",
@@ -293,243 +297,243 @@
     }
   },
   "regulations": {
-      "badge": "Regulations",
-      "title": "General Provisions",
-      "mainTitle": "OPERATING REGULATIONS",
-      "mainSubtitle": "NETWORK OF CENTERS OF EXCELLENCE & TECHNOLOGY 4.0 TALENT TRAINING IN ARTIFICIAL INTELLIGENCE (AI)",
-      "lastUpdated": "Last updated",
-      "chapter1": {
-        "title": "CHAPTER I. GENERAL PROVISIONS",
-        "article1": {
-          "title": "Article 1. Scope of Regulation",
-          "content": "This Regulation stipulates the organizational structure, functions, duties, powers, coordination mechanisms, operating principles, reporting regime, supervision and evaluation, and other provisions related to the implementation of all activities of the Network of Centers of Excellence and Technology 4.0 Talent Training – Artificial Intelligence (AI) sector (hereinafter referred to as the \"AI Network\")."
-        },
-        "article2": {
-          "title": "Article 2. Subjects of Application",
-          "intro": "This Regulation applies to:",
-          "items": [
-            "The lead institution and member institutions of the AI Network;",
-            "The Executive Board and specialized subcommittees;",
-            "Individuals and organizations participating in or coordinating the implementation of activities under the Network."
-          ]
-        },
-        "article3": {
-          "title": "Article 3. Legal Basis",
-          "intro": "The Network operates on the basis of:",
-          "items": [
-            "Decision No. 374/QĐ-TTg approving the Scheme for Centers of Excellence and Technology 4.0 Talent Training;",
-            "Decision No. 1982/QĐ-TTg promulgating the Vietnam National Qualifications Framework;",
-            "Circular No. 17/2021/TT-BGDĐT on standards for higher education curricula;",
-            "Assignments by the Ministry of Education and Training (MOET) to Ho Chi Minh City University of Technology – VNU-HCM as the lead institution for developing the Network;",
-            "Resolutions, decisions, and guidelines of HCMUT and VNU-HCM."
-          ]
-        },
-        "article4": {
-          "title": "Article 4. Operating Principles",
-          "items": [
-            "Compliance with applicable laws and regulations.",
-            "Cooperation – sharing – co-development – shared benefits, ensuring a balance of interests among members.",
-            "Close linkage among training, research, and technology transfer, connecting theory with practice.",
-            "Respect for the autonomy of each institution while ensuring alignment with common orientations.",
-            "Transparency, openness, and accountability in all activities.",
-            "Innovation, international integration, and sustainable development as overarching orientations."
-          ]
-        }
+    "badge": "Regulations",
+    "title": "General Provisions",
+    "mainTitle": "OPERATING REGULATIONS",
+    "mainSubtitle": "NETWORK OF CENTERS OF EXCELLENCE & TECHNOLOGY 4.0 TALENT TRAINING IN ARTIFICIAL INTELLIGENCE (AI)",
+    "lastUpdated": "Last updated",
+    "chapter1": {
+      "title": "CHAPTER I. GENERAL PROVISIONS",
+      "article1": {
+        "title": "Article 1. Scope of Regulation",
+        "content": "This Regulation stipulates the organizational structure, functions, duties, powers, coordination mechanisms, operating principles, reporting regime, supervision and evaluation, and other provisions related to the implementation of all activities of the Network of Centers of Excellence and Technology 4.0 Talent Training – Artificial Intelligence (AI) sector (hereinafter referred to as the \"AI Network\")."
       },
-      "chapter2": {
-        "title": "CHAPTER II. NETWORK ORGANIZATION",
-        "article5": {
-          "title": "Article 5. Overall Organizational Structure",
-          "intro": "The AI Network includes:",
-          "items": [
-            "Lead institution: Ho Chi Minh City University of Technology – VNU-HCM;",
-            "Network Executive Board (Chairperson, members, secretary);",
-            "Specialized subcommittees, including: Training & Curriculum Standardization Subcommittee; Research – Application & Co-Development Teams Subcommittee; Industry Partnership & Technology Transfer Subcommittee; International Cooperation & Expert Network Subcommittee;",
-            "Member institutions: universities, research institutes, enterprises, and organizations, updated biennially."
-          ]
-        },
-        "article6": {
-          "title": "Article 6. Network Executive Board",
-          "items": [
-            "The Executive Board is the body that manages, coordinates, and decides on support activities within the Network.",
-            "It consists of a Chairperson and members representing key member institutions.",
-            "The Chairperson is nominated by the lead institution.",
-            "The Executive Board may have its own seal (if permitted) and uses the seal of the lead institution for official documents."
-          ]
-        },
-        "article7": {
-          "title": "Article 7. Specialized Subcommittees",
-          "items": [
-            "Each subcommittee has a Head, Deputy Head(s), and members nominated by member institutions.",
-            "Subcommittees may establish working groups, specialized research groups, or appraisal councils as required."
-          ]
-        },
-        "article8": {
-          "title": "Article 8. Network Members",
-          "items": [
-            "Network members are institutions that meet criteria on training capacity, research capability, human resources, facilities, and commitment to joint activities.",
-            "Admission to or withdrawal from the Network shall follow the procedure specified in Article 20 of this Regulation."
-          ]
-        }
+      "article2": {
+        "title": "Article 2. Subjects of Application",
+        "intro": "This Regulation applies to:",
+        "items": [
+          "The lead institution and member institutions of the AI Network;",
+          "The Executive Board and specialized subcommittees;",
+          "Individuals and organizations participating in or coordinating the implementation of activities under the Network."
+        ]
       },
-      "chapter3": {
-        "title": "CHAPTER III. DUTIES AND POWERS",
-        "article9": {
-          "title": "Article 9. Responsibilities of the Lead Institution",
-          "items": [
-            "Overall coordination and full accountability to MOET and VNU-HCM for Network operations.",
-            "Issuance of plans, regulations, guidelines, and coordination documents.",
-            "Allocation of personnel to support administrative and technical management.",
-            "Resolution of issues related to mechanisms, procedures, finance, and overall coordination."
-          ]
-        },
-        "article10": {
-          "title": "Article 10. Duties of the Executive Board",
-          "items": [
-            "Develop strategies and annual/periodic plans.",
-            "Assign tasks to subcommittees.",
-            "Approve R&D projects, training programs, workshops, and industry collaborations.",
-            "Supervise, inspect, and evaluate member activities.",
-            "Organize regular meetings (at least twice a year) or ad-hoc meetings."
-          ]
-        },
-        "article11": {
-          "title": "Article 11. Duties of Specialized Subcommittees",
-          "items": [
-            "Training Subcommittee: develop curriculum frameworks; standardize, accredit, and co-develop courses; organize AI faculty development.",
-            "Research – Application Subcommittee: define key research directions; organize research projects; coordinate co-development teams; support international publications.",
-            "Industry Partnership Subcommittee: seek partners; propose co-development models; build AI testbeds.",
-            "International Cooperation Subcommittee: connect experts and international universities; organize international conferences; promote research and training cooperation."
-          ]
-        },
-        "article12": {
-          "title": "Article 12. Rights of Member Institutions",
-          "items": [
-            "Propose training, research, workshops, and industry collaboration tasks.",
-            "Receive support for sharing resources, data, laboratories, and experts.",
-            "Participate in building and using shared infrastructure in accordance with regulations.",
-            "Participate in academic, networking, and conference activities of the Network."
-          ]
-        },
-        "article13": {
-          "title": "Article 13. Obligations of Member Institutions",
-          "items": [
-            "Comply with this Regulation and Network management documents.",
-            "Provide data, personnel, and resources as committed.",
-            "Submit periodic and ad-hoc reports as required.",
-            "Fully and promptly coordinate in implementing common tasks."
-          ]
-        }
+      "article3": {
+        "title": "Article 3. Legal Basis",
+        "intro": "The Network operates on the basis of:",
+        "items": [
+          "Decision No. 374/QĐ-TTg approving the Scheme for Centers of Excellence and Technology 4.0 Talent Training;",
+          "Decision No. 1982/QĐ-TTg promulgating the Vietnam National Qualifications Framework;",
+          "Circular No. 17/2021/TT-BGDĐT on standards for higher education curricula;",
+          "Assignments by the Ministry of Education and Training (MOET) to Ho Chi Minh City University of Technology – VNU-HCM as the lead institution for developing the Network;",
+          "Resolutions, decisions, and guidelines of HCMUT and VNU-HCM."
+        ]
       },
-      "chapter4": {
-        "title": "CHAPTER IV. OPERATING PROCEDURES",
-        "article14": {
-          "title": "Article 14. Task Proposal Procedure",
-          "intro": "The procedure for proposing, appraising, and approving tasks in the AI Network is carried out according to the following steps, ensuring transparency, scientific rigor, feasibility, and alignment with the Network's strategic direction.",
-          "items": [
-            "All tasks in the following groups must be proposed in writing: training, research and development (R&D), technology transfer, industry collaboration, international cooperation, workshops and communication, and infrastructure development.",
-            "All tasks must be evaluated for: objectives, novelty, urgency, feasibility, resources, expected outputs, and impact on the Network.",
-            "Proposals lacking documentation, outside the scope of functions, or without a responsible unit will not be considered.",
-            "Proposing units submit documents through the task management system or the Executive Board's official email.",
-            "The Executive Board holds regular/quarterly or ad-hoc meetings to review tasks that have been validated."
-          ]
-        },
-        "article15": {
-          "title": "Article 15. AI Training Program Development Procedure",
-          "intro": "The procedure for developing, appraising, approving, and implementing training programs in the field of Artificial Intelligence (AI) in the AI Network is carried out uniformly according to the following steps.",
-          "items": [
-            "AI training programs developed in the Network must ensure: modernity, alignment with international trends; compliance with output standards and the National Qualifications Framework; interdisciplinary nature and strong connection with labor market needs; ability to be implemented at multiple member institutions.",
-            "Each program must have a lead unit, a compilation team, and cooperating units.",
-            "New programs must be appraised and approved before implementation.",
-            "Training program development documentation includes: program development proposal, detailed program framework, detailed syllabus for at least 30% of core courses, expected accreditation standards and ability to meet AUN-QA or ABET (if applicable), pilot implementation plan, evidence of the development team's capacity.",
-            "The implementation procedure includes: program development proposal, establishment of compilation team, development of output standards and program structure, content and course compilation, stakeholder consultation, program appraisal, program approval, pilot implementation, evaluation – completion – official promulgation."
-          ]
-        },
-        "article16": {
-          "title": "Article 16. R&D Project Implementation Procedure",
-          "intro": "The procedure for implementing research and development (R&D) projects in the AI Network is carried out in 06 main phases, ensuring scientific rigor, transparency, effectiveness, and alignment with the Network's strategic direction.",
-          "items": [
-            "R&D projects must aim to solve practical problems, contribute scientifically, or create applicable AI products/solutions.",
-            "Each R&D project must have: a lead unit, cooperating units, a project director, a research team, clear budget and resource estimates.",
-            "All projects must be approved in writing by the Executive Board.",
-            "R&D projects are prioritized if: they have industry collaboration; they have potential for international publication; they have AI models or prototype products; they mobilize co-funding.",
-            "R&D project proposal documentation includes: R&D project proposal, scientific profiles of the director and research team, consent documents from cooperating units/enterprises (if applicable), related background documents."
-          ]
-        },
-        "article17": {
-          "title": "Article 17. Industry Collaboration Procedure",
-          "intro": "The industry collaboration procedure in the AI Network is designed to ensure transparency, effectiveness, mutual benefit, and promote the development of the training – research – application AI ecosystem.",
-          "items": [
-            "Ensure voluntary – equal – transparent – mutually beneficial collaboration between the AI Network and enterprises.",
-            "Collaboration must have clear objectives, specific products, and measurable outputs.",
-            "Prioritize co-development models with data, technology, and human resource sharing as agreed.",
-            "Industry collaboration activities must align with the AI Network's 2025–2030 strategic direction.",
-            "All collaborations must have a Memorandum of Understanding (MOU) or Contract/Cooperation Agreement (MOA), in accordance with legal regulations."
-          ]
-        },
-        "article18": {
-          "title": "Article 18. International Expert Invitation and Collaboration Procedure",
-          "intro": "The international expert collaboration procedure aims to ensure that academic – research – training collaboration activities in the AI Network are conducted in accordance with regulations, transparently, professionally, effectively, and attract reputable global experts and scientists.",
-          "items": [
-            "International expert collaboration must align with: the AI Network's strategic direction; training – research – international cooperation activity plans; regulations of Vietnamese law, MOET, VNU-HCM, and HCMUT.",
-            "Priority is given to experts with: reputable international publications (SCIE/SCI, Q1, Q2); experience in AI/ML/DL technology projects; contributions to the AI ecosystem; teaching/research supervision capabilities.",
-            "All expert invitation activities must have official documents, complete documentation, and appropriate financial mechanisms.",
-            "Ensure legality, confidentiality, and respect for intellectual property rights.",
-            "International expert collaboration in the Network includes: teaching and training; research and development; expert consultation; long-term collaboration."
-          ]
-        }
-      },
-      "chapter5": {
-        "title": "CHAPTER V. RESOURCE MECHANISM – FINANCE – INFRASTRUCTURE",
-        "article19": {
-          "title": "Article 19. Resource Sharing Mechanism",
-          "items": [
-            "Computing infrastructure (servers, GPUs), AI laboratories, and data are shared according to contribution levels.",
-            "Units have priority usage rights based on commitments and implementation capacity."
-          ]
-        },
-        "article20": {
-          "title": "Article 20. Financial Mechanism",
-          "intro": "Funding sources include:",
-          "items": [
-            "State-approved project funding (if applicable);",
-            "Scientific research funding;",
-            "Socialized sources and enterprise sponsorship;",
-            "Training, workshop, and service fees;",
-            "Funds are managed and used according to University and legal regulations."
-          ]
-        }
-      },
-      "chapter6": {
-        "title": "CHAPTER VI. REPORTING – MONITORING – EVALUATION",
-        "article21": {
-          "title": "Article 21. Reporting Regime",
-          "items": [
-            "Monthly/quarterly reports: according to templates; submitted to the Executive Board.",
-            "Annual reports: summarizing results, planning tasks for the following year.",
-            "Ad-hoc reports: as required."
-          ]
-        },
-        "article22": {
-          "title": "Article 22. Inspection – Monitoring",
-          "items": [
-            "The Executive Board has the right to conduct periodic or ad-hoc inspections.",
-            "Evaluation criteria include: progress, effectiveness, sustainability, ecosystem contribution.",
-            "Monitoring results serve as the basis for task adjustment or membership review."
-          ]
-        }
-      },
-      "chapter7": {
-        "title": "CHAPTER VII. IMPLEMENTATION PROVISIONS",
-        "article23": {
-          "title": "Article 23. Effectiveness",
-          "content": "This Regulation takes effect after being approved by the Executive Board and promulgated by Ho Chi Minh City University of Technology – VNU-HCM."
-        },
-        "article24": {
-          "title": "Article 24. Amendments and Supplements",
-          "content": "Amendments to this Regulation must be approved by at least 2/3 of the Executive Board members voting in favor."
-        }
+      "article4": {
+        "title": "Article 4. Operating Principles",
+        "items": [
+          "Compliance with applicable laws and regulations.",
+          "Cooperation – sharing – co-development – shared benefits, ensuring a balance of interests among members.",
+          "Close linkage among training, research, and technology transfer, connecting theory with practice.",
+          "Respect for the autonomy of each institution while ensuring alignment with common orientations.",
+          "Transparency, openness, and accountability in all activities.",
+          "Innovation, international integration, and sustainable development as overarching orientations."
+        ]
       }
+    },
+    "chapter2": {
+      "title": "CHAPTER II. NETWORK ORGANIZATION",
+      "article5": {
+        "title": "Article 5. Overall Organizational Structure",
+        "intro": "The AI Network includes:",
+        "items": [
+          "Lead institution: Ho Chi Minh City University of Technology – VNU-HCM;",
+          "Network Executive Board (Chairperson, members, secretary);",
+          "Specialized subcommittees, including: Training & Curriculum Standardization Subcommittee; Research – Application & Co-Development Teams Subcommittee; Industry Partnership & Technology Transfer Subcommittee; International Cooperation & Expert Network Subcommittee;",
+          "Member institutions: universities, research institutes, enterprises, and organizations, updated biennially."
+        ]
+      },
+      "article6": {
+        "title": "Article 6. Network Executive Board",
+        "items": [
+          "The Executive Board is the body that manages, coordinates, and decides on support activities within the Network.",
+          "It consists of a Chairperson and members representing key member institutions.",
+          "The Chairperson is nominated by the lead institution.",
+          "The Executive Board may have its own seal (if permitted) and uses the seal of the lead institution for official documents."
+        ]
+      },
+      "article7": {
+        "title": "Article 7. Specialized Subcommittees",
+        "items": [
+          "Each subcommittee has a Head, Deputy Head(s), and members nominated by member institutions.",
+          "Subcommittees may establish working groups, specialized research groups, or appraisal councils as required."
+        ]
+      },
+      "article8": {
+        "title": "Article 8. Network Members",
+        "items": [
+          "Network members are institutions that meet criteria on training capacity, research capability, human resources, facilities, and commitment to joint activities.",
+          "Admission to or withdrawal from the Network shall follow the procedure specified in Article 20 of this Regulation."
+        ]
+      }
+    },
+    "chapter3": {
+      "title": "CHAPTER III. DUTIES AND POWERS",
+      "article9": {
+        "title": "Article 9. Responsibilities of the Lead Institution",
+        "items": [
+          "Overall coordination and full accountability to MOET and VNU-HCM for Network operations.",
+          "Issuance of plans, regulations, guidelines, and coordination documents.",
+          "Allocation of personnel to support administrative and technical management.",
+          "Resolution of issues related to mechanisms, procedures, finance, and overall coordination."
+        ]
+      },
+      "article10": {
+        "title": "Article 10. Duties of the Executive Board",
+        "items": [
+          "Develop strategies and annual/periodic plans.",
+          "Assign tasks to subcommittees.",
+          "Approve R&D projects, training programs, workshops, and industry collaborations.",
+          "Supervise, inspect, and evaluate member activities.",
+          "Organize regular meetings (at least twice a year) or ad-hoc meetings."
+        ]
+      },
+      "article11": {
+        "title": "Article 11. Duties of Specialized Subcommittees",
+        "items": [
+          "Training Subcommittee: develop curriculum frameworks; standardize, accredit, and co-develop courses; organize AI faculty development.",
+          "Research – Application Subcommittee: define key research directions; organize research projects; coordinate co-development teams; support international publications.",
+          "Industry Partnership Subcommittee: seek partners; propose co-development models; build AI testbeds.",
+          "International Cooperation Subcommittee: connect experts and international universities; organize international conferences; promote research and training cooperation."
+        ]
+      },
+      "article12": {
+        "title": "Article 12. Rights of Member Institutions",
+        "items": [
+          "Propose training, research, workshops, and industry collaboration tasks.",
+          "Receive support for sharing resources, data, laboratories, and experts.",
+          "Participate in building and using shared infrastructure in accordance with regulations.",
+          "Participate in academic, networking, and conference activities of the Network."
+        ]
+      },
+      "article13": {
+        "title": "Article 13. Obligations of Member Institutions",
+        "items": [
+          "Comply with this Regulation and Network management documents.",
+          "Provide data, personnel, and resources as committed.",
+          "Submit periodic and ad-hoc reports as required.",
+          "Fully and promptly coordinate in implementing common tasks."
+        ]
+      }
+    },
+    "chapter4": {
+      "title": "CHAPTER IV. OPERATING PROCEDURES",
+      "article14": {
+        "title": "Article 14. Task Proposal Procedure",
+        "intro": "The procedure for proposing, appraising, and approving tasks in the AI Network is carried out according to the following steps, ensuring transparency, scientific rigor, feasibility, and alignment with the Network's strategic direction.",
+        "items": [
+          "All tasks in the following groups must be proposed in writing: training, research and development (R&D), technology transfer, industry collaboration, international cooperation, workshops and communication, and infrastructure development.",
+          "All tasks must be evaluated for: objectives, novelty, urgency, feasibility, resources, expected outputs, and impact on the Network.",
+          "Proposals lacking documentation, outside the scope of functions, or without a responsible unit will not be considered.",
+          "Proposing units submit documents through the task management system or the Executive Board's official email.",
+          "The Executive Board holds regular/quarterly or ad-hoc meetings to review tasks that have been validated."
+        ]
+      },
+      "article15": {
+        "title": "Article 15. AI Training Program Development Procedure",
+        "intro": "The procedure for developing, appraising, approving, and implementing training programs in the field of Artificial Intelligence (AI) in the AI Network is carried out uniformly according to the following steps.",
+        "items": [
+          "AI training programs developed in the Network must ensure: modernity, alignment with international trends; compliance with output standards and the National Qualifications Framework; interdisciplinary nature and strong connection with labor market needs; ability to be implemented at multiple member institutions.",
+          "Each program must have a lead unit, a compilation team, and cooperating units.",
+          "New programs must be appraised and approved before implementation.",
+          "Training program development documentation includes: program development proposal, detailed program framework, detailed syllabus for at least 30% of core courses, expected accreditation standards and ability to meet AUN-QA or ABET (if applicable), pilot implementation plan, evidence of the development team's capacity.",
+          "The implementation procedure includes: program development proposal, establishment of compilation team, development of output standards and program structure, content and course compilation, stakeholder consultation, program appraisal, program approval, pilot implementation, evaluation – completion – official promulgation."
+        ]
+      },
+      "article16": {
+        "title": "Article 16. R&D Project Implementation Procedure",
+        "intro": "The procedure for implementing research and development (R&D) projects in the AI Network is carried out in 06 main phases, ensuring scientific rigor, transparency, effectiveness, and alignment with the Network's strategic direction.",
+        "items": [
+          "R&D projects must aim to solve practical problems, contribute scientifically, or create applicable AI products/solutions.",
+          "Each R&D project must have: a lead unit, cooperating units, a project director, a research team, clear budget and resource estimates.",
+          "All projects must be approved in writing by the Executive Board.",
+          "R&D projects are prioritized if: they have industry collaboration; they have potential for international publication; they have AI models or prototype products; they mobilize co-funding.",
+          "R&D project proposal documentation includes: R&D project proposal, scientific profiles of the director and research team, consent documents from cooperating units/enterprises (if applicable), related background documents."
+        ]
+      },
+      "article17": {
+        "title": "Article 17. Industry Collaboration Procedure",
+        "intro": "The industry collaboration procedure in the AI Network is designed to ensure transparency, effectiveness, mutual benefit, and promote the development of the training – research – application AI ecosystem.",
+        "items": [
+          "Ensure voluntary – equal – transparent – mutually beneficial collaboration between the AI Network and enterprises.",
+          "Collaboration must have clear objectives, specific products, and measurable outputs.",
+          "Prioritize co-development models with data, technology, and human resource sharing as agreed.",
+          "Industry collaboration activities must align with the AI Network's 2025–2030 strategic direction.",
+          "All collaborations must have a Memorandum of Understanding (MOU) or Contract/Cooperation Agreement (MOA), in accordance with legal regulations."
+        ]
+      },
+      "article18": {
+        "title": "Article 18. International Expert Invitation and Collaboration Procedure",
+        "intro": "The international expert collaboration procedure aims to ensure that academic – research – training collaboration activities in the AI Network are conducted in accordance with regulations, transparently, professionally, effectively, and attract reputable global experts and scientists.",
+        "items": [
+          "International expert collaboration must align with: the AI Network's strategic direction; training – research – international cooperation activity plans; regulations of Vietnamese law, MOET, VNU-HCM, and HCMUT.",
+          "Priority is given to experts with: reputable international publications (SCIE/SCI, Q1, Q2); experience in AI/ML/DL technology projects; contributions to the AI ecosystem; teaching/research supervision capabilities.",
+          "All expert invitation activities must have official documents, complete documentation, and appropriate financial mechanisms.",
+          "Ensure legality, confidentiality, and respect for intellectual property rights.",
+          "International expert collaboration in the Network includes: teaching and training; research and development; expert consultation; long-term collaboration."
+        ]
+      }
+    },
+    "chapter5": {
+      "title": "CHAPTER V. RESOURCE MECHANISM – FINANCE – INFRASTRUCTURE",
+      "article19": {
+        "title": "Article 19. Resource Sharing Mechanism",
+        "items": [
+          "Computing infrastructure (servers, GPUs), AI laboratories, and data are shared according to contribution levels.",
+          "Units have priority usage rights based on commitments and implementation capacity."
+        ]
+      },
+      "article20": {
+        "title": "Article 20. Financial Mechanism",
+        "intro": "Funding sources include:",
+        "items": [
+          "State-approved project funding (if applicable);",
+          "Scientific research funding;",
+          "Socialized sources and enterprise sponsorship;",
+          "Training, workshop, and service fees;",
+          "Funds are managed and used according to University and legal regulations."
+        ]
+      }
+    },
+    "chapter6": {
+      "title": "CHAPTER VI. REPORTING – MONITORING – EVALUATION",
+      "article21": {
+        "title": "Article 21. Reporting Regime",
+        "items": [
+          "Monthly/quarterly reports: according to templates; submitted to the Executive Board.",
+          "Annual reports: summarizing results, planning tasks for the following year.",
+          "Ad-hoc reports: as required."
+        ]
+      },
+      "article22": {
+        "title": "Article 22. Inspection – Monitoring",
+        "items": [
+          "The Executive Board has the right to conduct periodic or ad-hoc inspections.",
+          "Evaluation criteria include: progress, effectiveness, sustainability, ecosystem contribution.",
+          "Monitoring results serve as the basis for task adjustment or membership review."
+        ]
+      }
+    },
+    "chapter7": {
+      "title": "CHAPTER VII. IMPLEMENTATION PROVISIONS",
+      "article23": {
+        "title": "Article 23. Effectiveness",
+        "content": "This Regulation takes effect after being approved by the Executive Board and promulgated by Ho Chi Minh City University of Technology – VNU-HCM."
+      },
+      "article24": {
+        "title": "Article 24. Amendments and Supplements",
+        "content": "Amendments to this Regulation must be approved by at least 2/3 of the Executive Board members voting in favor."
+      }
+    }
   },
   "blog": {
     "badge": "Insights",
@@ -806,7 +810,7 @@
         "name": "Phong Nguyen",
         "organization": "Tasco",
         "role": "Chief Development Officer (CDO)",
-        "bio": "Chief Development Officer (CDO) at Tasco JSC"
+        "bio": "Chief Development Officer (CDO) at Tasco JSC."
       },
       "leThanhSon": {
         "name": "Le Thanh Son",
@@ -837,7 +841,7 @@
       },
       "huaPhuocTruong": {
         "name": "Hua Phuoc Truong",
-        "organization": "CEO & Co-founder at YouthDev",
+        "organization": "YouthDev",
         "role": "CEO & Co-founder",
         "bio": "Mr. Hua Phuoc Truong is the CEO & Co-founder of YouthDev, a company providing digital transformation solutions for the broadcasting industry and DooPage (customer care management). He was also an outstanding valedictorian at the University of Information Technology (VNU-HCM) with impressive academic achievements and experience in AI development, highly regarded in the technology field."
       },
@@ -847,6 +851,12 @@
         "role": "Vice Dean, Faculty of Information Technology",
         "bio": "Dr. Nguyen Van Vu is currently an Associate Professor and PhD at the Faculty of Information Technology (IT), University of Science, Vietnam National University, Ho Chi Minh City (VNU-HCM). He is one of the experienced lecturers specializing in Information Technology and participates in many international cooperation and research activities.",
         "execRole": "Member"
+      },
+      "yenHo": {
+        "name": "Ho Thi Hoang Yen",
+        "organization": "TMA Innovation",
+        "role": "Director of AI & HealthTech",
+        "bio": "Ho Thi Hoang Yen is a HealthTech strategy expert and digital transformation consultant with over 10 years of experience. She holds a dual Master's degree in Information Technology and Business Administration from James Cook University (Singapore). Her expertise focuses on applying Artificial Intelligence (AI) in preventive care, aged care, and menopause health. Currently, she leads the HealthTech division at TMA Innovation, aiming to build AI-powered ecosystem solutions that enhance global healthcare quality."
       }
     }
   },

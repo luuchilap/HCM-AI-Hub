@@ -122,18 +122,35 @@ export function getRemainingSpots(event: Event): number | null {
 /**
  * Calculate event status based on dates
  */
+// Calculate event status based on date and time
 export function calculateEventStatus(event: Event): EventStatus {
   if (event.status === "cancelled" || event.status === "draft") {
     return event.status;
   }
 
   const now = new Date();
-  const eventDate = new Date(event.date);
 
-  // Set event date to end of day for comparison
-  eventDate.setHours(23, 59, 59, 999);
+  // Parse date string (YYYY-MM-DD)
+  const [year, month, day] = event.date.split("-").map(Number);
 
-  if (now > eventDate) {
+  // Parse end time (HH:mm)
+  // Default to end of day if parsing fails, though schema enforces strict format
+  let hours = 23;
+  let minutes = 59;
+
+  if (event.endTime) {
+    const timeParts = event.endTime.split(":").map(Number);
+    if (timeParts.length === 2 && !isNaN(timeParts[0]) && !isNaN(timeParts[1])) {
+      hours = timeParts[0];
+      minutes = timeParts[1];
+    }
+  }
+
+  // Create date object in local time
+  // Note: month is 0-indexed in JS Date constructor
+  const eventEnd = new Date(year, month - 1, day, hours, minutes);
+
+  if (now > eventEnd) {
     return "past";
   }
 
