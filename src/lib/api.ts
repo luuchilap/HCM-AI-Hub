@@ -44,23 +44,21 @@ export async function uploadImage(file: File) {
 // ---- Events ----
 
 function mapEvent(e: any): any {
+  // EventsService.toResponse() already transforms DB columns into nested objects
+  // e.g. { title: { vi, en }, description: { vi, en }, venue: { name: { vi, en }, ... } }
+  // We just need to ensure _id exists and re-map agenda items if needed.
   return {
-    _id: e.id,
+    _id: e._id || e.id,
     slug: e.slug,
-    title: { vi: e.titleVi, en: e.titleEn },
+    title: e.title,
     type: e.type,
-    subtitle: e.subtitleVi ? { vi: e.subtitleVi, en: e.subtitleEn } : undefined,
-    description: { vi: e.descriptionVi, en: e.descriptionEn },
-    targetAudience: e.targetAudienceVi ? { vi: e.targetAudienceVi, en: e.targetAudienceEn } : undefined,
+    subtitle: e.subtitle,
+    description: e.description,
+    targetAudience: e.targetAudience,
     date: e.date,
     startTime: e.startTime,
     endTime: e.endTime,
-    venue: {
-      name: { vi: e.venueNameVi, en: e.venueNameEn },
-      address: e.venueAddress,
-      city: e.venueCity,
-      googleMapsUrl: e.venueGoogleMapsUrl,
-    },
+    venue: e.venue,
     registrationDeadline: e.registrationDeadline,
     registrationUrl: e.registrationUrl,
     qrCodeUrl: e.qrCodeUrl,
@@ -68,13 +66,8 @@ function mapEvent(e: any): any {
     status: e.status,
     maxAttendees: e.maxAttendees,
     isFeatured: e.isFeatured,
-    agenda: (e.agendaItems || []).map((a: any) => ({
-      id: a.id,
-      number: a.sortOrder,
-      title: { vi: a.titleVi, en: a.titleEn },
-      description: a.descriptionVi ? { vi: a.descriptionVi, en: a.descriptionEn } : undefined,
-      time: a.timeSlot,
-    })),
+    agenda: Array.isArray(e.agenda) ? e.agenda : [],
+    _creationTime: e._creationTime,
   };
 }
 
