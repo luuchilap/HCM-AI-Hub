@@ -18,7 +18,7 @@ import { CreateEventDto } from './dto/create-event.dto';
 @Controller('admin')
 @UseGuards(JwtAuthGuard, AdminGuard)
 export class AdminController {
-  constructor(private readonly adminService: AdminService) {}
+  constructor(private readonly adminService: AdminService) { }
 
   // ---- Dashboard Stats ----
   @Get('stats')
@@ -126,5 +126,11 @@ export class AdminController {
     @Query('role') role: string,
   ) {
     return this.adminService.updateUserRole(id, role);
+  }
+
+  // ---- Seeding ----
+  @Post('seed-events')
+  async seedEvents() {
+    return this.adminService.seedEvents();
   }
 }
