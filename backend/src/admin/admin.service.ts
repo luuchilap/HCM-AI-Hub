@@ -35,23 +35,27 @@ export class AdminService implements OnModuleInit {
     private readonly collaborationRepo: Repository<CollaborationRequest>,
   ) { }
 
-  async onModuleInit() {
-    // Force seed to ensure user requirements are met on startup
-    const count = await this.eventRepo.count();
-    // Even if count > 0, we can check for our specific seed events
-    const seed1 = await this.eventRepo.findOne({ where: { slug: 'ai-healthcare-research-2025' } });
-    const seed2 = await this.eventRepo.findOne({ where: { slug: 'ai-workforce-training-2025' } });
-
-    if (!seed1 || !seed2) {
-      this.logger.log('Seeding missing events on startup...');
-      await this.seedEvents();
-    }
-  }
-
   private readonly logger = {
     log: (msg: string) => console.log(`[AdminService] ${msg}`),
-    error: (msg: string) => console.error(`[AdminService] ${msg}`),
+    error: (msg: string, err?: any) => console.error(`[AdminService ERROR] ${msg}`, err ?? ''),
   };
+
+  async onModuleInit() {
+    try {
+      const seed1 = await this.eventRepo.findOne({ where: { slug: 'ai-healthcare-research-2025' } });
+      const seed2 = await this.eventRepo.findOne({ where: { slug: 'ai-workforce-training-2025' } });
+
+      if (!seed1 || !seed2) {
+        this.logger.log('Seeding missing events on startup...');
+        const result = await this.seedEvents();
+        this.logger.log(`Seeding done: ${JSON.stringify(result)}`);
+      } else {
+        this.logger.log('Seed events already exist. Skipping seeding.');
+      }
+    } catch (err) {
+      this.logger.error('Failed in onModuleInit seeding', err);
+    }
+  }
 
   // ---- Dashboard Stats ----
   async getDashboardStats() {

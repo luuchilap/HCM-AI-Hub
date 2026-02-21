@@ -1,9 +1,18 @@
-import { Controller, Get, Param, Query, NotFoundException } from '@nestjs/common';
+import { Controller, Get, Post, Param, Query, NotFoundException } from '@nestjs/common';
 import { EventsService } from './events.service';
 
 @Controller('events')
 export class EventsController {
-  constructor(private readonly eventsService: EventsService) {}
+  constructor(private readonly eventsService: EventsService) { }
+
+  /**
+   * Public debug endpoint to manually trigger event seeding.
+   * Can be removed / guarded in production.
+   */
+  @Post('seed')
+  async seed() {
+    return this.eventsService.seedIfEmpty();
+  }
 
   @Get()
   async findAll(
