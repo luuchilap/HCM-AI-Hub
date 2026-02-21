@@ -3,6 +3,7 @@ import {
   NotFoundException,
   BadRequestException,
   ConflictException,
+  OnModuleInit,
 } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository, In } from 'typeorm';
@@ -16,7 +17,7 @@ import { CollaborationRequest } from '../collaborations/entities/collaboration-r
 import { CreateEventDto } from './dto/create-event.dto';
 
 @Injectable()
-export class AdminService {
+export class AdminService implements OnModuleInit {
   constructor(
     @InjectRepository(ContactMessage)
     private readonly contactRepo: Repository<ContactMessage>,
@@ -33,6 +34,14 @@ export class AdminService {
     @InjectRepository(CollaborationRequest)
     private readonly collaborationRepo: Repository<CollaborationRequest>,
   ) { }
+
+  async onModuleInit() {
+    const count = await this.eventRepo.count();
+    if (count === 0) {
+      console.log('No events found, seeding database...');
+      await this.seedEvents();
+    }
+  }
 
   // ---- Dashboard Stats ----
   async getDashboardStats() {

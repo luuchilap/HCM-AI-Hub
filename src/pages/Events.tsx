@@ -258,13 +258,15 @@ const Events = () => {
                     </h2>
 
                     {upcomingEvents && upcomingEvents.length > 0 ? (
-                      upcomingEvents.map((event, index) => (
-                        <EventCard
-                          key={`tab-up-${event._id}`}
-                          event={event}
-                          index={index}
-                        />
-                      ))
+                      <div className="space-y-6">
+                        {upcomingEvents.map((event, index) => (
+                          <EventCard
+                            key={`tab-up-${event._id}`}
+                            event={event}
+                            index={index}
+                          />
+                        ))}
+                      </div>
                     ) : (
                       <div className="text-center py-12 bg-muted/30 rounded-2xl border border-dashed border-muted-foreground/20">
                         <p className="text-muted-foreground">
@@ -277,21 +279,24 @@ const Events = () => {
 
 
                 <TabsContent value="past">
-                  {pastEvents && pastEvents.length > 0 ? (
-                    <div className="space-y-6">
-                      <h2 className="text-3xl font-display font-bold mb-8 flex items-center gap-3">
-                        <span className="w-2 h-8 bg-secondary rounded-full"></span>
-                        {t("events.past")}
-                      </h2>
-                      {pastEvents.map((event, index) => (
-                        <EventCard key={`tab-past-${event._id}`} event={event} index={index} />
-                      ))}
-                    </div>
-                  ) : (
-                    <div className="text-center py-12 bg-muted/30 rounded-2xl border border-dashed border-muted-foreground/20">
-                      <p className="text-muted-foreground">{t("events.noPastEvents")}</p>
-                    </div>
-                  )}
+                  <div className="space-y-6">
+                    <h2 className="text-3xl font-display font-bold mb-8 flex items-center gap-3">
+                      <span className="w-2 h-8 bg-muted-foreground rounded-full"></span>
+                      {t("events.past")}
+                    </h2>
+
+                    {pastEvents && pastEvents.length > 0 ? (
+                      <div className="space-y-6">
+                        {pastEvents.map((event, index) => (
+                          <EventCard key={`tab-past-${event._id}`} event={event} index={index} />
+                        ))}
+                      </div>
+                    ) : (
+                      <div className="text-center py-12 bg-muted/30 rounded-2xl border border-dashed border-muted-foreground/20">
+                        <p className="text-muted-foreground">{t("events.noPastEvents")}</p>
+                      </div>
+                    )}
+                  </div>
                 </TabsContent>
               </>
             )}
