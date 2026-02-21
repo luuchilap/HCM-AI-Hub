@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Calendar, MapPin, ArrowRight, Clock } from "lucide-react";
 import { useTranslation } from "react-i18next";
-import { useQuery } from "convex/react";
-import { api } from "../../../convex/_generated/api";
+import { useQuery } from "@tanstack/react-query";
+import { fetchEvents } from "@/lib/api";
 import {
   calculateEventStatus,
   formatEventDate,
@@ -18,11 +18,14 @@ export const EventsPreview = () => {
   const { t, i18n } = useTranslation();
   const locale = i18n.language;
 
-  // Fetch events from Convex
-  const convexEvents = useQuery(api.events.listEvents, {});
+  // Fetch events from NestJS
+  const { data: eventsData, isLoading } = useQuery({
+    queryKey: ["events", "upcoming"],
+    queryFn: () => fetchEvents("upcoming"),
+  });
 
   // Transform and filter for upcoming events
-  const upcomingEvents = convexEvents
+  const upcomingEvents = eventsData
     ?.map((event) => ({
       ...event,
       computedStatus: calculateEventStatus(event as unknown as Event),
@@ -30,8 +33,6 @@ export const EventsPreview = () => {
     .filter((event) => event.computedStatus === "upcoming")
     .sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime())
     .slice(0, 3); // Show max 3 upcoming events
-
-  const isLoading = convexEvents === undefined;
 
   // Initial loading state or if no events found (but usually we might want to show at least something or hide section)
   // For preview sections, if there are no upcoming events, it's often better to just hide the section or show a generic message.

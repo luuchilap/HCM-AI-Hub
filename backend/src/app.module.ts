@@ -9,6 +9,9 @@ import { TeamModule } from './team/team.module';
 import { AuthModule } from './auth/auth.module';
 import { CollaborationsModule } from './collaborations/collaborations.module';
 import { AdminModule } from './admin/admin.module';
+import { UploadModule } from './upload/upload.module';
+import { ServeStaticModule } from '@nestjs/serve-static';
+import { join } from 'path';
 
 @Module({
   imports: [
@@ -27,6 +30,10 @@ import { AdminModule } from './admin/admin.module';
         },
       }),
     }),
+    ServeStaticModule.forRoot({
+      rootPath: join(__dirname, '..', 'public'),
+      serveRoot: '/',
+    }),
     AuthModule,
     EventsModule,
     RegistrationsModule,
@@ -35,6 +42,7 @@ import { AdminModule } from './admin/admin.module';
     TeamModule,
     CollaborationsModule,
     AdminModule,
+    UploadModule,
   ],
 })
-export class AppModule {}
+export class AppModule { }

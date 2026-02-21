@@ -1,10 +1,9 @@
 import { useState, useRef, useCallback } from "react";
-import { useMutation } from "convex/react";
 import { Upload, X, Image as ImageIcon, Loader2 } from "lucide-react";
 import { Button } from "./button";
 import { cn } from "@/lib/utils";
 import { useToast } from "@/hooks/use-toast";
-import { api } from "../../../convex/_generated/api";
+import { uploadImage } from "@/lib/api";
 
 interface ImageUploadProps {
   value?: string;
@@ -25,9 +24,6 @@ export function ImageUpload({
   const [isDragging, setIsDragging] = useState(false);
   const fileInputRef = useRef<HTMLInputElement>(null);
   const { toast } = useToast();
-
-  // Convex storage mutations
-  const generateUploadUrl = useMutation(api.files.generateUploadUrl);
 
   const handleUpload = useCallback(
     async (file: File) => {
@@ -54,30 +50,8 @@ export function ImageUpload({
       setIsUploading(true);
 
       try {
-        // Step 1: Get upload URL from Convex
-        const uploadUrl = await generateUploadUrl();
-
-        // Step 2: Upload file to Convex storage
-        const response = await fetch(uploadUrl, {
-          method: "POST",
-          headers: { "Content-Type": file.type },
-          body: file,
-        });
-
-        if (!response.ok) {
-          throw new Error("Failed to upload file");
-        }
-
-        const { storageId } = await response.json();
-
-        // Step 3: Construct the public URL using Convex HTTP endpoint
-        // VITE_CONVEX_URL is like "https://trustworthy-elk-965.convex.cloud"
-        // HTTP actions are served from "https://trustworthy-elk-965.convex.site"
-        const convexUrl = import.meta.env.VITE_CONVEX_URL || "";
-        const convexSiteUrl = convexUrl.replace(".convex.cloud", ".convex.site");
-        const publicUrl = `${convexSiteUrl}/getFile?storageId=${storageId}`;
-
-        onChange(publicUrl);
+        const { url } = await uploadImage(file);
+        onChange(url);
 
         toast({
           title: "Image uploaded",
@@ -94,7 +68,7 @@ export function ImageUpload({
         setIsUploading(false);
       }
     },
-    [maxSizeMB, onChange, toast, generateUploadUrl]
+    [maxSizeMB, onChange, toast]
   );
 
   const handleFileSelect = (e: React.ChangeEvent<HTMLInputElement>) => {

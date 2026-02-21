@@ -17,23 +17,86 @@ async function request<T>(url: string, options?: RequestInit): Promise<T> {
   return res.json();
 }
 
+/**
+ * Upload an image to the backend
+ */
+export async function uploadImage(file: File) {
+  const formData = new FormData();
+  formData.append('file', file);
+
+  const token = localStorage.getItem('token');
+  const res = await fetch(`${API_BASE}/upload/image`, {
+    method: 'POST',
+    headers: {
+      ...(token ? { Authorization: `Bearer ${token}` } : {}),
+    },
+    body: formData,
+  });
+
+  if (!res.ok) {
+    const body = await res.json().catch(() => ({}));
+    throw new Error(body.message || `Upload failed: ${res.status}`);
+  }
+
+  return res.json() as Promise<{ url: string; filename: string }>;
+}
+
 // ---- Events ----
+
+function mapEvent(e: any): any {
+  return {
+    _id: e.id,
+    slug: e.slug,
+    title: { vi: e.titleVi, en: e.titleEn },
+    type: e.type,
+    subtitle: e.subtitleVi ? { vi: e.subtitleVi, en: e.subtitleEn } : undefined,
+    description: { vi: e.descriptionVi, en: e.descriptionEn },
+    targetAudience: e.targetAudienceVi ? { vi: e.targetAudienceVi, en: e.targetAudienceEn } : undefined,
+    date: e.date,
+    startTime: e.startTime,
+    endTime: e.endTime,
+    venue: {
+      name: { vi: e.venueNameVi, en: e.venueNameEn },
+      address: e.venueAddress,
+      city: e.venueCity,
+      googleMapsUrl: e.venueGoogleMapsUrl,
+    },
+    registrationDeadline: e.registrationDeadline,
+    registrationUrl: e.registrationUrl,
+    qrCodeUrl: e.qrCodeUrl,
+    bannerImage: e.bannerImage,
+    status: e.status,
+    maxAttendees: e.maxAttendees,
+    isFeatured: e.isFeatured,
+    agenda: (e.agendaItems || []).map((a: any) => ({
+      id: a.id,
+      number: a.sortOrder,
+      title: { vi: a.titleVi, en: a.titleEn },
+      description: a.descriptionVi ? { vi: a.descriptionVi, en: a.descriptionEn } : undefined,
+      time: a.timeSlot,
+    })),
+  };
+}
 
 export async function fetchEvents(status?: string) {
   const params = status && status !== 'all' ? `?status=${status}` : '';
-  return request<any[]>(`/events${params}`);
+  const data = await request<any[]>(`/events${params}`);
+  return data.map(mapEvent);
 }
 
 export async function fetchEventBySlug(slug: string) {
-  return request<any>(`/events/${slug}`);
+  const data = await request<any>(`/events/${slug}`);
+  return mapEvent(data);
 }
 
 export async function fetchFeaturedEvents(limit = 3) {
-  return request<any[]>(`/events?featured=true&limit=${limit}`);
+  const data = await request<any[]>(`/events?featured=true&limit=${limit}`);
+  return data.map(mapEvent);
 }
 
 export async function fetchUpcomingEvents(limit = 10) {
-  return request<any[]>(`/events?status=upcoming&limit=${limit}`);
+  const data = await request<any[]>(`/events?status=upcoming&limit=${limit}`);
+  return data.map(mapEvent);
 }
 
 // ---- Registrations ----

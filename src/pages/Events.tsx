@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { useQuery } from "convex/react";
+import { useQuery } from "@tanstack/react-query";
 import { Layout } from "@/components/layout/Layout";
 import { Button } from "@/components/ui/button";
 import { Skeleton } from "@/components/ui/skeleton";
@@ -9,7 +9,7 @@ import { Input } from "@/components/ui/input";
 import { Calendar, MapPin, Clock, ArrowRight, Search } from "lucide-react";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-import { api } from "../../convex/_generated/api";
+import { fetchEvents } from "@/lib/api";
 import { EventTypeBadge } from "@/components/events";
 import {
   getLocalizedContent,
@@ -112,11 +112,13 @@ const Events = () => {
   const { t, i18n } = useTranslation();
   const [searchQuery, setSearchQuery] = useState("");
 
-  // Fetch events from Convex
-  const convexEvents = useQuery(api.events.listEvents, {});
+  const { data: eventsData, isLoading } = useQuery({
+    queryKey: ["events"],
+    queryFn: () => fetchEvents(),
+  });
 
-  // Transform Convex events to our display format
-  const events = convexEvents?.map((event) => ({
+  // Transform events to include computed status
+  const events = eventsData?.map((event) => ({
     ...event,
     computedStatus: calculateEventStatus(event as unknown as Event),
   })) as (Event & { computedStatus: EventStatus })[] | undefined;
@@ -203,7 +205,7 @@ const Events = () => {
             </div>
 
             {/* Loading state */}
-            {convexEvents === undefined ? (
+            {isLoading ? (
               <EventsPageSkeleton />
             ) : (
               <>
