@@ -6,7 +6,7 @@ import {
   OnModuleInit,
 } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
-import { Repository, In } from 'typeorm';
+import { Repository, In, DeepPartial } from 'typeorm';
 import { ContactMessage } from '../contact/entities/contact-message.entity';
 import { NewsletterSubscriber } from '../newsletter/entities/newsletter-subscriber.entity';
 import { Event } from '../events/entities/event.entity';
@@ -38,10 +38,15 @@ export class AdminService implements OnModuleInit {
   async onModuleInit() {
     const count = await this.eventRepo.count();
     if (count === 0) {
-      console.log('No events found, seeding database...');
+      this.logger.log('No events found, seeding database...');
       await this.seedEvents();
     }
   }
+
+  private readonly logger = {
+    log: (msg: string) => console.log(`[AdminService] ${msg}`),
+    error: (msg: string) => console.error(`[AdminService] ${msg}`),
+  };
 
   // ---- Dashboard Stats ----
   async getDashboardStats() {
@@ -517,7 +522,7 @@ export class AdminService implements OnModuleInit {
     const results = [];
     for (const eventData of events) {
       const { agendaItems, ...eventFields } = eventData;
-      const event = this.eventRepo.create(eventFields);
+      const event = this.eventRepo.create(eventFields as DeepPartial<Event>);
       const savedEvent = await this.eventRepo.save(event);
 
       if (agendaItems && agendaItems.length > 0) {

@@ -33,6 +33,7 @@ function EventsPageSkeleton() {
 interface EventCardProps {
   event: Event & { computedStatus: EventStatus };
   index: number;
+  key?: string | number;
 }
 
 const EventCard = ({ event, index }: EventCardProps) => {

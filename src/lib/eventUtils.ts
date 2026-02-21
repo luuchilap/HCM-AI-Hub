@@ -124,7 +124,11 @@ export function getRemainingSpots(event: Event): number | null {
  */
 // Calculate event status based on date and time
 export function calculateEventStatus(event: Event): EventStatus {
-  if (event.status === "cancelled" || event.status === "draft") {
+  if (
+    event.status === "cancelled" ||
+    event.status === "draft" ||
+    event.status === "past"
+  ) {
     return event.status;
   }
 
