@@ -36,9 +36,14 @@ export class AdminService implements OnModuleInit {
   ) { }
 
   async onModuleInit() {
+    // Force seed to ensure user requirements are met on startup
     const count = await this.eventRepo.count();
-    if (count === 0) {
-      this.logger.log('No events found, seeding database...');
+    // Even if count > 0, we can check for our specific seed events
+    const seed1 = await this.eventRepo.findOne({ where: { slug: 'ai-healthcare-research-2025' } });
+    const seed2 = await this.eventRepo.findOne({ where: { slug: 'ai-workforce-training-2025' } });
+
+    if (!seed1 || !seed2) {
+      this.logger.log('Seeding missing events on startup...');
       await this.seedEvents();
     }
   }
