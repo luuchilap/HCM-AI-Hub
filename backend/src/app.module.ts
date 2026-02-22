@@ -10,24 +10,8 @@ import { AuthModule } from './auth/auth.module';
 import { CollaborationsModule } from './collaborations/collaborations.module';
 import { AdminModule } from './admin/admin.module';
 import { UploadModule } from './upload/upload.module';
+import { ServeStaticModule } from '@nestjs/serve-static';
 import { join } from 'path';
-
-// ServeStaticModule is only used when running locally (not on Vercel)
-// VERCEL env var is set to '1' automatically by Vercel
-const isVercel = process.env.VERCEL === '1';
-
-const conditionalImports: any[] = isVercel
-  ? []
-  : (() => {
-    // eslint-disable-next-line @typescript-eslint/no-var-requires
-    const { ServeStaticModule } = require('@nestjs/serve-static');
-    return [
-      ServeStaticModule.forRoot({
-        rootPath: join(__dirname, '..', 'public'),
-        serveRoot: '/',
-      }),
-    ];
-  })();
 
 @Module({
   imports: [
@@ -50,7 +34,10 @@ const conditionalImports: any[] = isVercel
         },
       }),
     }),
-    ...conditionalImports,
+    ServeStaticModule.forRoot({
+      rootPath: join(__dirname, '..', 'public'),
+      serveRoot: '/',
+    }),
     AuthModule,
     EventsModule,
     RegistrationsModule,
