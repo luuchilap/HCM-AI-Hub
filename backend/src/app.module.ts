@@ -10,8 +10,24 @@ import { AuthModule } from './auth/auth.module';
 import { CollaborationsModule } from './collaborations/collaborations.module';
 import { AdminModule } from './admin/admin.module';
 import { UploadModule } from './upload/upload.module';
-import { ServeStaticModule } from '@nestjs/serve-static';
 import { join } from 'path';
+
+// ServeStaticModule is only used when running locally (not on Vercel)
+// VERCEL env var is set to '1' automatically by Vercel
+const isVercel = process.env.VERCEL === '1';
+
+const conditionalImports: any[] = isVercel
+  ? []
+  : (() => {
+    // eslint-disable-next-line @typescript-eslint/no-var-requires
+    const { ServeStaticModule } = require('@nestjs/serve-static');
+    return [
+      ServeStaticModule.forRoot({
+        rootPath: join(__dirname, '..', 'public'),
+        serveRoot: '/',
+      }),
+    ];
+  })();
 
 @Module({
   imports: [
@@ -22,9 +38,11 @@ import { join } from 'path';
       useFactory: (config: ConfigService) => ({
         type: 'postgres',
         url: config.get('DATABASE_URL'),
-        ssl: config.get('DATABASE_URL')?.includes('sslmode') || config.get('DATABASE_URL')?.includes('ssl=true')
-          ? { rejectUnauthorized: false }
-          : false,
+        ssl:
+          config.get('DATABASE_URL')?.includes('sslmode') ||
+            config.get('DATABASE_URL')?.includes('ssl=true')
+            ? { rejectUnauthorized: false }
+            : false,
         autoLoadEntities: true,
         synchronize: true,
         extra: {
@@ -32,10 +50,7 @@ import { join } from 'path';
         },
       }),
     }),
-    ServeStaticModule.forRoot({
-      rootPath: join(__dirname, '..', 'public'),
-      serveRoot: '/',
-    }),
+    ...conditionalImports,
     AuthModule,
     EventsModule,
     RegistrationsModule,
